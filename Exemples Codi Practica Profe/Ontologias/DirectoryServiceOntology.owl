@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/directory-service-ontology#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/directory-service-ontology#"
+     versionIRI="http://www.semanticweb.org/directory-service-ontology#1.0">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="dso" IRI="http://www.semanticweb.org/directory-service-ontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="rfds" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Ontologia de servicio de registro usando las operaciones de FIPA</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="Deregister"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InfoAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Modify"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Register"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RegisterAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RegisterResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Search"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ServiceAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SolverAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="AgentType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Uri"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FlightsAgent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HotelsAgent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PaymentAgent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PersonalAgent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TravelServiceAgent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WeatherAgent"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Deregister"/>
+        <Class IRI="RegisterAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfoAgent"/>
+        <Class IRI="ServiceAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Modify"/>
+        <Class IRI="RegisterAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Register"/>
+        <Class IRI="RegisterAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Search"/>
+        <Class IRI="RegisterAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SolverAgent"/>
+        <Class IRI="ServiceAgent"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="InfoAgent"/>
+        <NamedIndividual IRI="FlightsAgent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="InfoAgent"/>
+        <NamedIndividual IRI="HotelsAgent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SolverAgent"/>
+        <NamedIndividual IRI="PaymentAgent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SolverAgent"/>
+        <NamedIndividual IRI="PersonalAgent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SolverAgent"/>
+        <NamedIndividual IRI="TravelServiceAgent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="InfoAgent"/>
+        <NamedIndividual IRI="WeatherAgent"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="AgentType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="AgentType"/>
+        <Class IRI="Register"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="AgentType"/>
+        <Class IRI="Search"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="AgentType"/>
+        <Class IRI="ServiceAgent"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="Address"/>
+        <Class IRI="Register"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Address"/>
+        <Class IRI="RegisterResult"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Uri"/>
+        <Class IRI="Register"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Uri"/>
+        <Class IRI="RegisterResult"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:Name"/>
+        <Class IRI="Register"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:Name"/>
+        <Class IRI="RegisterResult"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Uri"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>Deregister</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Borrado del registro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>Modify</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Modificacion del resistro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>Register</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Registro en el servicio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>RegisterAction</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Acciones del servicio de registro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>RegisterResult</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Objeto de resultado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>Search</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Busqueda en el registro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rfds:comment"/>
+        <IRI>ServiceAgent</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tipos de los agentes de servicio</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

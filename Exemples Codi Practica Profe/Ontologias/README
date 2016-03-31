@@ -1,0 +1,9 @@
+Diferentes ejemplos de ontologias
+
+DirectoryServiceOntology.owl - Ontologia de agentes de servicio usada en los ejemplos de agentes
+fipa-acl.owl - Onologia de comunicacion entre agentes siguiendo en estandar FIPA-ACL
+goodrelations.owl - Ontologia de productos GoodRelations (http://www.heppnetz.de/ontologies/goodrelations/v1)
+limon.owl - Linked Mashups Ontology (LiMOn), ontología para combinación de servicios (http://www.gsi.dit.upm.es/ontologies/limon/)
+protontop.ttl - PRoTo Ontology, upper ontology desarrollada para servier de base al desarrollo de otras ontologias (base)
+protonext.ttl - PRoTo Ontology, upper ontology desarrollada para servier de base al desarrollo de otras ontologias (extendida)
+schema.orf.rdf - Ontología de Schema.org en RDF (anotacion de paginas de web)

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY nuin 'http://www.nuin.org/ontology/'>
+
+    <!ENTITY rdf    'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfs   'http://www.w3.org/2000/01/rdf-schema#'>
+    <!ENTITY owl    'http://www.w3.org/2002/07/owl#'>
+    <!ENTITY xsd    'http://www.w3.org/2001/XMLSchema#'>
+    <!ENTITY dc     'http://purl.org/dc/elements/1.1/'>
+    <!ENTITY fipa   'http://www.nuin.org/ontology/fipa/'>
+    <!ENTITY acl    '&fipa;acl#'>
+    <!ENTITY smodel '&nuin;selfmodel#'>
+]>
+
+<rdf:RDF
+    xmlns:rdf     = "&rdf;"
+    xmlns:rdfs    = "&rdfs;"
+    xmlns:owl     = "&owl;"
+    xmlns:xsd     = "&xsd;"
+    xmlns:dc      = "&dc;"
+    xmlns:acl     = "&acl;"
+    xmlns:smodel  = "&smodel;"
+    xmlns         = "&acl;"
+
+    xml:base      = "&fipa;acl"
+>
+
+    <owl:Ontology rdf:about="">
+        <owl:versionInfo>CVS info: $Id: fipa-acl.owl,v 1.7 2004/12/15 13:23:10 ian_dickinson Exp $ </owl:versionInfo>
+        <dc:title>
+            Ontology of FIPA messaging nouns and properties
+        </dc:title>
+        <dc:creator>
+            Ian Dickinson, mailto:Ian.Dickinson@hp.com
+        </dc:creator>
+        <dc:date>
+            $Date: 2004/12/15 13:23:10 $
+        </dc:date>
+
+        <rdfs:comment>
+            Defines a simple ontology for sending messages between Nuin agents,
+            based on the FIPA message service description.
+        </rdfs:comment>
+
+        <!-- Imported ontologies -->
+
+    </owl:Ontology>
+
+    <!-- 1.0 Top level structure  -->
+
+    <owl:Class rdf:about="&acl;FipaAclMessage">
+        <rdfs:comment>
+            Class denoting a message in the FIPA ACL formulation
+        </rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&smodel;KsMessage" />
+    </owl:Class>
+
+
+    <!-- 2.0 Standard performatives -->
+
+    <owl:Class rdf:about="&acl;SpeechAct">
+        <rdfs:comment>
+            Class denoting performatives of a message
+        </rdfs:comment>
+    </owl:Class>
+
+    <acl:SpeechAct rdf:about="&acl;accept-proposal" />
+    <acl:SpeechAct rdf:about="&acl;agree" />
+    <acl:SpeechAct rdf:about="&acl;cancel" />
+    <acl:SpeechAct rdf:about="&acl;cfp" />
+    <acl:SpeechAct rdf:about="&acl;confirm" />
+    <acl:SpeechAct rdf:about="&acl;disconfirm" />
+    <acl:SpeechAct rdf:about="&acl;failure" />
+    <acl:SpeechAct rdf:about="&acl;inform" />
+    <acl:SpeechAct rdf:about="&acl;inform-if" />
+    <acl:SpeechAct rdf:about="&acl;inform-ref" />
+    <acl:SpeechAct rdf:about="&acl;not-understood" />
+    <acl:SpeechAct rdf:about="&acl;propagate" />
+    <acl:SpeechAct rdf:about="&acl;propose" />
+    <acl:SpeechAct rdf:about="&acl;proxy" />
+    <acl:SpeechAct rdf:about="&acl;query-if" />
+    <acl:SpeechAct rdf:about="&acl;query-ref" />
+    <acl:SpeechAct rdf:about="&acl;refuse" />
+    <acl:SpeechAct rdf:about="&acl;reject-proposal" />
+    <acl:SpeechAct rdf:about="&acl;request" />
+    <acl:SpeechAct rdf:about="&acl;request-when" />
+    <acl:SpeechAct rdf:about="&acl;request-whenever" />
+    <acl:SpeechAct rdf:about="&acl;subscribe" />
+
+    <owl:ObjectProperty rdf:about="&acl;performative">
+        <rdfs:comment>Maps a message to its peformative</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+        <rdfs:range rdf:resource="&acl;SpeechAct" />
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&acl;sender">
+        <rdfs:comment>Maps a message to its sender</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&acl;receiver">
+        <rdfs:comment>Maps a message to its receiver</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&acl;reply-to">
+        <rdfs:comment>Denotes the agent to whom the reply should be sent</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:ObjectProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;content">
+        <rdfs:comment>Denotes the contents of the message</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;language">
+        <rdfs:comment>Denotes the encoding language of the message contents</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;encoding">
+        <rdfs:comment>Denotes the encoding method of the message contents</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+    <owl:ObjectProperty rdf:about="&acl;ontology">
+        <rdfs:comment>Denotes an ontology supporting the message</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:ObjectProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;conversation-id">
+        <rdfs:comment>Denotes an identifier that distinguishes this conversation from others</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;reply-with">
+        <rdfs:comment>Denotes an identifier that should be specified for reply messages</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;in-reply-to">
+        <rdfs:comment>Denotes an identifier that marks this message as a reply to an earlier message</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&acl;reply-by">
+        <rdfs:comment>Denotes a time by which the reply should be received</rdfs:comment>
+        <rdfs:domain rdf:resource="&acl;FipaAclMessage" />
+    </owl:DatatypeProperty>
+
+
+
+
+</rdf:RDF>
