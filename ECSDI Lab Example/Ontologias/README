@@ -1,0 +1,16 @@
+Diferentes ejemplos de ontologias
+
+airtravelbookingontology.owl - Ontologia sobre reservas de vuelos
+DirectoryServiceOntology.owl - Ontologia de agentes de servicio usada en los ejemplos de agentes
+fipa-acl.owl - Onologia de comunicacion entre agentes siguiendo en estandar FIPA-ACL
+geosparql_vocab_all.rfd - Ontologia GeoSPARQL de localización geografica de Open GIS
+goodrelations.owl - Ontologia de productos GoodRelations (http://www.heppnetz.de/ontologies/goodrelations/v1)
+google_places.owl - Ontologia de categorías usadas por Google Places
+limon.owl - Linked Mashups Ontology (LiMOn), ontología para combinación de servicions (http://www.gsi.dit.upm.es/ontologies/limon/)
+loc2act-activities-final.owl - Ontologia basica de eventos y lugares
+protontop.ttl - PRoTo Ontology, upper ontology desarrollada para servier de base al desarrollo de otras ontologias (base)
+protonext.ttl - PRoTo Ontology, upper ontology desarrollada para servier de base al desarrollo de otras ontologias (extendida)
+schema.orf.rdf - Ontología de Schema.org en RFF (anotacion de paginas de web)
+TicketsOntology.owl - Ontologia sobre cualquier tipo de venta de tickets (conciertos, nuseos, transporte, ...)
+                      para usarse en combinacion con la ontologia GoodRelations (http://www.heppnetz.de/ontologies/tio/ns)
+wgs84.owl - Ontologia de geolocalizacion sobre el estandar WGS 84

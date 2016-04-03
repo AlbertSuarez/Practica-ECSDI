@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BeStrip</title>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='form.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='bootstrap.min.css')}}">
+	</head>
+	<body>
+	<div id="page">
+		<br /> <br /> <br />
+		<div ALIGN=center id="wrapper">
+			<div id="menu">
+				<div class="title">BeStrip <em>- The leading trip planner for your holidays</em></div>
+					<hr style="color:red; background-color:red; width:100%;" />
+				<ul>
+			</div>
+			<div class="transbox">
+				<form action="/solution" method="post" name="main">
+					{{ form.cityOrigin.label }} {{ form.cityOrigin(size=20)}}
+					<br>
+					{{ form.cityDestination.label }} {{ form.cityDestination(size=20)}}
+					<br>
+  				   	{{ form.departureDate.label }} {{ form.departureDate(class='datepicker') }}
+  				   	<br>
+  				   	{{ form.returnDate.label }} {{ form.returnDate(class='datepicker') }}
+					<br>
+					{{ form.maxPrice.label }} {{ form.maxPrice(size=20)}}
+					<br>
+					{{ form.numberOfStars.label }} {{ form.numberOfStars(size=20)}}
+					<br>
+					{{ form.activities.label }} {{ form.activities(size=20)}}
+					<br> 
+					<input type="submit" value="Search Packet" class="button btn-primary">
+					<br>
+				</form>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

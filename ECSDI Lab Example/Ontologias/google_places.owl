@@ -1,0 +1,807 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://mem0r1es.github.io/ontology/places"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://mem0r1es.github.io/ontology/places">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Google Location Types</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Flat taxonomy of location types returned by the Google Places API.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ATM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accounting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmusementPark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aquarium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtGallery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bakery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BeautySalon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BicycleStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BookStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BowlingAlley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cafe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarDealer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarRental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarRepair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarWash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cemetery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Church"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CityHall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClothingStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConvenienceStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courthouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dentist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartmentStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicsStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embassy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Establishment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FireStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Florist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FuneralHome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FurnitureStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GasStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralContractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroceryOrSupermarket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HairCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HardwareStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HinduTemple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomeGoodsStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsuranceAgency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JewelryStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laundry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lawyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiquourStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalGovernmentOffice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locksmith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lodging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MealDelivery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MealTakeaway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mosque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovieRental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovieTheater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NightClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PetStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physiotherapist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlaceOfWorship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOffice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RVPark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RealEstateAgency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoofingContractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShoeStore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShoppingMall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Store"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubwayStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synagogue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxiStand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrainStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TravelAgency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VeterinaryCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ATM</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">atm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Accounting</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">accounting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Airport</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AmusementPark</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">amusement_park</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Aquarium</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">aquarium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArtGallery</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">art_gallery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bakery</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bakery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bank</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BeautySalon</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">beauty_salon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BicycleStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bicycle_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BookStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">book_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BowlingAlley</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bowling_alley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BusStation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bus_station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cafe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cafe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Campground</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">campground</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CarDealer</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">car_dealer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CarRental</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">car_rental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CarRepair</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">car_repair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CarWash</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">car_wash</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Casino</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">casino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cemetery</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cemetery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Church</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">church</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CityHall</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">city_hall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ClothingStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">clothing_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConvenienceStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">convenience_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Courthouse</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">courthouse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dentist</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dentist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DepartmentStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">department_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Doctor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">doctor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Electrician</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">electrician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ElectronicsStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">electronics_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Embassy</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">embassy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Establishment</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">establishment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Finance</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">finance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FireStation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fire_station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Florist</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">florist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FuneralHome</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">funeral_home</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FurnitureStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">furniture_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GasStation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gas_station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GeneralContractor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">general_contractor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GroceryOrSupermarket</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">grocery_or_supermarket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gym</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HairCare</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hair_care</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HardwareStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hardware_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Health</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HinduTemple</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hindu_temple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HomeGoodsStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">home_goods_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hospital</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InsuranceAgency</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">insurance_agency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#JewelryStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">jewelry_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Laundry</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">laundry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lawyer</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lawyer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Library</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">library</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LiquourStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">liquor_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocalGovernmentOffice</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">local_government_office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Locksmith</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">locksmith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lodging</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lodging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MealDelivery</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">meal_delivery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MealTakeaway</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">meal_takeaway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mosque</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mosque</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MovieRental</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">movie_rental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MovieTheater</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">movie_theater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MovingCompany</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">moving_company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Museum</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">museum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NightClub</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">night_club</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Painter</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">painter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Park</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">park</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parking</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">parking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PetStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pet_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pharmacy</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pharmacy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physiotherapist</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">physiotherapist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PlaceOfWorship</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">place_of_worship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plumber</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">plumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Police</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">police</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PostOffice</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">post_office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RVPark</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rv_park</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RealEstateAgency</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">real_estate_agency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Restaurant</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">restaurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoofingContractor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">roofing_contractor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#School</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">school</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ShoeStore</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">shoe_store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ShoppingMall</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">shopping_mall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spa</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">spa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stadium</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stadium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Storage</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">storage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Store</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">store</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SubwayStation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">subway_station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Synagogue</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">synagogue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TaxiStand</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">taxi_stand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TrainStation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">train_station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TravelAgency</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">travel_agency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#University</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">university</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VeterinaryCare</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">veterinary_care</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Zoo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">zoo</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
+
+

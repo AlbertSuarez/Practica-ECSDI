@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:myns_atr="http://my.namespace.org/atributos/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://my.namespace.org/hoteles/">
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2184</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:cuesta>4369.47</myns_atr:cuesta>
+    <myns_atr:adresa>44 Grosvenor Square</myns_atr:adresa>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1729</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>324 Gray&amp;apos;s Inn Road</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1447854</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1099</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.895382</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>W1K 2HP</myns_atr:codigoPostal>
+    <myns_atr:codigoPostal>EC1M 6DS</myns_atr:codigoPostal>
+    <myns_atr:nombre>The Bloomsbury Hotel</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En The Marylebone Hotel gozarás de una ubicación céntrica en Londres, a pocos pasos de Sala de recitales Wigmore Hall y de Grandes almacenes Selfridges.</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1863.66</myns_atr:cuesta>
+    <myns_atr:nombre>Park Plaza Riverbank London</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación doble superior, 1 cama de matrimonio</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>W1K 4HR</myns_atr:codigoPostal>
+    <myns_atr:cuesta>3612.31</myns_atr:cuesta>
+    <myns_atr:descripcionDeHabitacion>Habitación superior (Premium)</myns_atr:descripcionDeHabitacion>
+    <myns_atr:nombre>Courthouse Hotel</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.9361379</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1016</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5870246</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3453149</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.81583995</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>1286.51</myns_atr:cuesta>
+    <myns_atr:adresa>47 Welbeck Street</myns_atr:adresa>
+    <myns_atr:cuesta>1238.63</myns_atr:cuesta>
+    <myns_atr:cuesta>2407.87</myns_atr:cuesta>
+    <myns_atr:adresa>92 Southampton Row</myns_atr:adresa>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Park Plaza Riverbank London, en Londres (South Bank), estarás a pocos minutos de Museo Tate Britain y Puente de Lambeth. Este hotel de 4</myns_atr:descriptionCorta>
+    <myns_atr:descripcionDeHabitacion>Habitación doble superior (Plus)</myns_atr:descripcionDeHabitacion>
+    <myns_atr:adresa>8 Northumberland Ave</myns_atr:adresa>
+    <myns_atr:cuesta>3534.46</myns_atr:cuesta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4595037</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación superior, 1 cama de matrimonio y sofá cama</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>1569.37</myns_atr:cuesta>
+    <myns_atr:codigoPostal>W1B 2QS</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.12398466</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>Corinthia Hotel London</myns_atr:nombre>
+    <myns_atr:nombre>Tune Hotel Liverpool Street, London</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Phoenix Hotel, en Londres (Paddington), estarás a pocos minutos de Centro comercial Whiteleys y Royal Albert Hall. Este hotel para</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Millennium Gloucester Hotel London Kensington</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Millennium Bailey&amp;apos;s Hotel London Kensington estarás en pleno corazón de Londres, a pocos pasos de Museo de Historia Natural de Londres y de</myns_atr:descriptionCorta>
+    <myns_atr:descripcionDeHabitacion>Habitación Deluxe, 1 cama de matrimonio grande, vistas a la ciudad</myns_atr:descripcionDeHabitacion>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Park Plaza Westminster Bridge London gozarás de una ubicación céntrica en Londres, a pocos pasos de Acuario de Londres y Museo Florence Nightingale.</myns_atr:descriptionCorta>
+    <myns_atr:descripcionDeHabitacion>Habitación ejecutiva, 1 cama doble</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1306219</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5289494</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>1955.61</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Tune Hotel - Westminster, London, en Londres (South Bank), estarás a pocos minutos de Museo Florence Nightingale y de Acuario de Londres.</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>5426.12</myns_atr:cuesta>
+    <myns_atr:cuesta>1760.48</myns_atr:cuesta>
+    <myns_atr:nombre>The Kensington Close Hotel</myns_atr:nombre>
+    <myns_atr:adresa>Scarsdale Place</myns_atr:adresa>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1517</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2241056</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5338206</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1670</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1307</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Copthorne Tara Hotel London Kensington estarás en pleno corazón de Londres, a pocos pasos de Kensington Roof Gardens y de Royal Albert</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1887.65</myns_atr:cuesta>
+    <myns_atr:nombre>The Strand Palace</myns_atr:nombre>
+    <myns_atr:codigoPostal>WC2R 0EU</myns_atr:codigoPostal>
+    <myns_atr:nombre>Club Quarters, Trafalgar Square</myns_atr:nombre>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</myns_atr:tripAdvisorRating>
+    <myns_atr:nombre>St Martins Lane</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro_unidad>KM</myns_atr:distanciaRepectoAlCentro_unidad>
+    <myns_atr:descripcionDeHabitacion>Habitación Deluxe</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1091</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Tune Hotel Kings Cross, London estarás en pleno corazón de Londres, a pocos pasos de Biblioteca Británica y de King&amp;apos;s College London. Este</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Rosewood London está en pleno corazón de Londres, a pocos pasos de Bloomsbury Square y London School of Economics and Political Science. Este hotel de 5</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En St Martins Lane gozarás de una ubicación céntrica en Londres, a pocos pasos de Coliseum Theatre y Noel Coward Theatre. Este hotel de 5 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.23494798</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Londres (Kings Cross St. Pancras), ibis London Euston St Pancras se sitúa a pocos minutos de University College Hospital y a poca distancia de</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Tune Hotel Liverpool Street, London estarás en pleno corazón de Londres, a pocos pasos de Mercado Old Spitalfields y de Torre de Londres.</myns_atr:descriptionCorta>
+    <myns_atr:adresa>12 Peter&amp;apos;s Lane Cowcross St</myns_atr:adresa>
+    <myns_atr:codigoPostal>W1H 5BJ</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3035561</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>E1 6BX</myns_atr:codigoPostal>
+    <myns_atr:codigoPostal>W8 5SP</myns_atr:codigoPostal>
+    <myns_atr:nombre>The Ritz London</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación superior</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1268</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:cuesta>2533.54</myns_atr:cuesta>
+    <myns_atr:adresa>Wrights Lane</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.9653373</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.254184</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:adresa>45 St Martin&amp;apos;s Lane</myns_atr:adresa>
+    <myns_atr:nombre>One Aldwych</myns_atr:nombre>
+    <myns_atr:adresa>30 Rathbone Street</myns_atr:adresa>
+    <myns_atr:codigoPostal>WC2R 0JJ</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Melia White House Hotel está en pleno corazón de Londres, a pocos pasos de Crescent Gardens y Park Square Garden. Este hotel de 4 estrellas se encuentra</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Courthouse Hotel gozarás de una ubicación céntrica en Londres, a pocos pasos de London Palladium Theatre y de Oxford Circus. Este hotel de 5 estrellas</myns_atr:descriptionCorta>
+    <myns_atr:codigoPostal>WC2N 4HX</myns_atr:codigoPostal>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar, 2 camas individuales</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>3236.71</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Queens Park Hotel estarás en pleno corazón de Londres, a pocos pasos de Centro comercial Whiteleys y de Royal Albert Hall. Este hotel se</myns_atr:descriptionCorta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.4638284</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3678</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>W8 4PT</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7596491</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación Club</myns_atr:descripcionDeHabitacion>
+    <myns_atr:nombre>The Marylebone Hotel</myns_atr:nombre>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1155</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</myns_atr:rating>
+    <myns_atr:adresa>Lancaster Terrace</myns_atr:adresa>
+    <myns_atr:nombre>Lancaster London</myns_atr:nombre>
+    <myns_atr:adresa>3 Kingdom Street, Sheldon Square</myns_atr:adresa>
+    <myns_atr:cuesta>5049.14</myns_atr:cuesta>
+    <myns_atr:adresa>19-21 Great Marlborough Street</myns_atr:adresa>
+    <myns_atr:nombre>Phoenix Hotel</myns_atr:nombre>
+    <myns_atr:codigoPostal>SW1Y 4AN</myns_atr:codigoPostal>
+    <myns_atr:adresa>372 The Strand</myns_atr:adresa>
+    <myns_atr:adresa>41-47 Praed Street</myns_atr:adresa>
+    <myns_atr:adresa>4-18 Harrington Gardens</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1232226</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3537926</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación doble, vistas al jardín</myns_atr:descripcionDeHabitacion>
+    <myns_atr:adresa>48 Queensborough Terrace</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.347875</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>ibis London Euston St Pancras</myns_atr:nombre>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2703</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>16-22 Great Russell Street</myns_atr:adresa>
+    <myns_atr:adresa>5 Curzon Street</myns_atr:adresa>
+    <myns_atr:cuesta>990.00</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En ME London gozarás de una ubicación céntrica en Londres, a pocos pasos de King&amp;apos;s College London y Lyceum Theatre. Este hotel de 5 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1563</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>11 Thurloe Place</myns_atr:adresa>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Washington Mayfair Hotel estarás en pleno corazón de Londres, a pocos pasos de Berkeley Square y de Spencer House. Este hotel de 4</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1586.21</myns_atr:cuesta>
+    <myns_atr:nombre>Novotel London Paddington</myns_atr:nombre>
+    <myns_atr:nombre>The Regency Hotel</myns_atr:nombre>
+    <myns_atr:cuesta>2030.82</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Londres (Mayfair), a pocos minutos de Spencer House y Real Academia de las Artes se sitúa The Ritz London. Este hotel de 5 estrellas se encuentra</myns_atr:descriptionCorta>
+    <myns_atr:codigoPostal>SW1A 2BD</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Sanderson está en pleno corazón de Londres, a pocos pasos de Oxford Circus y London Palladium Theatre. Este hotel de 5 estrellas se encuentra cerca de</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2957</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>66 Great Queen Street</myns_atr:adresa>
+    <myns_atr:codigoPostal>W1K 7TN</myns_atr:codigoPostal>
+    <myns_atr:codigoPostal>W1F 7HL</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8044</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:nombre>Novotel London Waterloo</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación doble, 1 cama doble</myns_atr:descripcionDeHabitacion>
+    <myns_atr:ciudad>London</myns_atr:ciudad>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1764</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.57853496</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación doble Club</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>1202.79</myns_atr:cuesta>
+    <myns_atr:adresa>336-337 The Strand</myns_atr:adresa>
+    <myns_atr:codigoPostal>NW1 3UP</myns_atr:codigoPostal>
+    <myns_atr:cuesta>1707.41</myns_atr:cuesta>
+    <myns_atr:codigoPostal>WC1X 8BU</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">597</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Tune Hotel - Paddington gozarás de una ubicación céntrica en Londres, a poca distancia de Rincón del orador de Hyde Park y Grandes almacenes</myns_atr:descriptionCorta>
+    <myns_atr:adresa>Regents Park</myns_atr:adresa>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en Park Plaza Victoria London estarás en pleno corazón de Londres, a pocos pasos de Teatro Apollo Victoria y de Catedral de Westminster. Este</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2432</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>WC2B 4BZ</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2740</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:cuesta>1964.82</myns_atr:cuesta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7820816</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Corinthia Hotel London gozarás de una ubicación céntrica en Londres, a pocos pasos de Benjamin Franklin House y de Trafalgar Square. Este hotel de 5</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Park Plaza Westminster Bridge London</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En DoubleTree by Hilton London West End gozarás de una ubicación céntrica en Londres, a pocos pasos de Bloomsbury Square y de Russell Square. Este hotel</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">657</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>SW1E 6AF</myns_atr:codigoPostal>
+    <myns_atr:descripcionDeHabitacion>Habitación doble estándar</myns_atr:descripcionDeHabitacion>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Hotel Russell gozarás de una ubicación céntrica en Londres, a pocos pasos de Russell Square y de Biblioteca London Senate House Library. Este hotel de</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Claridge&amp;apos;s</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.3294773</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>3998.19</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Kingsway Hall Hotel está en pleno corazón de Londres, a pocos pasos de London School of Economics and Political Science y Royal Opera House. Este hotel</myns_atr:descriptionCorta>
+    <myns_atr:codigoPostal>W2 4BH</myns_atr:codigoPostal>
+    <myns_atr:cuesta>2756.89</myns_atr:cuesta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2522</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1015</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:nombre>The Savoy, A Fairmont Managed Hotel</myns_atr:nombre>
+    <myns_atr:cuesta>965.52</myns_atr:cuesta>
+    <myns_atr:nombre>Tune Hotel Kings Cross, London</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2454822</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:esUn rdf:resource="http://my.namespace.org/hotel"/>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Durrants Hotel, en Londres (Marylebone), estarás a pocos minutos de Wallace Collection y Grandes almacenes Selfridges. Este hotel de 4</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Tune Hotel - Paddington</myns_atr:nombre>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1021</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:nombre>Sanderson</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Hab. superior doble/2 indiv.</myns_atr:descripcionDeHabitacion>
+    <myns_atr:descripcionDeHabitacion>Habitación ejecutiva</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>2112.18</myns_atr:cuesta>
+    <myns_atr:nombre>St. Ermins Hotel, Autograph Collection</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0237631</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>W2 3SJ</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.236342</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>W2 6BD</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.5</myns_atr:tripAdvisorRating>
+    <myns_atr:codigoPostal>W1S 4BP</myns_atr:codigoPostal>
+    <myns_atr:codigoPostal>WC1B 3NN</myns_atr:codigoPostal>
+    <myns_atr:cuesta>2570.26</myns_atr:cuesta>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</myns_atr:rating>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3901461</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Lancaster London gozarás de una ubicación céntrica en Londres, a poca distancia de Kensington Gardens y Royal Albert Hall. Este hotel de 4 estrellas</myns_atr:descriptionCorta>
+    <myns_atr:adresa>2-24 Kensington High Street</myns_atr:adresa>
+    <myns_atr:adresa>45-51 Buckingham Gate</myns_atr:adresa>
+    <myns_atr:descripcionDeHabitacion>Habitación superior - Oferta: 3ª noche gratis*</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>W2 1NR</myns_atr:codigoPostal>
+    <myns_atr:adresa>150 Piccadilly</myns_atr:adresa>
+    <myns_atr:descripcionDeHabitacion>Habitación doble superior</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>2810.08</myns_atr:cuesta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.34756622</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7249079</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación doble (Studio)</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">621</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">413</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En St. James&amp;apos; Court, A Taj Hotel, London gozarás de una ubicación céntrica en Londres, a pocos minutos de Parque de St. James y Palacio de Buckingham.</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>113 Lambeth Road</myns_atr:adresa>
+    <myns_atr:adresa>Whitehall Place</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3664374</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>SW7 4QH</myns_atr:codigoPostal>
+    <myns_atr:adresa>50 Berners Street</myns_atr:adresa>
+    <myns_atr:cuesta>1863.14</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Novotel London Waterloo gozarás de una ubicación céntrica en Londres, a pocos pasos de Palacio de Lambeth y de Puente de Lambeth. Este hotel de 4</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Saint Georges Hotel está en pleno corazón de Londres, a pocos pasos de Oxford Circus y Sala de recitales Wigmore Hall. Este hotel de 4 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1059</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4038</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>118 - 120 Westminster Bridge Road</myns_atr:adresa>
+    <myns_atr:cuesta>2206.75</myns_atr:cuesta>
+    <myns_atr:descripcionDeHabitacion>Habitación superior, 1 cama de matrimonio grande, mirando al patio</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9957596</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en One Aldwych estarás en pleno corazón de Londres, a pocos pasos de Lyceum Theatre y de King&amp;apos;s College London. Este hotel de 5 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>2284.68</myns_atr:cuesta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1907</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En The Rembrandt gozarás de una ubicación céntrica en Londres, a pocos pasos de Victoria and Albert Museum y Oratorio de Brompton. Este hotel de 4</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1258.78</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Royal Garden Hotel está en pleno corazón de Londres, a pocos pasos de Kensington Roof Gardens y Kensington Palace. Este hotel de 5 estrellas se encuentra</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Tune Hotel - Westminster, London</myns_atr:nombre>
+    <myns_atr:nombre>St. James&amp;apos; Court, A Taj Hotel, London</myns_atr:nombre>
+    <myns_atr:cuesta>1783.61</myns_atr:cuesta>
+    <myns_atr:nombre>Hotel Russell</myns_atr:nombre>
+    <myns_atr:cuesta>2774.22</myns_atr:cuesta>
+    <myns_atr:codigoPostal>W8 5SR</myns_atr:codigoPostal>
+    <myns_atr:adresa>6 Waterloo Place</myns_atr:adresa>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1854</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>WC1B 5BE</myns_atr:codigoPostal>
+    <myns_atr:adresa>Strand</myns_atr:adresa>
+    <myns_atr:cuesta>1006.34</myns_atr:cuesta>
+    <myns_atr:cuesta>1781.50</myns_atr:cuesta>
+    <myns_atr:nombre>Washington Mayfair Hotel</myns_atr:nombre>
+    <myns_atr:nombre>Rosewood London</myns_atr:nombre>
+    <myns_atr:nombre>Millennium Bailey&amp;apos;s Hotel London Kensington</myns_atr:nombre>
+    <myns_atr:cuesta>3027.17</myns_atr:cuesta>
+    <myns_atr:descripcionDeHabitacion>Habitación doble ejecutiva</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">960</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>1 Aldwych</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1113209</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>Queens Park Hotel</myns_atr:nombre>
+    <myns_atr:codigoPostal>SE1 7TJ</myns_atr:codigoPostal>
+    <myns_atr:descripcionDeHabitacion>Suite, 1 cama doble</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>SW7 5AG</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.334925</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:adresa>33 Albemarle Street</myns_atr:adresa>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3685</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en St. Ermins Hotel, Autograph Collection estarás en pleno corazón de Londres, a pocos pasos de Catedral de Westminster y de Centro de</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</myns_atr:tripAdvisorRating>
+    <myns_atr:nombre>Kingsway Hall Hotel</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Novotel London Paddington gozarás de una ubicación céntrica en Londres, a poca distancia de Centro comercial Whiteleys y Grandes almacenes Selfridges.</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1655.98</myns_atr:cuesta>
+    <myns_atr:nombre>Sofitel London St James</myns_atr:nombre>
+    <myns_atr:adresa>1-8 Kensington Gardens Square</myns_atr:adresa>
+    <myns_atr:adresa>140 Gloucester Road</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5693965</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>ME London</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Millennium Gloucester Hotel London Kensington, en Londres (Kensington), estarás a pocos minutos de Museo de Historia Natural de Londres y</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>3308.69</myns_atr:cuesta>
+    <myns_atr:adresa>81 Kensington Gardens Square</myns_atr:adresa>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en The Kensington Close Hotel estarás en pleno corazón de Londres, a pocos pasos de Kensington Roof Gardens y de Royal Albert Hall.  Este</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2460</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:nombre>Millennium Hotel London Mayfair</myns_atr:nombre>
+    <myns_atr:cuesta>942.40</myns_atr:cuesta>
+    <myns_atr:codigoPostal>WC2N 5BY</myns_atr:codigoPostal>
+    <myns_atr:codigoPostal>W2 4DJ</myns_atr:codigoPostal>
+    <myns_atr:adresa>Caxton Street 2</myns_atr:adresa>
+    <myns_atr:cuesta>1935.17</myns_atr:cuesta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3016</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.083781</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Rathbone Hotel está en pleno corazón de Londres, a pocos pasos de Bedford Square y Torre BT. Este hotel de 4 estrellas se encuentra cerca de lugares de</myns_atr:descriptionCorta>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar (Aldwych Room)</myns_atr:descripcionDeHabitacion>
+    <myns_atr:nombre>Durrants Hotel</myns_atr:nombre>
+    <myns_atr:adresa>Langham Place, Regent Street</myns_atr:adresa>
+    <myns_atr:adresa>18 Albert Embankment</myns_atr:adresa>
+    <myns_atr:codigoPostal>SE1 7UT</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2714453</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:adresa>3 Cardington Street</myns_atr:adresa>
+    <myns_atr:descripcionDeHabitacion>Habitación Deluxe, 1 cama de matrimonio grande</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>1064.81</myns_atr:cuesta>
+    <myns_atr:codigoPostal>WC2R 1HA</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2777</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Claridge&amp;apos;s, en Londres (Mayfair), estarás a pocos minutos de Grosvenor Square y Grandes almacenes Selfridges. Este hotel de 5 estrellas</myns_atr:descriptionCorta>
+    <myns_atr:codigoPostal>SW7 2RS</myns_atr:codigoPostal>
+    <myns_atr:adresa>1-8 Russell Square</myns_atr:adresa>
+    <myns_atr:nombre>Melia White House Hotel</myns_atr:nombre>
+    <myns_atr:adresa>Brook Street</myns_atr:adresa>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</myns_atr:tripAdvisorRating>
+    <myns_atr:adresa>200 Westminster Bridge Road</myns_atr:adresa>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.5</myns_atr:rating>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1586</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:cuesta>1373.26</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En The Savoy, A Fairmont Managed Hotel gozarás de una ubicación céntrica en Londres, a pocos pasos de Lyceum Theatre y Victoria Embankment Gardens. Este</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Copthorne Tara Hotel London Kensington</myns_atr:nombre>
+    <myns_atr:cuesta>2991.85</myns_atr:cuesta>
+    <myns_atr:adresa>100 Queens Gate</myns_atr:adresa>
+    <myns_atr:codigoPostal>SW1V 1EQ</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1253</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.61238956</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>Rathbone Hotel</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0256667</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>Royal Garden Hotel</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9818601</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>2141.93</myns_atr:cuesta>
+    <myns_atr:cuesta>1956.91</myns_atr:cuesta>
+    <myns_atr:codigoPostal>SW1H 0QW</myns_atr:codigoPostal>
+    <myns_atr:cuesta>1199.45</myns_atr:cuesta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0341587</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1287</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En The Rookery Hotel gozarás de una ubicación céntrica en Londres, a pocos pasos de Mercado de Smithfield y de Iglesia de St. Etheldreda. Este hotel de 4</myns_atr:descriptionCorta>
+    <myns_atr:descripcionDeHabitacion>Habitación doble estándar, 1 cama doble</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>SE1 7RW</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Club Quarters, Trafalgar Square gozarás de una ubicación céntrica en Londres, a pocos pasos de Benjamin Franklin House y Charing Cross. Este hotel de</myns_atr:descriptionCorta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5227449</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>WC2B 5BX</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Disfruta de una ubicación céntrica en Londres reservando en London House Hotel, a pocos pasos de Centro comercial Whiteleys y cerca de Royal Albert Hall.</myns_atr:descriptionCorta>
+    <myns_atr:nombre>The Rembrandt</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Londres (Mayfair), a pocos minutos de Real Academia de las Artes y Berkeley Square se sitúa Rocco Forte Brown&amp;apos;s Hotel. Este hotel de 5 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En The Bloomsbury Hotel gozarás de una ubicación céntrica en Londres, a pocos pasos de Museo Británico y Bedford Square. Este hotel de 4 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">999</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descripcionDeHabitacion>Habitación doble</myns_atr:descripcionDeHabitacion>
+    <myns_atr:descripcionDeHabitacion>Habitación, camas gemelas - Oferta de verano</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>SW7 4LH</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1483</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Grosvenor House, A JW Marriott Hotel está en pleno corazón de Londres, a pocos pasos de Grosvenor Square y Rincón del orador de Hyde Park. Este hotel de</myns_atr:descriptionCorta>
+    <myns_atr:adresa>86-90 Park Lane</myns_atr:adresa>
+    <myns_atr:descripcionDeHabitacion>Habitación ejecutiva, 1 cama de matrimonio grande, baño privado, planta ejecutiva</myns_atr:descripcionDeHabitacion>
+    <myns_atr:adresa>239 Vauxhall Bridge Road</myns_atr:adresa>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7970287</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>The Rookery Hotel</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Millennium Hotel London Mayfair gozarás de una ubicación céntrica en Londres, a pocos pasos de Grosvenor Square y de Grandes almacenes Selfridges.</myns_atr:descriptionCorta>
+    <myns_atr:descripcionDeHabitacion>Habitación superior, 1 cama de matrimonio</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>SE1 7LS</myns_atr:codigoPostal>
+    <myns_atr:nombre>Grosvenor House, A JW Marriott Hotel</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación clásica</myns_atr:descripcionDeHabitacion>
+    <myns_atr:codigoPostal>W1T 3NG</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Sofitel London St James, en Londres (Mayfair), estarás a pocos minutos de Her Majesty&amp;apos;s Theatre y Trafalgar Square. Este hotel de 5</myns_atr:descriptionCorta>
+    <myns_atr:codigoPostal>WC1B 4BH</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1725</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1541</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1659</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>WC1V 7EN</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">743</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:cuesta>1326.11</myns_atr:cuesta>
+    <myns_atr:nombre>Rocco Forte Brown&amp;apos;s Hotel</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2652497</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:adresa>13-15 Folgate Street</myns_atr:adresa>
+    <myns_atr:codigoPostal>W1J 5HE</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en The Regency Hotel, en Londres (Kensington), estarás a pocos minutos de Museo de Historia Natural de Londres y Royal Albert Hall.  Este</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Saint Georges Hotel</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7032586</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>Park Plaza Victoria London</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar, 1 cama de matrimonio grande, mirando al jardín</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>2279.03</myns_atr:cuesta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>W1J 9BR</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0739154</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>NW1 2LW</myns_atr:codigoPostal>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</myns_atr:rating>
+    <myns_atr:codigoPostal>W2 2TY</myns_atr:codigoPostal>
+    <myns_atr:descripcionDeHabitacion>Habitación doble clásica</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.388936</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>W1T 1LB</myns_atr:codigoPostal>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En The Strand Palace gozarás de una ubicación céntrica en Londres, a pocos pasos de Lyceum Theatre y London Transport Museum. Este hotel de 4 estrellas</myns_atr:descriptionCorta>
+    <myns_atr:nombre>London House Hotel</myns_atr:nombre>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1035</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.1183</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>1459.29</myns_atr:cuesta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.675058</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación superior, 1 cama de matrimonio grande (Aura)</myns_atr:descripcionDeHabitacion>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar, 1 cama de matrimonio</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">898</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1696768</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>2521.40</myns_atr:cuesta>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</myns_atr:tripAdvisorRating>
+    <myns_atr:codigoPostal>W1G 8DN</myns_atr:codigoPostal>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4774</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descripcionDeHabitacion>Habitación Deluxe, 1 cama de matrimonio</myns_atr:descripcionDeHabitacion>
+    <myns_atr:nombre>DoubleTree by Hilton London West End</myns_atr:nombre>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:adresa>252 High Holborn</myns_atr:adresa>
+    <myns_atr:adresa>26-32 George Street</myns_atr:adresa>
+  </rdf:Description>
+</rdf:RDF>

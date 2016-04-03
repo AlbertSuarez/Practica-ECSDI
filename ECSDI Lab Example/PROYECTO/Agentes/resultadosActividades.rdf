@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://my.namespace.org/lugares/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Bastian Films-Found">
+    <ns1:tel_int>+34 932 47 35 81</ns1:tel_int>
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Carrer Ausiàs Marc, 56, 3 2a, 08010 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.392713, u'lng': 2.177687}</ns1:localizacion>
+    <ns1:nombre>Bastian Films</ns1:nombre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Albedo Fulldome-Found">
+    <ns1:nombre>Albedo Fulldome</ns1:nombre>
+    <ns1:localizacion>{u'lat': 41.381783, u'lng': 2.1604}</ns1:localizacion>
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Sepúlveda 143 sa 5, 08011 Barcelona, Spain</ns1:direccion>
+    <ns1:tel_int>+34 931 63 06 94</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Centro Comercial Splau-Found">
+    <ns1:localizacion>{u'lat': 41.3482, u'lng': 2.077648}</ns1:localizacion>
+    <ns1:nombre>Centro Comercial Splau</ns1:nombre>
+    <ns1:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</ns1:rating>
+    <ns1:tel_int>+34 934 71 90 80</ns1:tel_int>
+    <ns1:direccion>Avda. del Baix Llobregat, s/n, 08940 Cornellà de Llobregat, Barcelona, Spain</ns1:direccion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/CINESA MAREMAGNUM-Found">
+    <ns1:direccion>Moll d'Espanya, 5, 08039 Barcelona, Spain</ns1:direccion>
+    <ns1:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</ns1:rating>
+    <ns1:nombre>CINESA MAREMAGNUM</ns1:nombre>
+    <ns1:localizacion>{u'lat': 41.375266, u'lng': 2.183658}</ns1:localizacion>
+    <ns1:tel_int>+34 902 33 32 31</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Culdesac Produccions-Found">
+    <ns1:localizacion>{u'lat': 41.379554, u'lng': 2.164428}</ns1:localizacion>
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Carrer Cendra, 13, 08001 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:nombre>Culdesac Produccions</ns1:nombre>
+    <ns1:tel_int>+34 931 26 24 07</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Catering Movie Blues-Found">
+    <ns1:nombre>Catering Movie Blues</ns1:nombre>
+    <ns1:rating></ns1:rating>
+    <ns1:localizacion>{u'lat': 41.433134, u'lng': 2.22897}</ns1:localizacion>
+    <ns1:tel_int>+34 934 68 05 05</ns1:tel_int>
+    <ns1:direccion>Carrer del President Lluís Companys, 14, 08921 Santa Coloma de Gramenet, Barcelona, Spain</ns1:direccion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/THE CINE-Found">
+    <ns1:rating></ns1:rating>
+    <ns1:localizacion>{u'lat': 41.380532, u'lng': 2.161582}</ns1:localizacion>
+    <ns1:tel_int>+34 932 92 64 17</ns1:tel_int>
+    <ns1:nombre>THE CINE</ns1:nombre>
+    <ns1:direccion>Carrer de Floridablanca, 126, 08011 Barcelona, Barcelona, Spain</ns1:direccion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/A Contraluz Films-Found">
+    <ns1:localizacion>{u'lat': 41.398711, u'lng': 2.199682}</ns1:localizacion>
+    <ns1:nombre>A Contraluz Films</ns1:nombre>
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Carrer de Roc Boronat, 39, 08005 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:tel_int>+34 934 68 51 22</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Plató París-Found">
+    <ns1:nombre>Plató París</ns1:nombre>
+    <ns1:localizacion>{u'lat': 41.393909, u'lng': 2.153443}</ns1:localizacion>
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Carrer de París, 199, 08036 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:tel_int>+34 935 12 12 98</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Bonitaworld Media Productions-Found">
+    <ns1:rating></ns1:rating>
+    <ns1:nombre>Bonitaworld Media Productions</ns1:nombre>
+    <ns1:direccion>Carrer de Zamora, 46, 08005 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.393758, u'lng': 2.192934}</ns1:localizacion>
+    <ns1:tel_int>+34 661 33 62 39</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/CINESA DIAGONAL MAR-Found">
+    <ns1:direccion>Avda. Diagonal, 3, 08019 Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.410315, u'lng': 2.216534}</ns1:localizacion>
+    <ns1:nombre>CINESA DIAGONAL MAR</ns1:nombre>
+    <ns1:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</ns1:rating>
+    <ns1:tel_int>+34 902 33 32 31</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Movie Skin S L-Found">
+    <ns1:nombre>Movie Skin S L</ns1:nombre>
+    <ns1:tel_int>+34 933 02 00 50</ns1:tel_int>
+    <ns1:direccion>Calle Diputació, 222, 08011 Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.38655, u'lng': 2.16199}</ns1:localizacion>
+    <ns1:rating></ns1:rating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Freedonia-Found">
+    <ns1:nombre>Freedonia</ns1:nombre>
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Calle Lleialtat, 6, 08001 Raval, Barcelona, Spain</ns1:direccion>
+    <ns1:tel_int>+34 686 92 53 32</ns1:tel_int>
+    <ns1:localizacion>{u'lat': 41.377305, u'lng': 2.166997}</ns1:localizacion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/CINESA DIAGONAL-Found">
+    <ns1:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</ns1:rating>
+    <ns1:localizacion>{u'lat': 41.393575, u'lng': 2.136062}</ns1:localizacion>
+    <ns1:tel_int>+34 902 33 32 31</ns1:tel_int>
+    <ns1:nombre>CINESA DIAGONAL</ns1:nombre>
+    <ns1:direccion>Carrer de Santa Fe de Nou Mèxic, s/n, 08021 Barcelona, Barcelona, Spain</ns1:direccion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/cine.cat-Found">
+    <ns1:rating></ns1:rating>
+    <ns1:nombre>cine.cat</ns1:nombre>
+    <ns1:tel_int>+34 666 46 23 38</ns1:tel_int>
+    <ns1:direccion>Valencia 492, Ent 3a, 08013 Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.403116, u'lng': 2.181871}</ns1:localizacion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Video Club Filmoteca de Película-Found">
+    <ns1:nombre>Video Club Filmoteca de Película</ns1:nombre>
+    <ns1:rating></ns1:rating>
+    <ns1:tel_int>+34 932 07 18 21</ns1:tel_int>
+    <ns1:localizacion>{u'lat': 41.390152, u'lng': 2.149936}</ns1:localizacion>
+    <ns1:direccion>Carrer de Villarroel, 211, 08036 Barcelona, Barcelona, Spain</ns1:direccion>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/La Casa del Cine-Found">
+    <ns1:rating></ns1:rating>
+    <ns1:direccion>Plaça Joanic, 6, 08024 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.405361, u'lng': 2.16215}</ns1:localizacion>
+    <ns1:nombre>La Casa del Cine</ns1:nombre>
+    <ns1:tel_int>+34 932 85 53 84</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Glassworks Barcelona-Found">
+    <ns1:nombre>Glassworks Barcelona</ns1:nombre>
+    <ns1:direccion>Passeig de Gràcia, 21, 08007 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.390394, u'lng': 2.16699}</ns1:localizacion>
+    <ns1:rating></ns1:rating>
+    <ns1:tel_int>+34 932 15 07 35</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Videoclub Star-Found">
+    <ns1:rating></ns1:rating>
+    <ns1:nombre>Videoclub Star</ns1:nombre>
+    <ns1:direccion>Travesera de Dalt, 93-95, 08024 Barcelona, Barcelona, Spain</ns1:direccion>
+    <ns1:localizacion>{u'lat': 41.411072, u'lng': 2.157052}</ns1:localizacion>
+    <ns1:tel_int>+34 932 10 55 05</ns1:tel_int>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.agentes.org/actividades/Cinesa-Found">
+    <ns1:rating></ns1:rating>
+    <ns1:tel_int>+34 902 33 32 31</ns1:tel_int>
+    <ns1:nombre>Cinesa</ns1:nombre>
+    <ns1:localizacion>{u'lat': 41.296168, u'lng': 2.008375}</ns1:localizacion>
+    <ns1:direccion>Carrer de l'Energia, 10, 08850 Gavà, Barcelona, Spain</ns1:direccion>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Solution</title>
+		<!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='form.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='bootstrap.min.css')}}"> -->
+	</head>
+	<body>
+		<h1 align="center"> FOUND THE BEST PACKET ACCORDING TO YOUR PREFERENCES </h1>
+		<!-- INFORMACION DE LOS VUELOS --> 
+<p> PRECIO TOTAL: {{precioTotalVuelos}} </p>
+                {% for airport in airportData %}
+                        <p> Aeropuerto Salida:{{ airport.airportSalida }}, en {{ airport.ciudadSale }} </p>
+                        <p> Aeropuerto Llegada: {{ airport.airportLlegada }} , en  {{ airport.ciudadLlega }}</p>
+                        <p> Duración de la ida: {{ airport.durationGo }} </p>
+                        <p> Hora Salida: {{ airport.horaSale }} </p>
+                        <p> Hora Llegada: {{ airport.horaLlega }} </p>
+                        <p> Terminal de salida: {{ airport.terminalSale }} </p>
+                        <p> Terminal de llegada: {{ airport.terminalLlega }} </p>
+                        <br>
+                {% endfor %}
+
+		<!-- INFORMACION DE LOS HOTELES --> 
+		<h3 align="center"> HOTELES</h3>
+		<p> Nombre Hotel: {{  hotelData.nombreHotel }} </p>
+		<p> Precio Hotel: {{  hotelData.precioHotel }} </p>
+		<p> Código Postal:{{  hotelData.codigoPostal }} </p>
+		<p> Descripción de la habitación: {{  hotelData.descripcionDeHabitacion }} </p>
+		<p> Dirección: {{ hotelData.direccion }} </p>
+		<p> Dscripción corta: {{ hotelData.descripcionCorta }} </p>
+		<p> Distancia respecto al centro de la ciudad: {{ hotelData.distanciaRespectoAlCentro }} {{ hotelData.distanciaAlCentro_unidad }}</p>
+		<p> Rating: {{ hotelData.rating }} </p>
+		<p> Rating en TripAdvisor: {{ hotelData.tripAdvisorRating }} </p>
+		<p> Número de reviews en TripAdvisor: {{ hotelData.tripAdvisorReviewCount }} </p>
+
+		<h3 align="center"> ACTIVIDADES </h3>
+		{% for activity in listActivities %}
+		<div> 
+			<p> Tipo : {{activity.tipo}} <br>
+			 	Momento: {{activity.momento}} <br>
+				Direccion: {{activity.direccion}} <br>
+				Telefono: {{activity.telefono}} <br>
+				Rating: {{activity.rating}} <br>
+				Precio: {{activity.precio}}</p>
+		</div>
+		{% endfor %}
+
+	</body>
+</html>

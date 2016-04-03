@@ -1,0 +1,608 @@
+{
+    "status": "OK", 
+    "next_page_token": "CvQB8AAAAPRC-sCEMe2FcA8Vi50bDHKd1PREXfwXnSQW1KN6XFVLxLeCFJIkE4MLyV6ECduqAYVK7xUe2akrutKMXcmjoeLrMzx2PMWk3W223KOgQ-5kPAKr40RsOlia2haCz8mOzPsz0F28an7Cxq0Dy0j6AqIW2Ih5BHYewiXbmCh9OKoV26Q_Tbmsro7elkfS8pM6pww28O9Upgd2PJUCdhDnB6R3UDbHIRWgJQSkr6Cqp1Y5Qa8UzTJffWYZg--qUQhsRuih6-vCYBq7q4JjDy4PLBLW30rXhmJJAyW-kyxgPDaJl8JpEM2oaZyao9kABIh8ehIQzjXahnJCnM8XFsIuVk4zBxoUdtnW0ZonG-HpKfn_S0fxl5wqBj0", 
+    "html_attributions": [], 
+    "results": [
+        {
+            "name": "Grosvenor Casino St Giles", 
+            "reference": "CnRtAAAAMzRVUKub-DqI-VquZDBiWTh9n6ACSEgSUBVaiach1MJpq-DSKzoxIUonTwQkN0k6xtRV0TOI0PcW6AOD8YV7A3bTCVjs6EGh59T0T_MdafsTQbxhx3PnPpOJYoqBA84tOicsVAXzzf_qbrDWQt3PvRIQrXBue7H_77ALwQer7gD23RoUchoe739H-HkNPQ3WmA799HzcFeY", 
+            "geometry": {
+                "location": {
+                    "lat": 51.517258, 
+                    "lng": -0.130799
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJPY6udS0bdkgRB5CHIZmE8cw", 
+            "vicinity": "262 Tottenham Court Road, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAAHUzqwh9JqEC5JSCHcgiPgF6-djsMkVg_OGL9scWLlzyTZ0U-eXbYPCT9S2CB8Xv3-Y86M4oQPDakUxBVp0rJ3j4Q1jikl9TBLYBxuEiE7m9nh83F652e-zQvyQDLYJli0vERBEKx4mvm8lZC1HUPzBIQy1_1IvDf3_OQbFynEKw1UBoUYWY5TriPCYG5hrCG4FIi_aPoVN4", 
+                    "width": 250, 
+                    "html_attributions": [], 
+                    "height": 250
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "9bae4e5f0cbe05e92101824b6851c66521354b36", 
+            "types": [
+                "casino", 
+                "bar", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "rating": 3.6, 
+            "name": "The Hippodrome Casino London", 
+            "reference": "CnRvAAAA7AwUy9X94-BBWhTkHk2Oez-u5T9Ged0B096ggoDrvzIvzN73x9X9n8isG6jPw926QjdHBPzNl1J-eTAR3bHpsa_MjAzNpgXdgdCvWJL4YnDEF12btZZseq8K6bjqxBl1PGsdc_kQGp9pfDWhsY1qlhIQRS8O3zcTeGUkGreW2F3eExoURr4TN32nWbig_KcqtD_2T-Tu-k0", 
+            "geometry": {
+                "location": {
+                    "lat": 51.511407, 
+                    "lng": -0.128646
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJdcOZc9IEdkgROPIytVFeGXU", 
+            "vicinity": "Cranbourn Street, Leicester Square, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRtAAAA3JgDfljrVYpL9elEUIDjt3SfJQ7m_fxnbzHFV0TldQfpJWwCsDHpkVcksHIj5COuhLgXlkKNkTBMniaAKSuHRnE1-RHJDP_wsgRxHQkcouMTIZ8BMIO-TtS2I-0yStkV-v8qM8tCpmJNhMCIaXmMbxIQRjoW7dqBaUV_xnAZqauwGhoUgI-yZ76TkhNS1_y2dAdiz-_QHcU", 
+                    "width": 2048, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 1183
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "727138d0cf5f0d5270fbe7b52abd6090753877b9", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "rating": 3.6, 
+            "name": "The Casino At The Empire", 
+            "reference": "CnRrAAAAoxoHPPQCkHhZwSxw5XMMCUbCTruPAlBifJq4DqhH_U1FpeuP0kCjO3t2IThRVgUKpB-z_u74cAMFaWOR16qT1UA5OZFY276fBXQrZzr5wJMUOLIhLgRmS_AgNuxexJEDS52NHVwb3mcqOZCLy3MAQBIQvT0kfYbVdiOj9tN9p1m5rRoUiEj1Px_k5SNB_-ykpurzHoIHr4k", 
+            "geometry": {
+                "location": {
+                    "lat": 51.510838, 
+                    "lng": -0.130348
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJU0_GCNIEdkgRFFmOhiqR4Ts", 
+            "vicinity": "5-6 Leicester Square, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAlSzVOmpz7t3dhdEjHG2rh2icexl2xqDSjdKI84tts4nATRmxax3d-q1gUZHMuXSfaX1YanMNbR2nVpg4ZLjtYAFZsSHPMTgq3thfwumsLBhxNitAbJC7KEOc9Ssmjs6InBsqB_hVPh0Z0WZ6RRe-aRIQ2d6SyB6ArCHtH-uYeoquDRoUjXCw4wIL3rZZysjxINVTFAoxPdA", 
+                    "width": 2844, 
+                    "html_attributions": [], 
+                    "height": 1600
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "ebde9782536d9793f035edcc3c5ecc97850f3108", 
+            "types": [
+                "casino", 
+                "bar", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "The Ritz Club", 
+            "reference": "CnRhAAAArKTrDzw7Zxaeo3YUiWL1qYrhRb4W2neCWaw05UNANrGtKh1wqJ2J3PgXCScxOZdcDZhNUPOMI31rvQhcdI-vvO_qSesHaIQoVgWJ9y9qeie_ceRIkRKh8oeVjdLYADaorhiiwuFqsty8GWidHsQSSxIQ7O0rgsPGhUkUOpu3dSsufRoU_0jNfB8GzRRENmp1t9a6ak3G4EY", 
+            "geometry": {
+                "location": {
+                    "lat": 51.507314, 
+                    "lng": -0.141601
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": false
+            }, 
+            "place_id": "ChIJV8gP0ykFdkgRsnvwH9ik7rc", 
+            "vicinity": "150 Piccadilly, London", 
+            "photos": [
+                {
+                    "photo_reference": "CpQBgwAAALNeq16FDSo55inTbUb2z11W05mGF5c8VtmEnAz1aF8Okss-npzDlly9S4O1io9T7C3ubIiQ_PcvMgeJjad-JwGwBtu_WHhhb86cI1ThhiZYgpqdN_NF5UluCadYDR2JQN5C916yqMzRE9DKzGh57xTmVe32X3OH4--EqrGznAUmTOzjn3oediGjbR162juV3BIQ2_T0z8rDGhbA0XJNYizazBoU14dbQC5wboVB7DnDja7uksmqnJI", 
+                    "width": 720, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 960
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "b546d2e730fff2379ebac75b0fd0c31a2c14b84a", 
+            "types": [
+                "casino", 
+                "bar", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Grosvenor Casino Piccadilly London", 
+            "reference": "CoQBdQAAAA74L29xspwOIPwEBLCI3hvRuUcZLPdjoTRvHDvRoTJ3NHkfG0i1BKqNyKvZ1M3B9OqhIeURZW88v4z_IY-0MJcQ2j0BwVMLfY00v6fDMcZ_PRfQak4jWWn2f6TWxEczhsjYUvYqvVYhbEseICBwWW0AbabJ-Yiov2jNmngwTubNEhBaOAo36HdhasMtg-N6TK1ZGhQNqWbp1HQ6EZeOf1pBPodzAHGM4g", 
+            "geometry": {
+                "location": {
+                    "lat": 51.510238, 
+                    "lng": -0.132586
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJj_09M9IEdkgRTOqKDYbRqUU", 
+            "vicinity": "3-4 Coventry Street, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAAokGnopxvEhttCMld2wNzJU_Kwq6A_CjSgT1HQmJvjzlF1_H7I0buTPvD7al7zRub7oj3suxSxCzjWCUCmFovayqADcW0FDAxqYcjatyX1vX5KqDNqwiaRQSjQRqirlup-UuAHCprqo_kJd_4s7e76RIQvIZMMfC8Dp_X5YHwLVW6dhoUIfkbZnmysXKgh7kcbz7n_s2P5CY", 
+                    "width": 250, 
+                    "html_attributions": [], 
+                    "height": 250
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "55bee81240b43ea5563b2043c91578aec9f2be84", 
+            "types": [
+                "casino", 
+                "bar", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Grosvenor Casino The Gloucester London", 
+            "reference": "CoQBegAAAJAGEDw0IYohuMhgtDrtqumaxPiadAEOJ2UPUS4q5yufykF-8XkUcEbAHy7kIk38ehhTXe2BlkMSUCLnMNvKgGNzTLK17y8dT_l6Jn2uNiiBFQwjlSz9VOJe8kMdLumsHKprx5IMHZpb03TGq2BjMKxjeVempoRiJIqQ2U0s5U0TEhDyadbjSALpZfHNMRri3UudGhQs9Qcwf2hsG6kcLub4n7XbC6jRgw", 
+            "geometry": {
+                "location": {
+                    "lat": 51.493548, 
+                    "lng": -0.183409
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJqeJSomAFdkgRwRPHv7KnpYE", 
+            "vicinity": "4-18 Harrington Gardens, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAACm1qbaoQwfGGUdiTk_SL4YmNvyLfvurMfFUCGD7lLwKMA4DxiaxE6b08LVZ1F65MJ3wMNvJ3xHeZ60FvAfwYJpvxDjnPbOGHtQwPZrBSIvrbLHdByP0cRYBT9nLGI1-joi4cIN6iTN1pTotbYxjruRIQUDIcTHfaxMem-zrywi6qFRoUpQNxtgFnGmfv_AYDmdgDlrzpdGw", 
+                    "width": 250, 
+                    "html_attributions": [], 
+                    "height": 250
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "a36d2bdc20dcbcf945ce7d35c1ec8fe08ace2328", 
+            "types": [
+                "casino", 
+                "bar", 
+                "restaurant", 
+                "food", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Les Ambassadeurs Club", 
+            "reference": "CnRpAAAAztOgSwSgwQ4Fd32af5Frx1xaLagPq6KCjoJ7VGuGeMrUJ56rKNv8SvZ1VS0r9TUVvU8IioWdHRFtPJmr4gen4sNfmelTwJdOymm6C5dbcKEa5cg824_83XwrM3Js6z4hb23r-65SvxY80lfJX9rpxBIQx7Abn13SnU6oHW51kmr3KhoUjWi72o4P2C26BFHAkFkIq8TpoJ4", 
+            "geometry": {
+                "location": {
+                    "lat": 51.504403, 
+                    "lng": -0.15042
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJP7gBiC8FdkgRwnvb-8PqE6M", 
+            "vicinity": "5 Hamilton Place, London", 
+            "photos": [
+                {
+                    "photo_reference": "CoQBdAAAAC-MvdpM_PvPxVOrYPOn2ligKbHQ-1seN1eX3Wz7s8uKLndgOkEXiWaTVWjU7ntJemtzPnVpu8_SzuaxXxfS7pilAgxPUPW3DCVAE2czXVNtMEcs6HO30AjIns4e2hdVWEgV1b7BEtwNRhy79DU4asZ5kOWmPqbsVb2plDwz8JOIEhBqrXfZOJL56btP5IVy8xanGhTY3cWrIBvLCWPKWLTDnyMWnRFTRQ", 
+                    "width": 680, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 452
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "911bbda48b02f3113b1856c9e8106f49e56068b7", 
+            "types": [
+                "casino", 
+                "bar", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "The Park Tower Casino", 
+            "reference": "CnRoAAAAaLIX-Fe9GEbNM7GYWCVMrlI9NffGE4oyU3plwlgGCm_alhKHE0BOTa-mB76bFHAJ5pkz-g0IaEbTHVifqlJnfiNpYEzfo5aK-85CgYjKb2LWdfbMJUEYJgkBmbOkXY21ezLR__W9kHDBJfwXxhV-hRIQ6VcNICGx-HfltsRhg4rMrBoURgJmQk5gJFsxFIzQAk5q1gsVuGM", 
+            "geometry": {
+                "location": {
+                    "lat": 51.501964, 
+                    "lng": -0.159065
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJHRtwgTkFdkgRSjRHmfohJGs", 
+            "vicinity": "101 Knightsbridge, London", 
+            "photos": [
+                {
+                    "photo_reference": "CqQBkQAAAOYfvTs9fUOV5lZ6wjQ9S8_JeiGwuvtdeAuQwYoGL1ha2I3RpsjuwCoK44nO4t00yLoj-RF3j-jJU50FogeY69EmYsJzB5qb-6ZV259T3JB9a08xC-Fxj4_L_i0y3uYhtPuIswf745yrDI4vT10-icsHc59PePaTs7yX10oxBrkCk7x-Wnj_XvBNh8UDDTs4WN10KGToLvBnamidjNmvQlkSEBc2xlV0M1j4KHQQJf35pDMaFBqsk4MyFeGhflbgYco36t7b_bjr", 
+                    "width": 280, 
+                    "html_attributions": [], 
+                    "height": 280
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "0139111e87b2b865a88ad58d125502123fb63f08", 
+            "types": [
+                "restaurant", 
+                "bar", 
+                "food", 
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png"
+        }, 
+        {
+            "name": "Sportsman Casino", 
+            "reference": "CnRkAAAAIoz6ckhiP8bj6nU00P5ORH4OuFDhBZ3s20dKfYcnm2ypGSHAKCCXBR3uTAKzNGQOhjAMS4bb6hJqC4JbeoaGLcRuzcJVFfSD8e0I_P8k5kklLTBeo1SJnqn2sBrqQhXTWXdtneVw7-1EG4bmrPnvTRIQfVCPBTruuxYvr-UvH4nbHxoUMrvX2jaWJy-YQShheOsiZ-CBUAU", 
+            "geometry": {
+                "location": {
+                    "lat": 51.514166, 
+                    "lng": -0.157872
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJzS-TQjMFdkgRsMVBou0zLOM", 
+            "vicinity": "Old Quebec Street, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAgsuJclPWjdP6m7MUAgthAKZeOhnr6Q14G7MATsjb_dAF28ZXsFG7oohKv1pbskqKeBBrzkBZAClPAYClgeFNonFGM4qfVXlwy-oQ_wK7ZDm8G29uyAEkrYD-4g-xFell8IFEoipLxfSMjXt2a0dyQxIQye_Y70hPVgPoj_uSMYV7UxoUS4UT7Q_V6JS6CttvsdwUxQkC4Nw", 
+                    "width": 1280, 
+                    "html_attributions": [], 
+                    "height": 848
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "c2fa77d4f1dd74bf2e0ddfa14dfd6714bd5dbba4", 
+            "types": [
+                "casino", 
+                "restaurant", 
+                "food", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "rating": 4.7, 
+            "name": "Las Vegas", 
+            "reference": "CmRcAAAAPZUigcaqy9qAZEKnwEkAD-qr0RHEprkx91K59ydkX3GY0AR6vgrkxCophRqIZZ6Zu3teO9hT-rYO4VYpN0LjH9aiK3D6S5dPZ3zC2af4m7IfqOHrCkyBDb5d60xd9OwWEhBhQSi_xe4jX8ltt2QmJJaBGhSu1AtHNd_PN0GUOwlKWugAatEXuw", 
+            "geometry": {
+                "location": {
+                    "lat": 51.512696, 
+                    "lng": -0.133619
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJjV1Kc9MEdkgRHv38G0hWcCQ", 
+            "vicinity": "89-91 Wardour Street, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRoAAAAVi8mzeLhFaaPX1ztr0Ais4wSLum1szEeza0ZCcCMxOeKeQLj1H2Nqc7fR5PUahiXKci3UjxgIhNyAxpd53VGosaE0oUdf3EXyNteeZEz2HJ5LQrfE4u9HYweJYyhEGBNgOVZo9uChXhczg_4Q1fXjRIQj4rJWpSHLZSmxWlSc0NF4hoUWrjHcGKtCsBGdyyWxlsH9Z0XbmA", 
+                    "width": 1728, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 3072
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "9d6ed97f90bc80975cebe1a00f43c5776ce0be9b", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Napoleons Casino Leicester Square", 
+            "reference": "CoQBdQAAAM--yPtKqKst_Wv9yg4SFQyYQf2sYVPz1mZGNG_vRsfaq0cEda7G5G1lcTTm7JIHQI1Fq8xABfGB4Z5MFZ6qC2k4i25OP9eRqCo5SMWPItF3VVTvxh6RFBSC-Ff-KA5M9gqNdi-TGYbzjMuWAW7q4TvQ9Ac0TbiNSurVJTyLkQ4BEhA4sAhfkNWrk3PSYXgtgPP_GhRm_bdcK7xI3ZvyVLOvP-FV-8k4Ww", 
+            "geometry": {
+                "location": {
+                    "lat": 51.510869, 
+                    "lng": -0.130249
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJi9JRE9IEdkgRoeRMoNg-F84", 
+            "vicinity": "1 Leicester Square, London", 
+            "photos": [
+                {
+                    "photo_reference": "CoQBcQAAAPFJDZV2wrtVtiN60ndkQbebjn77d4-bE5dtQSwJ8vQfhN8YU_nI9-hk4gtlHW1qqZcuo-a-hza_nkZOjkzSoNSk-yVUIj_f5w_OkEU2BN9Yw9vst8CCpoCpSDITxFC8Ughzt3tJ8l_jMjrNwrUBMu3z-zbXW5BdzUx36_ezuNrJEhBV2X7TXsrZzd6X7-JJoGzpGhRId7UBLJoPBq9221-u0sNRA7F9pQ", 
+                    "width": 336, 
+                    "html_attributions": [], 
+                    "height": 336
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "77c70e826669f97e47a1509d74520cbd69a9db07", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Grosvenor Casino Russell Square, London", 
+            "reference": "CoQBewAAAOBpPPLG3ZQv7py2v13dOiOuvrUiD77CIv-wvdzJi-MY0YwlBy_p7F4p0kGBQITKR5RO-ZgMwXnj5_5QT4Lsiyxtl3SZ8mKq0aRDNtcLwhts8K6Kgh7GWY3mwGjtMGpwm70VF93XV_PFKB3XrVrFAnJeQnDhKQR3p9l32Md3EbbqEhAwfkUW4jcXCnSzxUOL0KywGhRqc6-2geBgaiaH1O5kh_jSxd0PLg", 
+            "geometry": {
+                "location": {
+                    "lat": 51.521863, 
+                    "lng": -0.124044
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJfQOFOjEbdkgRvFHdsMZWTew", 
+            "vicinity": "61-66 Russell Square, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAAXOFEj0gZd3igmHlbMq8FDa-T2riovCwMOzJGuEI6cTu3xu7IpFgYS3fRpm5hvWWf4cPsn3QISEYXyKyCbkauJABOGVQ9_zgh8qIkBJDEtUcGwp_BN4TWLTKBuiZAUhsMdgI2JVX3ODEPtMNh7dLHOhIQiFORfNj4guA39agaglwr_xoUZxASl1e6xiQbOWvWSVAC2suh-Ig", 
+                    "width": 250, 
+                    "html_attributions": [], 
+                    "height": 250
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "bf40a5b2d98d799eb14f7e46c8c474522a24bfeb", 
+            "types": [
+                "casino", 
+                "bar", 
+                "restaurant", 
+                "food", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Grosvenor Casino Golden Horseshoe London", 
+            "reference": "CoQBfAAAAPhaIYnDN6SxtaO6jvT6KKSXNOQ0TSPjQnryrG_cGsVvrv2Qpp76Xx5U1kA1-qNqXYt0TFvqCUJROiEZRruO_G3a5j7_kEqS0oQMWi5yugwbSG2MIVCyuBFHuN75umSqzNojTvvgIEhdaxNqy7Fy5y3qVffNtVoo925P8DL2gY1jEhCi2c0D_Uv8G-zqJwD9IZ6vGhTiFbyBtHLds7ESnh-pCjNQIHdlZw", 
+            "geometry": {
+                "location": {
+                    "lat": 51.512111, 
+                    "lng": -0.187902
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJcyBFgFUFdkgR8KLSeIliqOw", 
+            "vicinity": "79-81 Queensway, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAAj9pknfeOHsrd-et15rN4bULja7zOJK64vpPi0_UqnRhewAxebi8vmfZxSBPbxQglSNgOpBdNtr2soD-LJt_up4bSsKRqbIelvK4mQOVXe9z0r_PsYDOPfpzk_ilskW2EkhEXSNkDfhpHnCSyl7OaBhIQIvH7y2jSsXDU5tU7-Pv5tBoUDV8Xv43ErqioJhvfzDn-OPTaFpg", 
+                    "width": 250, 
+                    "html_attributions": [], 
+                    "height": 250
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "3ef97dd9d4c785f0992aead369449a501d1e2f71", 
+            "types": [
+                "casino", 
+                "bar", 
+                "restaurant", 
+                "food", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "rating": 3.9, 
+            "name": "Aspers Casino", 
+            "reference": "CnRhAAAAd3PaCXzQjO13LaTKOa7itoWegvV0FJPOJQahT9IyvcAIkhpuP55btum40f-UOq6ie8iWo_RwTGxKedS_M63N4QnawdtnxfR3ejPcbFJ0jFPM3CRcVUvGWNn7fg9xJAJtkgIwxgp2rxBamb_RPA_5dxIQD3pDpL8_fCKZum_cvbv-wRoU92MyXhPgXDDW0pCtWRJAmGXeb_g", 
+            "geometry": {
+                "location": {
+                    "lat": 51.543107, 
+                    "lng": -0.006102
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJ0S0ZfOun2EcRT3nL0tZAxLw", 
+            "vicinity": "The Loft, Olympic Park, 312 Montfichet Road, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAANuVq8Z8LgnezVbME4huwRzeWkedy2r6LyxIaGf8R-yLtLwhw-aXIanPCYgRa7A_Sr2L2DjXVbyzao7DCfagPquxI6teQTA6c3xly3l_hLOMsKTfEzKaJ0UnJNnBCcB0YOY_Kzog8iXVUnN7nNqTV1hIQcOLzBW3s8MwTX7tKno5wHhoUZ22rhOAlwS_rnokcRaqaTjSNunM", 
+                    "width": 1280, 
+                    "html_attributions": [], 
+                    "height": 854
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "d6068a3e69291ea0ffabae17b758d2b2ec6f5bf1", 
+            "types": [
+                "casino", 
+                "bar", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Big Slick Players Club", 
+            "reference": "CnRpAAAAZgnMAEdYmHjGCtWaojfl6iKHI8Yk9VhYShr_nLwDo2waCka-6nfzJ7z3z8Luo1ojwIvYvmvEgehg1NmSWTMBIr_16qKrUAcvX2KX1YxNVo8GXQpV23DLf07NBrN9dXNhDnIK8d58d099ukqcoeZSXRIQ-hTA5USSC1DU0p7sX2Mu2hoUHxtAKCpE2W3xinfv4wR1RgxN3eM", 
+            "geometry": {
+                "location": {
+                    "lat": 51.345528, 
+                    "lng": -0.103603
+                }
+            }, 
+            "place_id": "ChIJy1yGP_j9dUgREju2zBXaZh8", 
+            "vicinity": "10 Royal Oak Centre Brighton Road, Purley, London", 
+            "scope": "GOOGLE", 
+            "id": "a49bfc5fdd13216a0eb51c62ed14d413b45023c3", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "William Hill", 
+            "reference": "CmRgAAAAhLcmsOM2voOhO5LhxJpxrkMpa5hOwMOFQoVc3unlgQMOlq0T11IAGvHyuj4jiLl3_sKxqVisrZ0huZZLbkgeKLj3D9hN11u3ZoYhCHwU3GxBNF9uzaBd5NwvhuImJLMkEhAQNKmXQmUedpDXyW6ibP1oGhSoPUZl_c-OpvXlsJg0awrwcXSWqQ", 
+            "geometry": {
+                "location": {
+                    "lat": 51.595713, 
+                    "lng": -0.071496
+                }
+            }, 
+            "place_id": "ChIJmwyjbx8cdkgRUQE7I1pEId4", 
+            "vicinity": "110 Bruce Grove, London", 
+            "scope": "GOOGLE", 
+            "id": "37c177a39f8a050483676ab5bf5ad5540cd88d5e", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Play 2 Win", 
+            "reference": "CmReAAAA9F0hIvoD8_LJlmhnfPged4M105-ee1nulDjOIdHKiOzAe6waT5Iksy_cwhRE_bwROOtM9goGdRxP5EwDJr6Xoht7O9Dmzwe_aTgWaYkUChAXugXmh00pdUXhviFqDs-sEhDgLzcfoWxXTmrMBwdA55YcGhR_p1uHK7UdMJr3Jq1zW49gHED4yQ", 
+            "geometry": {
+                "location": {
+                    "lat": 51.530421, 
+                    "lng": -0.122573
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJa1jeUTkbdkgRHMAcpZvz2vA", 
+            "vicinity": "1 Euston Road, London", 
+            "scope": "GOOGLE", 
+            "id": "587b543ed39b9c4f0debb655eb843737b07eb437", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Coral", 
+            "reference": "CmRYAAAAWQil_x_whXxfb1vMLUq9nsX5cFcwsrxmmSwlzmn7vnaz4B0a9etnyq1RZ4C7H02vxsAJlo_ZVYhViKvlQNGjzI_YmvjkWPX4uKFIPK5G8ZcI77AAOIXXwCG__QghAHkfEhAiMp7U4mFuC6JDnsjsAk10GhTlvAf-Vy0tNDGbePv4-AqLF7ieoQ", 
+            "geometry": {
+                "location": {
+                    "lat": 51.492627, 
+                    "lng": -0.258393
+                }
+            }, 
+            "place_id": "ChIJ2xtaHkAOdkgR2r3OxVzv4hQ", 
+            "vicinity": "242 Chiswick High Road, London", 
+            "scope": "GOOGLE", 
+            "id": "e14beda82cab36deb3ba833ade7387ec81b11d58", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Family Leisure Holdings Ltd", 
+            "reference": "CnRuAAAA7ynzW1Qm6e2BKPoAha-2n1TLeJhO8wNGK8X5oe0sooGBhM9V-DEseq76E1TFTfCVSxKzZ-zWufp8XOYbg4ftxp29ZSAQtyDNBOYihavKRfhP6c_L5iIguxnWBnq7EohooktEJkFQGZe6O90On2g5RBIQfbB1otrzoQVfOQusz-VwJxoU04OZcmV2GZ56LsWivXruf-h4efk", 
+            "geometry": {
+                "location": {
+                    "lat": 51.51148, 
+                    "lng": -0.132104
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJ5U_qUTkbdkgR4Ap_Of2OFgQ", 
+            "vicinity": "5 Wardour Street, London", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAxXvVMQ6QLrY6cODljWYHqzxbXXm4Vhg2ziVnVidXv3HbAYSm_33yrcpILrb2-gJAr9ovm0d_qx_OImbDXDP82zbhqq1YkwlZJGTlI14eAIjI7ykTjzYAWb7rgCt1ysv-ZP0Nl9pQsUYlDYtCzK1DkxIQI5xRzZsH_mg_1I4FstDWSRoUFk0Lz1Q5cXI-7C4NmddIVmw7VAw", 
+                    "width": 640, 
+                    "html_attributions": [], 
+                    "height": 534
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "a5dbab47363636d52f95491477f9b2dcee73452f", 
+            "types": [
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }, 
+        {
+            "name": "Ladbrokes", 
+            "reference": "CmRdAAAAS2x4udiKOaTcVZCOhVWriMxjJ_u0C0pjo1IlpT2HLCYmwK9LK9uiVaXfbjKK47PbuvGRsq-z2ZaoAgrlR2tbUEQJrtHPv_dXiHaNX_Fyb687j7OT3lWp0gvHeuez1BasEhBgRDcJXb3VkR2vRViEZkNlGhRSSDgtDhddb-SWzUNfNBMeBnzv1g", 
+            "geometry": {
+                "location": {
+                    "lat": 51.50408, 
+                    "lng": -0.218551
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJRfzNrMQPdkgR_GbE7omIJ_c", 
+            "vicinity": "West Twelve Centre, 18 Shepherd's Bush Green, London", 
+            "scope": "GOOGLE", 
+            "id": "f074a90762a33850b1b0842eb061dbf486f1981a", 
+            "types": [
+                "store", 
+                "casino", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/casino-71.png"
+        }
+    ]
+}

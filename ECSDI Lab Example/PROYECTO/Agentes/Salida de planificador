@@ -1,0 +1,85 @@
+
+TYPE_AQUARIUM = 'aquarium'
+TYPE_ART_GALLERY = 'art_gallery'
+TYPE_BOWLING_ALLEY = 'bowling_alley'
+TYPE_CHURCH = 'church'
+TYPE_PARK = 'park'
+TYPE_MUSEUM = 'museum'
+TYPE_SPA = 'spa'
+TYPE_SHOPPING_MALL = 'shopping_mall'
+TYPE_ZOO = 'zoo'
+TYPE_MOVIE_THEATER = 'movie_theater'
+
+
+
+TYPE_NIGHT_CLUB = 'night_club'
+TYPE_BAR = 'bar'
+'casino'
+
+
+
+
+El Vuelo:
+
+        precio total
+
+        # id de vuelo
+        idGo
+        idBack
+
+        cada vuelo tiene:
+
+                airportSalida
+                airportLlegada
+                # La ida dura esto
+                durationGo
+
+                # Fecha y hora de salida y aterrizaje de la ida
+                horaSale 
+                horaLlega
+
+
+                # Terminal y ciudad de salida de la ida, que puede ser nula
+
+                terminalSale
+
+                terminalLlega
+
+                ciudadSale = trip['slice'][0]['segment'][0]['leg'][0]['origin']
+                ciudadLlega = trip['slice'][0]['segment'][0]['leg'][0]['destination']
+
+
+
+Actividades: sera una lista de dias
+
+en que cada dia tiene momento(mañana, tarde, noche, comida, cena):
+ cada momento tiene actividades:
+		-tipo
+		-adreça
+		-telefono
+		-rating
+		-precio (es un string)
+                -nombre
+                -Descripcion
+                -googleUrl
+                -website
+                -tel_int
+
+
+Hotel:
+	precio
+
+        codigoPostal
+
+        descripcionDeHabitacion
+
+        adresa
+        nombre
+        descriptionCorta
+        distanciaRepectoAlCentro
+        distanciaRepectoAlCentro_unidad
+
+        rating
+        
+        tripAdvisorRating
+        tripAdvisorReviewCount

@@ -1,0 +1,1 @@
+<googleplaces.GooglePlacesSearchResult object at 0x2994750>

@@ -1,0 +1,66 @@
+Preparing to run
+
+INFO AgentBuscador=> Peticion de informacion recibida
+
+INFO AgentBuscador => Mensaje extraído
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:acl="http://www.nuin.org/ontology/fipa/acl#"
+   xmlns:myns_atr="http://my.namespace.org/atributos/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://my.namespace.org/peticiones/actividad">
+    <myns_atr:actividad>Movie</myns_atr:actividad>
+    <myns_atr:tipo>movie_theater</myns_atr:tipo>
+    <myns_atr:radio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</myns_atr:radio>
+    <myns_atr:lugar>Madrid, Spain</myns_atr:lugar>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://my.namespace.org/peticiones/vuelo">
+    <myns_atr:originVuelo>BCN</myns_atr:originVuelo>
+    <myns_atr:departureDate>2015-07-02</myns_atr:departureDate>
+    <myns_atr:maxPrice>EUR500</myns_atr:maxPrice>
+    <myns_atr:returnDate>2015-07-08</myns_atr:returnDate>
+    <myns_atr:destinationVuelo>PRG</myns_atr:destinationVuelo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.nuin.org/ontology/fipa/acl#message-2460107478104303674-0000">
+    <acl:performative rdf:resource="http://www.nuin.org/ontology/fipa/acl#request"/>
+    <acl:content rdf:resource="http://www.agentes.org#Planificador-pide-datos"/>
+    <acl:receiver rdf:resource="http://www.agentes.org#AgenteBuscador"/>
+    <rdf:type rdf:resource="http://www.nuin.org/ontology/fipa/acl#FipaAclMessage"/>
+    <acl:sender rdf:resource="http://www.agentes.org#AgentePlanificador"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://my.namespace.org/peticiones/hotel">
+    <myns_atr:searchRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</myns_atr:searchRadius>
+    <myns_atr:destinationCountry>Spain</myns_atr:destinationCountry>
+    <myns_atr:arrivalDate>08/02/2015</myns_atr:arrivalDate>
+    <myns_atr:departureDate>08/08/2015</myns_atr:departureDate>
+    <myns_atr:propertyCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</myns_atr:propertyCategory>
+    <myns_atr:destinationCity>Barcelona</myns_atr:destinationCity>
+  </rdf:Description>
+</rdf:RDF>
+
+
+
+
+INFO AgentBuscador => Looking for activities (in AgentActividades)...
+retornar repuesta
+INFO AgentBuscador => Activities found: 
+retornar repuesta
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17

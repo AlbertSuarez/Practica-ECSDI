@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:myns_atr="http://my.namespace.org/atributos/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://my.namespace.org/hoteles/">
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Hotel Barcelona House gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Teatro Principal y Plaza Real. Este hotel se encuentra cerca de</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1096.50</myns_atr:cuesta>
+    <myns_atr:cuesta>1226.55</myns_atr:cuesta>
+    <myns_atr:adresa>Gran Via de Les Corts Catalanes, 647</myns_atr:adresa>
+    <myns_atr:nombre>Room Mate Pau</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6791533</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:adresa>Plaza Cataluña 19</myns_atr:adresa>
+    <myns_atr:nombre>Hotel Colon Barcelona</myns_atr:nombre>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1819063</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>1860.00</myns_atr:cuesta>
+    <myns_atr:descripcionDeHabitacion>Standard Room - Non Refundable</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.40193555</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">582</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3642151</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:cuesta>1178.96</myns_atr:cuesta>
+    <myns_atr:descripcionDeHabitacion>Habitación básica</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro_unidad>KM</myns_atr:distanciaRepectoAlCentro_unidad>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2110553</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:nombre>Arc la Rambla</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Olivia Plaza Hotel gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Plaza de Cataluña y de Palacio de la Música Catalana. Este hotel</myns_atr:descriptionCorta>
+    <myns_atr:adresa>La Rambla 19</myns_atr:adresa>
+    <myns_atr:cuesta>1067.44</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Oriente Atiram Hotel gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Gran Teatro del Liceo y Plaza Real. Este hotel para familias se</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1972.85</myns_atr:cuesta>
+    <myns_atr:adresa>La Ramblas, 45</myns_atr:adresa>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">927</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>08010</myns_atr:codigoPostal>
+    <myns_atr:cuesta>936.02</myns_atr:cuesta>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar</myns_atr:descripcionDeHabitacion>
+    <myns_atr:cuesta>1219.05</myns_atr:cuesta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Alojándote en The Mirror Barcelona estarás en pleno corazón de Barcelona, a pocos pasos de Hospital Clínica y de Casa Batlló. Este hotel de 4,5 estrellas</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Internacional Ramblas Cool Atiram Hotel</myns_atr:nombre>
+    <myns_atr:descripcionDeHabitacion>Habitación estándar - No reembolsable</myns_atr:descripcionDeHabitacion>
+    <myns_atr:nombre>Hotel Moderno BCN</myns_atr:nombre>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">741</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1178</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:nombre>The Mirror Barcelona</myns_atr:nombre>
+    <myns_atr:adresa>Hospital 11</myns_atr:adresa>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Room Mate Pau gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Plaza de Cataluña y de Palacio de la Música Catalana. Este hotel para</myns_atr:descriptionCorta>
+    <myns_atr:nombre>Hotel Barcelona House</myns_atr:nombre>
+    <myns_atr:codigoPostal>08036</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7080029</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:codigoPostal>08001</myns_atr:codigoPostal>
+    <myns_atr:nombre>Oriente Atiram Hotel</myns_atr:nombre>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Hotel Moderno BCN gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Las Ramblas y Gran Teatro del Liceo. Este hotel para familias se</myns_atr:descriptionCorta>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;Si te alojas en Hotel Colon Barcelona, en Barcelona (Ciutat Vella), estarás a pocos minutos de Museo Diocesano de Barcelona y Palacio de la Música</myns_atr:descriptionCorta>
+    <myns_atr:cuesta>1427.77</myns_atr:cuesta>
+    <myns_atr:adresa>Carrer dels Escudellers, 19</myns_atr:adresa>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</myns_atr:rating>
+    <myns_atr:descripcionDeHabitacion>Habitación Confort</myns_atr:descripcionDeHabitacion>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.38908416</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:descripcionDeHabitacion>Habitación doble</myns_atr:descripcionDeHabitacion>
+    <myns_atr:adresa>La Rambla, La 78-80</myns_atr:adresa>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Arc la Rambla gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Teatro Principal y Centro de Arte Santa Mónica. Este hotel para</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">661</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</myns_atr:rating>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.34751347</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1121</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:codigoPostal>08002</myns_atr:codigoPostal>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.501804</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</myns_atr:tripAdvisorRating>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Internacional Ramblas Cool Atiram Hotel gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Las Ramblas y Gran Teatro del Liceo. Este</myns_atr:descriptionCorta>
+    <myns_atr:distanciaRepectoAlCentro rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.27811298</myns_atr:distanciaRepectoAlCentro>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</myns_atr:rating>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</myns_atr:tripAdvisorRating>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">502</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:nombre>Silken Gran Hotel Havana</myns_atr:nombre>
+    <myns_atr:esUn rdf:resource="http://my.namespace.org/hotel"/>
+    <myns_atr:descriptionCorta>&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Ubicación del establecimiento&amp;lt;/b&amp;gt; &amp;lt;br /&amp;gt;En Silken Gran Hotel Havana gozarás de una ubicación céntrica en Barcelona, a pocos pasos de Casa Calvet y de Teatro Tívoli. Este hotel de 4 estrellas se</myns_atr:descriptionCorta>
+    <myns_atr:tripAdvisorRating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</myns_atr:tripAdvisorRating>
+    <myns_atr:adresa>Carrer de Fontanella, 7</myns_atr:adresa>
+    <myns_atr:descripcionDeHabitacion>Habitación Deluxe</myns_atr:descripcionDeHabitacion>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:tripAdvisorReviewCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1243</myns_atr:tripAdvisorReviewCount>
+    <myns_atr:descripcionDeHabitacion>Habitación doble estándar</myns_atr:descripcionDeHabitacion>
+    <myns_atr:rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</myns_atr:rating>
+    <myns_atr:adresa>Corcega 255</myns_atr:adresa>
+    <myns_atr:nombre>Olivia Plaza Hotel</myns_atr:nombre>
+    <myns_atr:adresa>Avenida Catedral, 7</myns_atr:adresa>
+    <myns_atr:cuesta>1575.20</myns_atr:cuesta>
+  </rdf:Description>
+</rdf:RDF>

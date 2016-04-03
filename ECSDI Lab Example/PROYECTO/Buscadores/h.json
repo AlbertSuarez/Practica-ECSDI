@@ -1,0 +1,2055 @@
+{
+    "HotelListResponse": {
+        "customerSessionId": "0ABAAA7B-29D5-F1D9-14D2-C4E1787B903B", 
+        "cacheKey": "29d5f1d:14dc4e1787b:-2f", 
+        "cachedSupplierResponse": {
+            "@matchedCurrency": "true", 
+            "@supplierRequestNum": "355", 
+            "@candidatePreptime": "181", 
+            "@supplierCacheTolerance": "NOT_SUPPORTED", 
+            "@cachedTime": "0", 
+            "@otherOverheadTime": "7", 
+            "@matchedLocale": "true", 
+            "@supplierResponseNum": "10", 
+            "@tpidUsed": "5104", 
+            "@supplierResponseTime": "974"
+        }, 
+        "cacheLocation": "10.186.170.123:7300", 
+        "moreResultsAvailable": true, 
+        "numberOfRoomsRequested": 1, 
+        "HotelList": {
+            "HotelSummary": [
+                {
+                    "postalCode": "08002", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 3.5, 
+                    "lowRate": 80.37, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n doble", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 200826249, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 4, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "f81f5647-471f-4e0d-9990-a7e3d2d8b5fa", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "95.82", 
+                                                    "@baseRate": "112.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.82", 
+                                                    "@baseRate": "132.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "192.40", 
+                                                    "@baseRate": "226.35"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "80.37", 
+                                                    "@baseRate": "94.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.82", 
+                                                    "@baseRate": "132.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "80.37", 
+                                                    "@baseRate": "94.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "91.95", 
+                                                    "@baseRate": "108.18"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "105.87", 
+                                                    "@baseRate": "124.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "158.40", 
+                                                    "@baseRate": "186.35"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "14.40"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "192.40", 
+                                        "@averageRate": "111.50", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1226.55", 
+                                        "@nightlyRateTotal": "1115.05", 
+                                        "@averageBaseRate": "131.18", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "111.50", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "111.50", 
+                                        "@commissionableUsdTotal": "1115.05", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "95.82", 
+                                                    "@baseRate": "112.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.82", 
+                                                    "@baseRate": "132.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "192.40", 
+                                                    "@baseRate": "226.35"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "80.37", 
+                                                    "@baseRate": "94.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.82", 
+                                                    "@baseRate": "132.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "80.37", 
+                                                    "@baseRate": "94.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "91.95", 
+                                                    "@baseRate": "108.18"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "105.87", 
+                                                    "@baseRate": "124.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "158.40", 
+                                                    "@baseRate": "186.35"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 201102714, 
+                                    "promoDescription": "Qu\u00e9date 3 noches y tendr\u00e1s un descuento del 15% en la estancia.", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 520756, 
+                            "roomTypeCode": 135624, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Oriente Atiram Hotel gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Gran Teatro del Liceo y Plaza Real. Este hotel para familias se", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 3.0, 
+                    "highRate": 226.35, 
+                    "tripAdvisorReviewCount": 1121, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "0", 
+                    "address1": "La Ramblas, 45", 
+                    "hotelId": 123847, 
+                    "@ubsScore": "1094098", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.38908416, 
+                    "propertyCategory": 1, 
+                    "name": "Oriente Atiram Hotel", 
+                    "latitude": 41.37981, 
+                    "locationDescription": "A poca distancia de Acuario de Barcelona", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.17427, 
+                    "amenityMask": 1511680, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/123847/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/1000000/530000/520800/520756/520756_125_t.jpg", 
+                    "confidenceRating": 5
+                }, 
+                {
+                    "postalCode": "08002", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 3.5, 
+                    "lowRate": 84.23, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n b\u00e1sica", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 200848979, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 5, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "0da90bb7-7c94-43b1-a382-93bee503edff", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "14.40"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "122.87", 
+                                        "@averageRate": "99.69", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1096.50", 
+                                        "@nightlyRateTotal": "996.86", 
+                                        "@averageBaseRate": "117.27", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "99.64", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "99.64", 
+                                        "@commissionableUsdTotal": "996.86", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "84.23", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.87", 
+                                                    "@baseRate": "144.55"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 208494570, 
+                                    "promoDescription": "Oferta especial: ahorra un 15%", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 520766, 
+                            "roomTypeCode": 131353, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 3
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Internacional Ramblas Cool Atiram Hotel gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Las Ramblas y Gran Teatro del Liceo. Este", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 1.0, 
+                    "highRate": 144.55, 
+                    "tripAdvisorReviewCount": 439, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "1", 
+                    "address1": "La Rambla, La 78-80", 
+                    "hotelId": 243947, 
+                    "@ubsScore": "1093322", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.34751347, 
+                    "propertyCategory": 1, 
+                    "name": "Internacional Ramblas Cool Atiram Hotel", 
+                    "latitude": 41.38105, 
+                    "locationDescription": "A poca distancia de Acuario de Barcelona", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.1735, 
+                    "amenityMask": 1442048, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/243947/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/1000000/530000/520800/520766/520766_25_t.jpg", 
+                    "confidenceRating": 52
+                }, 
+                {
+                    "postalCode": "08010", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.5, 
+                    "lowRate": 107.4, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Standard Room - Non Refundable", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 201236688, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 21, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "19fc2da9-d5e0-4b3c-89fc-2ed069a471af", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "107.40", 
+                                                    "@baseRate": "126.35"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "14.40"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "153.75", 
+                                        "@averageRate": "129.80", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1427.77", 
+                                        "@nightlyRateTotal": "1298.00", 
+                                        "@averageBaseRate": "152.71", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "129.77", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "129.77", 
+                                        "@commissionableUsdTotal": "1298.00", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "107.40", 
+                                                    "@baseRate": "126.35"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "115.12", 
+                                                    "@baseRate": "135.44"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "153.75", 
+                                                    "@baseRate": "180.88"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 202141586, 
+                                    "promoDescription": "\u00a1Qu\u00e9date 4 noches y tendr\u00e1s un descuento del 15% en tu estancia!", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 5193899, 
+                            "roomTypeCode": 200181958, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Room Mate Pau gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Plaza de Catalu\u00f1a y de Palacio de la M\u00fasica Catalana. Este hotel para", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 3.0, 
+                    "highRate": 180.88, 
+                    "tripAdvisorReviewCount": 661, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "2", 
+                    "address1": "Carrer de Fontanella, 7", 
+                    "hotelId": 411552, 
+                    "@ubsScore": "1093246", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.7080029, 
+                    "propertyCategory": 1, 
+                    "name": "Room Mate Pau", 
+                    "latitude": 41.3876, 
+                    "locationDescription": "A poca distancia de Mercat de Santa Caterina", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.17198, 
+                    "amenityMask": 1048576, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/411552/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/6000000/5200000/5193900/5193899/5193899_24_t.jpg", 
+                    "confidenceRating": 5
+                }, 
+                {
+                    "postalCode": "08002", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.5, 
+                    "lowRate": 170.0, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n est\u00e1ndar - No reembolsable", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 1124504, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 4, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "f3f502ec-b197-46c9-b6fe-1e161772ea9f", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "170.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "170.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "187.00", 
+                                                    "@baseRate": "220.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "187.00", 
+                                                    "@baseRate": "220.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "187.00", 
+                                                    "@baseRate": "220.00"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "24.20"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "187.00", 
+                                        "@averageRate": "179.35", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1972.85", 
+                                        "@nightlyRateTotal": "1793.50", 
+                                        "@averageBaseRate": "211.00", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "179.35", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "179.35", 
+                                        "@commissionableUsdTotal": "1793.50", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "170.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "170.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "187.00", 
+                                                    "@baseRate": "220.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "178.50", 
+                                                    "@baseRate": "210.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "187.00", 
+                                                    "@baseRate": "220.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "187.00", 
+                                                    "@baseRate": "220.00"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 205776791, 
+                                    "promoDescription": "Ahorra un 15%", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 1366371, 
+                            "roomTypeCode": 355132, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Olivia Plaza Hotel gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Plaza de Catalu\u00f1a y de Palacio de la M\u00fasica Catalana. Este hotel", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 4.0, 
+                    "highRate": 220.0, 
+                    "tripAdvisorReviewCount": 1243, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "3", 
+                    "address1": "Plaza Catalu\u00f1a 19", 
+                    "hotelId": 237454, 
+                    "@ubsScore": "1093243", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.6791533, 
+                    "propertyCategory": 1, 
+                    "name": "Olivia Plaza Hotel", 
+                    "latitude": 41.38622, 
+                    "locationDescription": "A poca distancia de Palacio de la M\u00fasica Catalana", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.17064, 
+                    "amenityMask": 5701889, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/237454/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/2000000/1370000/1366400/1366371/1366371_131_t.jpg", 
+                    "confidenceRating": 52
+                }, 
+                {
+                    "postalCode": "08036", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.0, 
+                    "lowRate": 87.2, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n Deluxe", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 200497881, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 13, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "39fb24f7-a0bd-43c5-af6c-791bfc62a7eb", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "116.80", 
+                                                    "@baseRate": "132.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "87.20", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "87.20", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "87.20", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.00", 
+                                                    "@baseRate": "118.18"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "116.80", 
+                                                    "@baseRate": "132.73"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "24.20"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "116.80", 
+                                        "@averageRate": "97.04", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1067.44", 
+                                        "@nightlyRateTotal": "970.40", 
+                                        "@averageBaseRate": "110.27", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "97.04", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "97.04", 
+                                        "@commissionableUsdTotal": "970.40", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "116.80", 
+                                                    "@baseRate": "132.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "87.20", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "87.20", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "92.80", 
+                                                    "@baseRate": "105.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "87.20", 
+                                                    "@baseRate": "99.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.00", 
+                                                    "@baseRate": "118.18"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "116.80", 
+                                                    "@baseRate": "132.73"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 208016746, 
+                                    "promoDescription": "Reserva con antelaci\u00f3n y ahorra un 12%", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 4133033, 
+                            "roomTypeCode": 200036530, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;Aloj\u00e1ndote en The Mirror Barcelona estar\u00e1s en pleno coraz\u00f3n de Barcelona, a pocos pasos de Hospital Cl\u00ednica y de Casa Batll\u00f3. Este hotel de 4,5 estrellas", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 4.5, 
+                    "highRate": 132.73, 
+                    "tripAdvisorReviewCount": 600, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "4", 
+                    "address1": "Corcega 255", 
+                    "hotelId": 368507, 
+                    "@ubsScore": "1092758", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 2.2110553, 
+                    "propertyCategory": 1, 
+                    "name": "The Mirror Barcelona", 
+                    "latitude": 41.39294, 
+                    "locationDescription": "A poca distancia de Casa Batll\u00f3", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.1546, 
+                    "amenityMask": 1441793, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/368507/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/5000000/4140000/4133100/4133033/4133033_64_t.jpg", 
+                    "confidenceRating": 88
+                }, 
+                {
+                    "postalCode": "08002", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.0, 
+                    "lowRate": 73.64, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n doble est\u00e1ndar", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 200200142, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 4, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "1c6ccd21-3604-4857-bb3b-759baf9408b9", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "81.82", 
+                                                    "@baseRate": "90.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "81.82", 
+                                                    "@baseRate": "90.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "14.40"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "122.72", 
+                                        "@averageRate": "85.09", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "936.02", 
+                                        "@nightlyRateTotal": "850.92", 
+                                        "@averageBaseRate": "94.55", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "85.10", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "85.10", 
+                                        "@commissionableUsdTotal": "850.92", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "81.82", 
+                                                    "@baseRate": "90.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "81.82", 
+                                                    "@baseRate": "90.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "73.64", 
+                                                    "@baseRate": "81.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 202564624, 
+                                    "promoDescription": "Oferta", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 3526924, 
+                            "roomTypeCode": 490037, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 3
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Hotel Barcelona House gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Teatro Principal y Plaza Real. Este hotel se encuentra cerca de", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 3.0, 
+                    "highRate": 136.36, 
+                    "tripAdvisorReviewCount": 582, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "5", 
+                    "address1": "Carrer dels Escudellers, 19", 
+                    "hotelId": 344124, 
+                    "@ubsScore": "1092736", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.3642151, 
+                    "propertyCategory": 1, 
+                    "name": "Hotel Barcelona House", 
+                    "latitude": 41.37938, 
+                    "locationDescription": "A poca distancia de Palacio de la M\u00fasica Catalana", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.17614, 
+                    "amenityMask": 1507328, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/344124/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/4000000/3530000/3527000/3526924/3526924_2_t.jpg", 
+                    "confidenceRating": 52
+                }, 
+                {
+                    "postalCode": "08010", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.0, 
+                    "lowRate": 120.0, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n Confort", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 25099, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 35, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "888fa99a-0391-40f9-b543-d019abf2ad69", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "136.00", 
+                                                    "@baseRate": "154.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "176.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "176.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "120.00", 
+                                                    "@baseRate": "136.36"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "160.00", 
+                                                    "@baseRate": "181.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "152.00", 
+                                                    "@baseRate": "172.73"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "24.20"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "176.00", 
+                                        "@averageRate": "143.20", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1575.20", 
+                                        "@nightlyRateTotal": "1432.00", 
+                                        "@averageBaseRate": "162.73", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "143.20", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "143.20", 
+                                        "@commissionableUsdTotal": "1432.00", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "136.00", 
+                                                    "@baseRate": "154.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "176.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "176.00", 
+                                                    "@baseRate": "200.00"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "120.00", 
+                                                    "@baseRate": "136.36"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "128.00", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "160.00", 
+                                                    "@baseRate": "181.82"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "152.00", 
+                                                    "@baseRate": "172.73"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 200333420, 
+                                    "promoDescription": "Oferta especial por reserva anticipada: ahorra un 12% de tu estancia en el hotel", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 868702, 
+                            "roomTypeCode": 8072, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Silken Gran Hotel Havana gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Casa Calvet y de Teatro T\u00edvoli. Este hotel de 4 estrellas se", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 4.0, 
+                    "highRate": 200.0, 
+                    "tripAdvisorReviewCount": 741, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "6", 
+                    "address1": "Gran Via de Les Corts Catalanes, 647", 
+                    "hotelId": 127931, 
+                    "@ubsScore": "1091780", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 1.1819063, 
+                    "propertyCategory": 1, 
+                    "name": "Silken Gran Hotel Havana", 
+                    "latitude": 41.39244, 
+                    "locationDescription": "A poca distancia de Centro comercial Bulevard Rosa", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.172, 
+                    "amenityMask": 1, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/127931/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/1000000/870000/868800/868702/868702_123_t.jpg", 
+                    "confidenceRating": 88
+                }, 
+                {
+                    "postalCode": "08002", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.0, 
+                    "lowRate": 94.09, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n est\u00e1ndar", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 1101762, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 4, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "c8e309fc-4d92-491d-b473-ea992fd4ecb5", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "130.90", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "130.90", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "14.40"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "130.90", 
+                                        "@averageRate": "107.18", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1178.96", 
+                                        "@nightlyRateTotal": "1071.78", 
+                                        "@averageBaseRate": "119.09", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "107.18", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "107.18", 
+                                        "@commissionableUsdTotal": "1071.78", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "130.90", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "130.90", 
+                                                    "@baseRate": "145.45"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "94.09", 
+                                                    "@baseRate": "104.55"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "122.72", 
+                                                    "@baseRate": "136.36"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 1533117, 
+                                    "promoDescription": "Oferta especial por reserva anticipada: ahorra un 10% de tu estancia en el hotel", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet inal\u00e1mbrico gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 560394, 
+                            "roomTypeCode": 286519, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Arc la Rambla gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Teatro Principal y Centro de Arte Santa M\u00f3nica. Este hotel para", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 3.0, 
+                    "highRate": 145.45, 
+                    "tripAdvisorReviewCount": 927, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "7", 
+                    "address1": "La Rambla 19", 
+                    "hotelId": 192522, 
+                    "@ubsScore": "1091684", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.501804, 
+                    "propertyCategory": 1, 
+                    "name": "Arc la Rambla", 
+                    "latitude": 41.37821, 
+                    "locationDescription": "A poca distancia de Acuario de Barcelona", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.1756, 
+                    "amenityMask": 1114112, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/192522/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/1000000/570000/560400/560394/560394_83_t.jpg", 
+                    "confidenceRating": 52
+                }, 
+                {
+                    "postalCode": "08002", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 4.0, 
+                    "lowRate": 163.64, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n doble est\u00e1ndar", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 201490236, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 5, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "f13a1857-7dc4-496b-9c71-b91978f1aee5", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": {
+                                            "@description": "MandatoryTax", 
+                                            "@amount": "24.20"
+                                        }, 
+                                        "@size": "1"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "false", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "177.27", 
+                                        "@averageRate": "169.09", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1860.00", 
+                                        "@nightlyRateTotal": "1690.92", 
+                                        "@averageBaseRate": "169.09", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "169.08", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "169.08", 
+                                        "@commissionableUsdTotal": "1690.92", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "163.64", 
+                                                    "@baseRate": "163.64"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }, 
+                                                {
+                                                    "@promo": "false", 
+                                                    "@rate": "177.27", 
+                                                    "@baseRate": "177.27"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": false
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": {
+                                    "description": "Internet de alta velocidad gratuito"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 3388, 
+                            "roomTypeCode": 200255547, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;Si te alojas en Hotel Colon Barcelona, en Barcelona (Ciutat Vella), estar\u00e1s a pocos minutos de Museo Diocesano de Barcelona y Palacio de la M\u00fasica", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 4.0, 
+                    "highRate": 177.27, 
+                    "tripAdvisorReviewCount": 1178, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "8", 
+                    "address1": "Avenida Catedral, 7", 
+                    "hotelId": 120344, 
+                    "@ubsScore": "1090961", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.27811298, 
+                    "propertyCategory": 1, 
+                    "name": "Hotel Colon Barcelona", 
+                    "latitude": 41.38493, 
+                    "locationDescription": "A poca distancia de Palacio de la M\u00fasica Catalana", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.17609, 
+                    "amenityMask": 4864, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/120344/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/1000000/10000/3400/3388/3388_167_t.jpg", 
+                    "confidenceRating": 90
+                }, 
+                {
+                    "postalCode": "08001", 
+                    "countryCode": "ES", 
+                    "tripAdvisorRating": 3.5, 
+                    "lowRate": 100.36, 
+                    "RoomRateDetailsList": {
+                        "RoomRateDetails": {
+                            "roomDescription": "Habitaci\u00f3n est\u00e1ndar", 
+                            "propertyRestricted": false, 
+                            "minGuestAge": 0, 
+                            "rateCode": 201266671, 
+                            "RateInfos": {
+                                "RateInfo": {
+                                    "currentAllotment": 1, 
+                                    "@priceBreakdown": "true", 
+                                    "RoomGroup": {
+                                        "Room": {
+                                            "numberOfAdults": 2, 
+                                            "rateKey": "a30b9460-fe73-45ab-a7ea-1d4a65f7bdc6", 
+                                            "ChargeableNightlyRates": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "129.64", 
+                                                    "@baseRate": "140.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "129.64", 
+                                                    "@baseRate": "140.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "100.36", 
+                                                    "@baseRate": "109.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.91", 
+                                                    "@baseRate": "122.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.91", 
+                                                    "@baseRate": "122.73"
+                                                }
+                                            ], 
+                                            "numberOfChildren": 0
+                                        }
+                                    }, 
+                                    "HotelFees": {
+                                        "HotelFee": [
+                                            {
+                                                "@description": "ResortFee", 
+                                                "@amount": "14.40"
+                                            }, 
+                                            {
+                                                "@description": "MandatoryTax", 
+                                                "@amount": "14.40"
+                                            }
+                                        ], 
+                                        "@size": "2"
+                                    }, 
+                                    "@rateChange": "true", 
+                                    "@promo": "true", 
+                                    "rateType": "MerchantStandard", 
+                                    "ChargeableRateInfo": {
+                                        "@maxNightlyRate": "129.64", 
+                                        "@averageRate": "110.82", 
+                                        "@currencyCode": "EUR", 
+                                        "@total": "1219.05", 
+                                        "@nightlyRateTotal": "1108.21", 
+                                        "@averageBaseRate": "120.46", 
+                                        "Surcharges": {
+                                            "@size": "1", 
+                                            "Surcharge": {
+                                                "@amount": "110.84", 
+                                                "@type": "TaxAndServiceFee"
+                                            }
+                                        }, 
+                                        "@surchargeTotal": "110.84", 
+                                        "@commissionableUsdTotal": "1108.21", 
+                                        "NightlyRatesPerRoom": {
+                                            "NightlyRate": [
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "129.64", 
+                                                    "@baseRate": "140.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "129.64", 
+                                                    "@baseRate": "140.91"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "100.36", 
+                                                    "@baseRate": "109.09"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "104.55", 
+                                                    "@baseRate": "113.64"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.91", 
+                                                    "@baseRate": "122.73"
+                                                }, 
+                                                {
+                                                    "@promo": "true", 
+                                                    "@rate": "112.91", 
+                                                    "@baseRate": "122.73"
+                                                }
+                                            ], 
+                                            "@size": "10"
+                                        }
+                                    }, 
+                                    "nonRefundable": true, 
+                                    "promoId": 205533567, 
+                                    "promoDescription": "Ahorra un 8%", 
+                                    "promoType": "Standard"
+                                }, 
+                                "@size": "1"
+                            }, 
+                            "ValueAdds": {
+                                "ValueAdd": [
+                                    {
+                                        "description": "Internet inal\u00e1mbrico gratuito"
+                                    }, 
+                                    {
+                                        "description": "Desayuno estilo buf\u00e9"
+                                    }
+                                ], 
+                                "@size": "2"
+                            }, 
+                            "quotedRoomOccupancy": 2, 
+                            "expediaPropertyId": 75113, 
+                            "roomTypeCode": 200021820, 
+                            "propertyAvailable": true, 
+                            "maxRoomOccupancy": 2
+                        }
+                    }, 
+                    "tripAdvisorRatingUrl": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-12345-4.gif", 
+                    "shortDescription": "&lt;p&gt;&lt;b&gt;Ubicaci\u00f3n del establecimiento&lt;/b&gt; &lt;br /&gt;En Hotel Moderno BCN gozar\u00e1s de una ubicaci\u00f3n c\u00e9ntrica en Barcelona, a pocos pasos de Las Ramblas y Gran Teatro del Liceo. Este hotel para familias se", 
+                    "city": "Barcelona", 
+                    "supplierType": "E", 
+                    "hotelInDestination": true, 
+                    "hotelRating": 3.0, 
+                    "highRate": 140.91, 
+                    "tripAdvisorReviewCount": 502, 
+                    "rateCurrencyCode": "EUR", 
+                    "@order": "9", 
+                    "address1": "Hospital 11", 
+                    "hotelId": 364563, 
+                    "@ubsScore": "1090782", 
+                    "airportCode": "BCN", 
+                    "proximityDistance": 0.40193555, 
+                    "propertyCategory": 1, 
+                    "name": "Hotel Moderno BCN", 
+                    "latitude": 41.38112, 
+                    "locationDescription": "A poca distancia de Las Ramblas", 
+                    "proximityUnit": "KM", 
+                    "longitude": 2.17273, 
+                    "amenityMask": 133384, 
+                    "deepLink": "http://www.travelnow.com/templates/55505/hotels/364563/overview?lang=es&amp;currency=EUR&amp;standardCheckin=8/20/2015&amp;standardCheckout=8/30/2015&amp;roomsCount=1&amp;rooms[0].adultsCount=2", 
+                    "thumbNailUrl": "/hotels/1000000/80000/75200/75113/75113_64_t.jpg", 
+                    "confidenceRating": 52
+                }
+            ], 
+            "@activePropertyCount": "355", 
+            "@size": "10"
+        }
+    }
+}

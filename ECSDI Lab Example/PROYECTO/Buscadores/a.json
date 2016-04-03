@@ -1,0 +1,657 @@
+{
+    "status": "OK", 
+    "next_page_token": "CvQB8AAAAEUkI7JBqzlQTX5BkCmuhrCUWSrfGhiPklTOP0R9UZGHH4V93TfviTdnpq6BpyMDy8BBKgugWXAnJWkDT3XHThtRHiRh3-hN80PIhwSYksnGAgiNVgaXQzR2CMgjYtLQHyR-3PHiWkJDJUa4b0ecteybLql0Ha8pEKBm3rf47Rqe59OxhFVeLO_hlDD10qzTBcesZxqwH9FElxD0wHQql7DDkEjyrxXPBDrOlJyE9B-VYB3nMge9Sy2HDzZw6zRsBX89i5YHvPz-1cbKlNA19zvprM1NwZHuUsYYHUjR9uofPaWZJodk-Zjbi8rgP-vXUxIQRXmD0pj8Y_THBdQ02eMjsRoU9e3GFneGBwgRYRjvrdJzZy_pCvM", 
+    "html_attributions": [], 
+    "results": [
+        {
+            "rating": 4.2, 
+            "name": "Picasso Museum", 
+            "reference": "CnRhAAAAUUNTwdaScLJq5-x0OeBQC2gxjqBpZGrzWLfu1nR8lVJQYtS4yTv5ykxv1tNcNfu3qk34VmOuMGSzaEaN4i9RHAbnosBssvmID1FjsrB9rT3vsHmP6JPFzFR2w1k_UKVW0JcMpJXM4eexFxqOKOALrxIQTUH3ZB44w3VkIL_vtJEbLBoUBCHGiYlwwHNYNap8xRsb0WjGlVU", 
+            "geometry": {
+                "location": {
+                    "lat": 41.385216, 
+                    "lng": 2.180893
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJa-K8mf6ipBIRY8wAB3EeASc", 
+            "vicinity": "Carrer Montcada, 15-23, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAzT1C59AOMyYhjg2rkTOPid9zAYMbrX2ewCG2ny2ueq52jm2cUBJ820KCUEGsmpyyRYi5pGth91FPpSdsCxAToPwEAWruuyftT5kW5tmyC6Sf31w_KV7pUZEKf14Rn1xcaAA2VuYZCBgEY-5LeGBiNBIQZcLdLsId2xrpoj_LcvC-HBoUdpRPDuBMosNdOlGgN-HcWN5kUak", 
+                    "width": 1400, 
+                    "html_attributions": [], 
+                    "height": 1226
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "533a300d37619e07f1b1c7d22d8342e53293bdc0", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.5, 
+            "name": "G\u00fcell Palace", 
+            "reference": "CnRhAAAAJ_t6Ley2AM_6mqQgrvT1PjlCTEfgG3qaNkcxEoGIQBm8ZnOGBXYfY_UIDqKkv1KKvfVZppddx-1zZvqiTM4Ogj_Utrok_e9jwvH7cOYqE-_OYqMYNIaFplxx_LH4vAcbMyw_YOf9nuttGDpeO6XjFhIQsCZuN8CN8iXCc5uYWf8hlhoU7kQtmq-OeM07WuSpxaJ3G-AGdoA", 
+            "geometry": {
+                "location": {
+                    "lat": 41.378885, 
+                    "lng": 2.17424
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJ3fHTIFiipBIRpKXCn_E_oJY", 
+            "vicinity": "Carrer Nou de la Rambla, 3-5, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAABpIxHM-20JTwPL0gl-seWYkGE0btYapPYOrpskzM-3O-QgJ6bek2N5cWzDxQGV12eqAHjzhzt8o4alW7yZ-rqbsaZcNoWremazDrDX6Uq8-yKXKFhm5K0bUnU64nyYgyuBOigBhex9O93TZIqbENvhIQcAyBzXdAzRmOsRpKIXv61RoU1uAWI6mxasnSa7ecivpxpf3DRsI", 
+                    "width": 800, 
+                    "html_attributions": [], 
+                    "height": 600
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "93115703c9cecc5443248f1dd7d4ce0eb6c0bbf9", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.6, 
+            "name": "Poble Espanyol", 
+            "reference": "CnRiAAAAOXchiDn3VNlUH9wFwoqnwzaXQrZUMtpFDzz7Lj4guawgN4xEvDY4tVM61HQxfxthyfmiEoTPT_jjZJXfBXDIgK00kznswfPSmv67dYTgh1nD5Hc-DdObRqmO45a6G7Y2vkMSXhKpEWKyokHd8wi_yxIQgn6gW5HjTsIIE1y9kCqnPRoUOmh1B9VFa52SYoEtb7Q04_rLNDA", 
+            "geometry": {
+                "location": {
+                    "lat": 41.368808, 
+                    "lng": 2.148273
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJJ2JbaneipBIRpVQ6RTJSwLA", 
+            "vicinity": "Av Francesc Ferrer i Guardia, 13, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CoQBeQAAALLqa-8B6BUAA3pGvUpmXmnBis3X776DlNomwxeQWhVAmzhRfaqbxRAVJP4jQnuPw8vC5-N0Q1V4ZDC2foRyTNRGUa1i6O7vCZwuDHUVwYFGqxv8PO8szH3CR27Nv_4EgRZbLlp_PrVFGEL8LN_ER0-JEDCHZxjHoFmCIQ5sWItgEhCVtu3wUfrz4OjU7i_3MSLeGhQ2WZVidBVGUedrKC5nwZADPx0csg", 
+                    "width": 599, 
+                    "html_attributions": [], 
+                    "height": 599
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "19f77d727e1ce0d73d8003174675b86c1468d85a", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.5, 
+            "name": "CosmoCaixa Barcelona", 
+            "reference": "CnRnAAAAIOqN-3zm8H3jf6tY_vyhY8L5tw-Fgz-dD_MWFhMUttU-mmZSKw6jogCeCzIOnmVNwYzZrtc-F_3nIr-DD0YQ_2owv9ZvZsZP15pxHiDh8fX_CQW2YoeL1GZMLpFgrx3s--XTFOmotnmKwe8vuApwuxIQbgFzGytsJtiXaDNIT6YDHBoUxCCHkXhOmL9uyvKXZJdTs6LUWIY", 
+            "geometry": {
+                "location": {
+                    "lat": 41.412972, 
+                    "lng": 2.131551
+                }
+            }, 
+            "place_id": "ChIJzdmhJBqYpBIR83dP63GAFSA", 
+            "vicinity": "Carrer d' Isaac Newton, 26, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAAXrAFD3BNSzMbNaFbD69QbOVXypViG__hF_gkT0QxqW-FpqAvdGsbKQSfSr_DxvokIsTMLbxqM3D65-8FzSzak_bzRVvrFAAAJpbATKVqFZBKSwvhCiQ1AGlddyHgBLDZSaqROclzNEGL-6HBdtPt_RIQ0b6O9lhSqdq9u0CffEcXvBoUgx7IoYqlacQFP_ItTzOCyDQltnc", 
+                    "width": 2048, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 1340
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "d597b5fdc95b0186fea621b8ebbb84eae5a06b5f", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.9, 
+            "name": "Barcelona Museum of Contemporary Art", 
+            "reference": "CoQBeAAAACVoOFQukZ87Ld-wK3EfyhK7x5FTms9MJZp7OCbRtWLhDE5PpfzlXNZpx8spp5J4u8wa2rZr0e4nbEC5Hkf9nDZ6FfhZn-Ey2tLDT_jA6745rLNEafBYT9ZIMgZO5jjIa5DVKycS6r7X3EPv4OXQOBfGIpMCh488ZVyvcv2hTnDfEhBHuDETWeYKZ9MkhDevEcjGGhRqIcrelmlnf154qnKZuBJMxUKhZA", 
+            "geometry": {
+                "location": {
+                    "lat": 41.383191, 
+                    "lng": 2.166867
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJ0V6MrPWipBIRKnssXv0o_Y4", 
+            "vicinity": "Pla\u00e7a dels \u00c0ngels, 1, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CpQBigAAAO1C40fPCA31-O_XbRM3b29xYqjXAb9KVlPzqpvE0AD3KChqTr6P8EUQXy2BZ6F7F-85GNPrHq80Hjmnaq2VvuAL-AdBVKiC3aRrLKvQOzn3GQ2jquFKU0b4dvhcAnqKWli9Q3b8i7EjtYi6qhTfHDFQLq8thXm4hQVlqx2zcDMKd9sGJsCgXxf5V7LAARdPjhIQbiBQPSRvMeOaA170RhUU5RoUzBFumno7RcKCN1T88v7mb8e-PTQ", 
+                    "width": 2048, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 1362
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "524c3cda116139e8c094657b9e2f3830a30f8b65", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.3, 
+            "name": "Joan Mir\u00f3 Foundation", 
+            "reference": "CnRpAAAA8wlxPrx41Zp1-B6Q09W0f9Hgi_fVZlUlqYgc0wrcjffNCVuIOrEqmcLMEhE5EDUzj2iMXKpNW8d_rCXOIu-c7b3cnB1V1eTvL1j7bsrSIaP8wzdT6LhE6UctrVSBoznRB_EUMEW8piIj8U5wjuq9qBIQ7LJQ9TuKYM0EV1EfBxc47hoUC03gcxJtX0DtrJgfH45Y8eubsns", 
+            "geometry": {
+                "location": {
+                    "lat": 41.36863, 
+                    "lng": 2.159851
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJLcelLmmipBIRqmlJrcEfypY", 
+            "vicinity": "Parc de Montju\u00efc, s/n, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CsQBvgAAAJHPypNZAjb7PKHWs13eRZYojNwIeLDhlyUKDq27li3PWoOWEhmsztR-_hGJBaCRPaJUXHbgBKrvxIje5ZbltPrn7rXdWHy1LwFJZ9yzE69LJCV2TvLaY4Sd9zlPU2f4_Xkh8vEnH6I4Sovfl2ae20TDV282VjCQJPC5OB1spYVzn-sTla8CQHmulzGr0F-gyYxDHCN7bVpn6DHh17lxg8M63J0qYSEBZxc9h2nhz7CfJO8SekrBU82zhvhoa47mVBIQJadwtwLq-5Nvc7O0UUFrsxoUT-c2pevygFxZxgj08d27-rTaDx0", 
+                    "width": 2048, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 1329
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "a928942e30c1979da20ff22d417be23c74c78a21", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4, 
+            "name": "Maritime Museum", 
+            "reference": "CnRiAAAAMeDjkXzDOjdHiZrQ9NsGizjCQ46d0qLB5CXPTmmBQhFU0oQf5Zv4ZBV4KXQ4LTNAeaatF__tSdS3I6-1s6iLxZqwWeno4gkGCj8zp-4va-AyEMlAQ1f4SaPKHyl-IWvoDaTavr_StaW2RFJgGC4UMBIQD0S285DXQWHkQbQts_SdXxoU6cOp7bqeDhU5r5lJO1kFGQnVtQM", 
+            "geometry": {
+                "location": {
+                    "lat": 41.37519, 
+                    "lng": 2.1758
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJH7ml4lmipBIRk_Q7O0rZ2xs", 
+            "vicinity": "Avinguda de les Drassanes, s/n, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CuQB3QAAADHHCaNxnHGblRF9xjRGjJawW2UgQXoK5ynR8iFrK8LI2uHVO8Fpxea8XIadFkCjU617w0eN6XVCMYpEhFH-ZweCMlJQ2miwdS3RDJqQqAU0W2fh9cv7BxZb6m-rolHQPpXQoN9YfVhpn-6q_6Qn3v7IWA4qeexUOhuFrMUnA3vaNwc3_lnpqz399n8B0sms8gUoftdGkpNwUQLRzsIPBCmR5VzMuk4hLxsDW2NzSQLx8d5w_F3kJCUcpHFesLccxWLVkO4brdaNpU3TZo3D6TlF9KBDqw22zhAQXTTaWKkNEhBqCEp7o_I-LocXdQ1j7TEsGhQ09b150Y1mDzYucGnp0lKkv9ruYA", 
+                    "width": 2048, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 1158
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "a54c676d501a96f88c0c572f4879ae00e8dde60f", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.5, 
+            "name": "Museu Nacional d'Art de Catalunya", 
+            "reference": "CoQBdQAAAKBQrmyhu79lvL46NYiFrTz39lFHVRQrsQuC4sx_A5Op9HWIWVqGaOxl39_QMC4cOYWYWSiww8w4M5HDhzn_9QCpQ6qqrc2OUu2ydBrMfNpnmzi-gyGLRJ8cj279JC_tq6EOytjgkqpO6jjmC4wWoXPHeN5OvKN6HwSJ8BFXNVngEhBHL61uGLYcT_EnMoGvUKhiGhTOysP6QczsEzEQKMptMfkZPtTESA", 
+            "geometry": {
+                "location": {
+                    "lat": 41.36844, 
+                    "lng": 2.15357
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJMU59xHGipBIRkdwlcgUWAYY", 
+            "vicinity": "Palau Nacional, Parc de Montju\u00efc, s/n, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAAD99LUwA5Iz5uonOZn9t2TlRtknM1f_VFFbPzh1QS6tgoBgCeIAqgSIKTMvmHSBB5opyCnIu9NV0L6biibLE6JvDI7OynO8Xjxjzmbqz0x6F_CmpatCHIcjzE9EhVhfkFL7n5K-K0VujLqctWwwYI8BIQppV07OfwrSh8-0Lge7rTvxoUJopprWmhTn8cjs0FxvkuH9VIAyA", 
+                    "width": 400, 
+                    "html_attributions": [], 
+                    "height": 400
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "de87ec1d47ae6b372996bdaa5341534f62e6c2cb", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.3, 
+            "name": "Montju\u00efc Castle", 
+            "reference": "CnRjAAAAqm1zpMFJj5TkakeGfxeR0N5TTqbmZRcJNtqJasLT44-MuMF221McFu2I3srm6y7p16XHSVa4ImGAop9-u1WYaBpuvgsdKhr77QulACWdmeJtHIibtuikFI6pW6nU9s2wXmbVI9tZ1YsSC9rZ2TrupRIQeyOoTQUXC5dFBXNuFOJB6BoU4myH-D9MnbTaQP4JMDmpusGnM_o", 
+            "geometry": {
+                "location": {
+                    "lat": 41.362959, 
+                    "lng": 2.165064
+                }
+            }, 
+            "place_id": "ChIJN7FiCkGipBIR1PJn6ohejww", 
+            "vicinity": "Ctra. de Montju\u00efc, 66, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRoAAAAC04TuC5Ms0kMifTG_xFxzFdIR9eOzrnM88Fm-HY4JKI1Ha3ZkGd9Alqbkd1NOsbRuSCF6fMG7aRsXZS0PPltim64orsJS-5eIrSMNcRhmBjaXWEgNKu9VO2sH8fpvivBnhkMNdrjqu0yFYqO2-IhyRIQMjiHclVkGp20h1AnAYcs7BoURq72t4PxCM3mV4rgS6B_b6E945A", 
+                    "width": 1296, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 972
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "bc2167f91ac574cb4cbc8df7ba833a96667c38b0", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.5, 
+            "name": "Museu De La Xocolata", 
+            "reference": "CnRnAAAAPSYXVfh7maJVYbmSgcfamTAA_jOAgfkoA9Qz8s9QN2TlBbVqKjbuhjKNSUMS0fE7yqkqn29h6mOLY1T1tXKPQxZURuhGQQ01piK9lhdSO1znVOeLSRl82erXhZbf8uo3WE1-pVqGoJNalqmSkGI80RIQ59QCFSl9AUrS_TbsefIa0xoU0Kg3qXOLVEEx8sN6D1ojxGQkiPY", 
+            "geometry": {
+                "location": {
+                    "lat": 41.387255, 
+                    "lng": 2.181682
+                }
+            }, 
+            "place_id": "ChIJC6CEtf2ipBIRkFQaF95uL1Q", 
+            "vicinity": "Calle Comer\u00e7, 36, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAANijPBovX5u-VSB2RzctbchqHiRE_XJ49ore86pSojqTCBuG2LrTx2eePP3ECphPlzVMUP4GbywUVqHHiXhZWgZulEVMZw8ZpaZSBWhAhG-pjMwPG7_iJSz6BG3iZbCPtdEH55nkvDRD1S0eZMj4D5hIQBWdQVEmg7KQGnbOKb3HkGhoU0fXXcQU5y_WmX__6xcZU-_K4XwQ", 
+                    "width": 2844, 
+                    "html_attributions": [], 
+                    "height": 1600
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "d3ee859e13ada2af88a058b3efd97b4b6a5d41f7", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4, 
+            "name": "Casa Amatller", 
+            "reference": "CmRgAAAAuZ-GS2RW2W_2_rDjN9FDD3dxGzFi6LtA_uyCMK5GvE-73cz-MpG0YAsEKL5Mh0dg-KTDcLVc-VJKMJUY3J153-RxYNklpJTY7hbcP7LW3t85dGRq2OdVjmg0hvp_gzDJEhD1ykETLBm7MtmypbOKIpdBGhT0prfEYX_70a1w29zycazGPua5yw", 
+            "geometry": {
+                "location": {
+                    "lat": 41.39157, 
+                    "lng": 2.165103
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJdTx2T-2ipBIRQM8Gwarzfik", 
+            "vicinity": "Passeig de Gr\u00e0cia, 41, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CoQBfAAAAOdI1wV9_vfBApC25HPPywg7Wd-RwDOrrANAwReKKGfnpaNXpav5sfRpo8fb0fUj0eb8FzavhoIxpsIv-j_ZiqowNFUIu64mQgHa7lCSWstUCy_IEHNhjyiBUNsrqQTT-kOoFCVK1-TAOEXni3Hw9Qnj1vIhPedCS6WqyKMEJMAUEhCQ6T0x6pu21acJsmbJUQGKGhQQyphDE1WVUZ9v5VLXDT1llJTk7Q", 
+                    "width": 1167, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 2695
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "fbd509231955e3ec66c27235fcfdc95ce1edb2c2", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.6, 
+            "name": "Museo de Cera", 
+            "reference": "CnRhAAAAB0HiA0ZZo_IVF4oM2cmIhxq_k9ROJTJKvvhJG-e9aJDulqyG93l3xSSGvWSR3O3jdECHYgZLsvuGlnNaSPazA20xr6jWrc3-fxuHdu5UJsEIYS353NlBtFo1AG4kT9AF_dTWjO51eIZJDojD8jYKTBIQ8tJbdbx8BnLasIBLNXxQeBoUAUQL8KNpt2rLhKPGDn-5wQs9Dnw", 
+            "geometry": {
+                "location": {
+                    "lat": 41.377432, 
+                    "lng": 2.177378
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJSXLa41aipBIR8O0eAyi4epg", 
+            "vicinity": "Passatge de la Banca, 7, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CoQBfgAAAL4Uv--1ODnFp5AnzdZiWJbzqc69JAV3JlDQR-ccVqotT5ZHvNh9oaVSDkBccP-1o05PppSKEB3J7K0cuenp2uKi6JVFcKAZxAJjos51HTBI6FAu8WxI9CX0u-PgC33dOeB_q7K4MUWXyRw8SU4Wx4fT0wSLoLKMkq1OS6c-7Gm-EhCSOAUh3CflLOWxtJwfODfNGhSD6plpmhA2YmrKQduZXCO1Nd9XMQ", 
+                    "width": 3904, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 5844
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "8fb363bee6dc3331ad241f4b347cfdf205a44641", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.6, 
+            "name": "Museu Egipci de Barcelona", 
+            "reference": "CnRtAAAA-jZ-t-AqJ0cYsKWMiPeE0dHRFRRkUPYMRL6niGN_k8lvIJ7WznIDFUcXyjhlbc4ziGfmomoIAQ67-uhFCqrUmHkfbaK2lNN3JBBqfvoNyD-qQ3A-Ce1hDlFOEH9Q__DwmiUk_Kok9PQ39wVf1EyZ_BIQgVlPvvJX_J4upfGlPhbJrBoUHFHyPfybTXDuXVGJShE_dSZuLds", 
+            "geometry": {
+                "location": {
+                    "lat": 41.393631, 
+                    "lng": 2.164699
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJkeeo1OyipBIR---OHUceofI", 
+            "vicinity": "Calle Valencia, 284, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRqAAAA-SQ5q4p1rxCXKbuU7oqAMeEOCbKbGxWvQXfbj9Bnrrwmy7YUF42tz62rSzWUbAFSDqi4YMECjCIF7Ke6VDjskuiSCrZTNL8dw-2BgJ9N1BNWu-wpD-6bZ2FLBlCc4Sf7ZFuV_XpIlsssztT7JBgMMBIQBotZYWHZxcafySjXqwLPfxoUjDAmxNbhOrQeq8oQUc0c-TqkRUc", 
+                    "width": 1536, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 2048
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "a8297ebf8b81adcb579c3285644f7cfd7bff7201", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.7, 
+            "name": "Fundaci\u00f3 Antoni T\u00e0pies", 
+            "reference": "CnRrAAAAOlM0-diatSEjwvXl0ZNjoVatlPpxTo6y9mZ7JUebdEBqNHnqporA3b9e3m36eaKJrMdcvs4x_zBqCZeylSbhfUfoArvlKJDCtRAcQKsGwW80NsaDW8qBzPsj8XFB0w8d0_V09eFFxJCAZIWp-2rRFxIQdlWLX4b3u_-lFmf9QBZFrxoUvy2lHpmdTvU-cOrWITz51AyL4pI", 
+            "geometry": {
+                "location": {
+                    "lat": 41.391547, 
+                    "lng": 2.163795
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJ5XvzpJKipBIRrTCSZXbotTo", 
+            "vicinity": "Carrer d'Arag\u00f3, 255, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CoQBeAAAAIeCj0rhm6LMcQ8BKyepEqqHXlokM9aNaMwjl8IJzVHMOp14lKpZC9tPsWUX2-gw-RA-X8lOlmQZosnD_uuZEmXBqpGC-LyIbunmtTPimqirA2vdEjvhCGkaXPWGBKPOA_kYRDxI1lfdzMCIIR0taIDZCe-hpLO45k1BOTK4vUByEhDe9gxveLY1hn2ULYvbRkbHGhR4OzQCV9Em0yAQEd4wO4ahd4yAaA", 
+                    "width": 2048, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 1536
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "66e280d4e599aa2063b4d28c5cd0c8e3aa4014b6", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.1, 
+            "name": "Arts Santa M\u00f2nica", 
+            "reference": "CnRmAAAAhvFvqMVhrBrCaZtJrPVizUyPjDSRUqVmQjkfPbjAKRSBw8fVsaDcyc9Zag87xNbx_cD6XYTUxX4ifn9FfG-9snZqhVA1osbHWhSNeqqAHDNiV5u94M7fil9obhVxn3nn6YzUMkC9w-07U8ui1XePGRIQ1q1ONe_ThNz1lBEUsT78PBoUyG9UM5GTdUrkhM0L9odW3FYw6Ss", 
+            "geometry": {
+                "location": {
+                    "lat": 41.377194, 
+                    "lng": 2.175674
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJZTiFwleipBIRj8RWjPOrnLk", 
+            "vicinity": "Les Rambles, 7, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAnAYwrVTJRvxBVB9VxAcRS7T0RTDusBtldi8dRR3NwIRFiKElThtTG_iU2BEuJCseMLokorPlwXmxzfmEIxUjKM42EzC5EnO0IUtXibEWqyrDLiNdwW2zvPPAL_iBOGfbLfZQzH_ggqZqxVrxY_CiSxIQVoN70APy9h0X_4Zdk0XHTRoUiuckEFPNymiFQZ0QLk6KNYr0SmE", 
+                    "width": 2048, 
+                    "html_attributions": [], 
+                    "height": 1366
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "31f9ce6a9cb36e8941e430532d004036aa941753", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.2, 
+            "name": "Museu Frederic Mar\u00e8s", 
+            "reference": "CnRpAAAAft4UWuG4lYGxGJHcNqvH16c4O5PR-L0vXnu_N0ioZJMiNIEpFPsZ6PjB1w-5-xwIgJgGpNspWFMKpdfFThrRmrw2QeCs2CeyVzrI3NhWiGkMyBCzANLZfbO2z_6JCQ12qicZf09NGgzTiaWjhspBMxIQUvzviD5d9-GdQTYKj_7yehoUJEVcfobLI2vgYQw1l7botYiwiMk", 
+            "geometry": {
+                "location": {
+                    "lat": 41.38445, 
+                    "lng": 2.176555
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": false
+            }, 
+            "place_id": "ChIJDQeJ-PiipBIRRKhLu4wgf-U", 
+            "vicinity": "Pla\u00e7a de Santiu, 5-6, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRuAAAAfGVn7xcCzjuNyHPV_Q113s-qMkNOCEZN5EFi_br3ZS7P6eLVzxfiRj7qfUBZxcuehL56xpo8JeBU1E9L7h--VgUjOxA1CzrFVWJGb44iKLzMd4gIK5C7WCr6EJ9gV0J1WXPPWA32Q2VCJ4XOCVvyXRIQ4xUfmYnSiycc9gsKzQbDyBoUNkER7iWMXoOOhPBGDHIx9SSUHAE", 
+                    "width": 640, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 480
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "7115aab55498800df12733950be5dfedbaee40b5", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 3.8, 
+            "name": "Archaeology Museum of Catalonia", 
+            "reference": "CoQBcgAAAAnc8RtSjGsSs0Pw_14dHRq67sdeLbpaL8m7VfnUTdPWojEbpqWAyzIzhJQgqSpCsQFKAcjeNwF-WHCqPNkk9ELsjgJdaFLTBpDq_PK-R3PrFvaJdlECHJySmpwMkkKDwDdo7yDAcAPXGsEQl_P91HxRAzwkAcrfZd736KmvXIAJEhBnmeBVRKkfdqjyDs78kBF3GhS9hU2f0vSf-LOtddx9kdCZB72BDA", 
+            "geometry": {
+                "location": {
+                    "lat": 41.369744, 
+                    "lng": 2.157668
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJr-_dbm-ipBIRglWvPSN40mc", 
+            "vicinity": "Passeig de Santa Madrona, 39 - 41, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAA8oJKCb5-KAcNr5lSqrLZZ2jnqIYVRWMSAkG4QZtQta-6_eQL1Jc6Ro-1FpbUo2Dyvu3x9dfdr4VTjjJ6jemqlIQ5xhi7RQOgk28qj9wrU1iGoKlWisH6SwHfWM-OBf3PcC-waaCKdL9d7y7IfSJxSBIQZmzRWUN9-W8J0MX6nIXhRxoUzWZ5QP5kJJmDazG3FFK4LcEpQds", 
+                    "width": 270, 
+                    "html_attributions": [], 
+                    "height": 180
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "46eb2f0c8a0ae03ff56476a42344c49ff786c93a", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.5, 
+            "name": "Museu d'Hist\u00f2ria de Barcelona (MUHBA)", 
+            "reference": "CoQBeQAAAEBtm3-bKSPxW3WlPhPOA10uMn9dkLC_sbFntCl-GltBIIf2Qdo-lCCiKea3OICTkwy4teNBQ55T5FKDlDoZRuBMh8Ik-P2PQEjcqgMOljsUY6eIv6YS4PPDeewRlvG4W05YabQCD03EJI1YyNB0yR3uxJ7L4fhvOBP8koMaHS2nEhASTLqwjug7QEwIE1ageRgMGhQILWlrsU8khEacbcHZNlU6hz7efQ", 
+            "geometry": {
+                "location": {
+                    "lat": 41.383991, 
+                    "lng": 2.177612
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJc0WMe_GipBIRJiU_pUq_bRc", 
+            "vicinity": "Pla\u00e7a del Rei, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRoAAAApje2RbJ6UhF96q3k3Lyg2qAkqB7SK8tPXyepvrqi6_awe3zlsbIcQidWeE3ctBxUOJNOnHMbiEMTUAdo7emELvGPj6LsHqZ8Gj0HxOaFmln1V_J1L1hcTlaJGcCmZv3WVa4nNIqzBBMwb7xy3jBPThIQpQgRotCMfads_7R7n7hHgRoUnqDiWKGVZK-s1ZcEjc7ldp9HFUY", 
+                    "width": 816, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 459
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "f902d76019351720bc4a496de3780310889e0fc6", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.4, 
+            "name": "Fundaci\u00f3 Francisco Godia", 
+            "reference": "CnRtAAAA7P9Mxn2ngwrbW6Ou6BpsBynBuYAIVL_vvr4vQHTUSH76SOVWRtEzOV3LFH6ykYBiwEsegqmKCTYiDtCp1-aqKdxCdelVl7GDYPlU2WFh9SsbYGZizhUs3P6eljpNrBQ1HbKAZgE_tPJxLeAoqlX5MhIQKNU8_G-2VvSlvVst095NFBoU4BREKHfJhzIZt1Q-l768wbOySBk", 
+            "geometry": {
+                "location": {
+                    "lat": 41.388828, 
+                    "lng": 2.165139
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJsez4z_KipBIRr023D7mKjpc", 
+            "vicinity": "Carrer de la Diputaci\u00f3, 250, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAEcvJtmPYFtn0eYVGwchfMltW5hVYyzj01vkzJkiyGQkMJfVdXw-BOK6uStUc6Ri8VY8CeROFon0mNE6uaMGnZkWpLlPV46mQ_4rz3ZQeBy3KvQAc08dWqNjt_bubDmAWhsJi84NB4PvM1kDqApHo5xIQQq9npmFl8JDpjWcVm92--RoUN4YYaBIjC-c_SRCv9dmd1GDXXHQ", 
+                    "width": 1805, 
+                    "html_attributions": [], 
+                    "height": 1198
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "3eb3e6540b53db872ad89778ce6b94dad7c43b43", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }, 
+        {
+            "rating": 4.4, 
+            "name": "Museu Europeu d'Art Modern", 
+            "reference": "CnRtAAAAhPHatmBjva2ReADdMh-HK8rrfGluC8kS0omvZeeaVhHfkmY1otzQvQ2bWDtr_ilpmCX20JKRyw3Gc8bWJB8dR3f5mEK1IBzfAUE21_zgr0VmDeDF5L3KQbvCSsNo-2KAXYouPQUEAOmsX_t0N9BFIhIQiiiaWbLIDWsqRez-sztwyRoU6BKyH-yVelt0iMTo-B6k4MmmbXg", 
+            "geometry": {
+                "location": {
+                    "lat": 41.385045, 
+                    "lng": 2.180379
+                }
+            }, 
+            "opening_hours": {
+                "weekday_text": [], 
+                "open_now": true
+            }, 
+            "place_id": "ChIJveK7vP6ipBIRiegu-jsxGX8", 
+            "vicinity": "Carrer de la Barra de Ferro, 5, Barcelona", 
+            "photos": [
+                {
+                    "photo_reference": "CnRnAAAAIOAIdHhNqfGRoGEyRlIXmPEtGKt3F5jf5zX5hrqexraghFMctrlgkLx3z-Cbbm6Nz7tWNuoudnWa7L0p4Dmu5AkCUwLpEnCrHjeg9LAGwMk83u6an6QDG6eFF9sYG1aBevv2s2L8NFaNg923bPvDsRIQwkTbWifrrcvp5GWh4fmF8BoUF8cFSS_Ez1jal_cwwbzfRr_nX0c", 
+                    "width": 800, 
+                    "html_attributions": [], 
+                    "height": 533
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "a4f9c0203ab13a23fa9586b9bb96561320138d8c", 
+            "types": [
+                "museum", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png"
+        }
+    ]
+}

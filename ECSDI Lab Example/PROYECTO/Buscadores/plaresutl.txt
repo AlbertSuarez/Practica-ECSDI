@@ -1,0 +1,697 @@
+Los parametros hardcoreado
+2015-08-20
+Mejorar preferencia de busqueda
+Iniciar la comunicaion con buscador
+Añadir parametros de actividad
+Añadir parametros de vuelo
+Añadir parametros de hotel
+INFO AgentePlanificador=> Sending request to AgenteBuscador
+
+200
+Respuesta de busqueda recibida
+
+Calcular paquete
+Calcular Vuelos
+(rdflib.term.URIRef(u'http://my.namespace.org/roundtrips/36VbwDDkMNHP1AbyLlQanM001'),)
+Calcular Hotel
+Calcular Actividades
+Escoger Actividades
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Escoger Actividades1
+http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+Actividades1 Anadido
+Actividades1 por manana
+Escoger Actividades2
+Escoger Actividades3
+2015-08-20
+Construir mensage de repuesta
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/noche
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/tarde
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/tel_int
+o: +34 932 59 00 49
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/tarde
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/noche
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/nombre
+o: Filmax Granvia
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/noche
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/tel_int
+o: None
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/nombre
+o: Verdi Park
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/nombre
+o: Palau Balaña Multicines 7 sales 3D
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/tel_int
+o: +34 932 38 79 90
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/direccion
+o: Carrer De Sant Antoni, 43, 08014 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/nombre
+o: CINESA HERON CITY
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/nombre
+o: CINESA LA MAQUINISTA
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.381758, u'lng': 2.162546}
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+
+
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/direccion
+o: Rambla del Prat, 16, 08012 Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.404321, u'lng': 2.157709}
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/nombre
+o: Lauren Universitat
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/rating
+o: 4.2
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/nombre
+o: Verdi
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/rating
+o: 3.5
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/rating
+o: 4.4
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/rating
+o: 4.3
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/nombre
+o: Renoir Floridablanca
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/nombre
+o: Icária Yelmo Cineplex
+
+
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/rating
+o: 3.6
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/direccion
+o: Avda. Diagonal, 3, 08019 Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/tel_int
+o: None
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.394685, u'lng': 2.13377}
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/noche
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/rating
+o: 3.6
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/nombre
+o: CINESA MAREMAGNUM
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/rating
+o: 4.3
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/direccion
+o: Moll d'Espanya, 5, 08039 Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/rating
+o: 3.7
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/rating
+o: 3.9
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.377829, u'lng': 2.137857}
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.358199, u'lng': 2.12857}
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/tarde
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.375266, u'lng': 2.183658}
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/direccion
+o: Calle Pelai, 8, 08001 Barcelona, Spain
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/direccion
+o: Carrer Verdi, 32, 08012 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/noche
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/rating
+o: 4
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 33 32 31
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/rating
+o: 3
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/rating
+o: 3.7
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/rating
+o: 3.5
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/direccion
+o: Carrer de Potosí, 2, 08030 Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 33 32 31
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/rating
+o: 3.7
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.403942, u'lng': 2.156884}
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.393575, u'lng': 2.136062}
+
+
+s: http://my.namespace.org/actividades/ChIJbd_F9IaYpBIRQTswpBZqEys
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/tarde
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/direccion
+o: C.C. Gran Vía 2, Avda. Gran Vía, 75, 08908 Hospitalet del Llobregat, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/nombre
+o: Gran Sarria Multicines 8 sales 3D
+
+
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/nombre
+o: Bosque Multicines 9 sales 3D
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 33 32 31
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.390606, u'lng': 2.198283}
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.347411, u'lng': 2.078835}
+
+
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.401511, u'lng': 2.15185}
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/tarde
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 52 87 36
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/tel_int
+o: +34 932 28 93 93
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/direccion
+o: Carrer de Santa Fe de Nou Mèxic, s/n, 08021 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/manana
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/direccion
+o: Centro Comercial Heron City, Passeig d'Andreu Nin, s/n, 08016 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/rating
+o: 4
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/tel_int
+o: +34 932 38 79 90
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/tel_int
+o: +34 934 71 92 72
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/manana
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.385754, u'lng': 2.165323}
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.435497, u'lng': 2.180562}
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 33 32 31
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 33 32 31
+
+
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/tel_int
+o: None
+
+
+s: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/nombre
+o: CINESA DIAGONAL MAR
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/nombre
+o: CINESA DIAGONAL
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/direccion
+o: Centro Comercial El Centre de la Vila Port Olimpic, Calle Salvador Espriu, 61, 08005 Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRt4ZcmXJ9yec
+p: http://my.namespace.org/atributos/direccion
+o: Carrer de Torrijos, 49, 08012 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJg_RkeaKipBIRL2cu-hiaY3o
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJzadz3ia9pBIRI9y-wxC8RiI
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJ75zp7b6YpBIRvschMsGDkhM
+p: http://my.namespace.org/atributos/esUn
+o: http://my.namespace.org/actividad
+
+
+s: http://my.namespace.org/actividades/ChIJc5lJj4qipBIRvXN5n6bk_so
+p: http://my.namespace.org/atributos/direccion
+o: Calle Floridablanca, 135, 08011 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/direccion
+o: Centro Comercial Splau, Avenida Baix Llobregat, s/n, 08940 Cornellà de Llobregat, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJOavlWryipBIRrbVD5YE5rSo
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/manana
+
+
+s: http://my.namespace.org/actividades/ChIJ28XhAQ6jpBIRfsTZiNyRVXM
+p: http://my.namespace.org/atributos/tel_int
+o: +34 902 22 09 22
+
+
+s: http://my.namespace.org/fechas/day
+p: http://my.namespace.org/fechas/actividades
+o: http://my.namespace.org/actividades/ChIJT16ztVSipBIRhz-9c6Nt_vE
+
+
+s: http://my.namespace.org/actividades/ChIJ78qMXE6ZpBIRHGabxoEV7oA
+p: http://my.namespace.org/atributos/nombre
+o: Cinemes Fullhd
+
+
+s: http://my.namespace.org/actividades/ChIJQ5WONVejpBIRBHgaGg2ts6E
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.410315, u'lng': 2.216534}
+
+
+s: http://my.namespace.org/actividades/ChIJ7cUpUG6YpBIRaFGYvFHZgNI
+p: http://my.namespace.org/atributos/direccion
+o: Ronda del General Mitre, 38 - 44, 08017 Barcelona, Barcelona, Spain
+
+
+s: http://my.namespace.org/actividades/ChIJY4ccqPSipBIRu3E_5lqCUUM
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/manana
+
+
+s: http://my.namespace.org/actividades/ChIJu4dPNHCYpBIRA5y4cRUQB4A
+p: http://my.namespace.org/atributos/momento
+o: http://my.namespace.org/manana
+
+
+s: http://my.namespace.org/actividades/ChIJueWcFsK8pBIR-c6WsqzJDrU
+p: http://my.namespace.org/atributos/localizacion
+o: {u'lat': 41.439493, u'lng': 2.198422}
+
+
+INFO AgentePlanificador => The End

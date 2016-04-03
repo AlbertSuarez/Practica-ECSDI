@@ -1,0 +1,32 @@
+body {
+    background-image: url("barcelona.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    opacity: 0.9;
+}
+.title {
+	font-family: "Garamont";
+	color: white;
+	font-size: 4em; 
+	text-align: left;
+	margin-left: 1em;
+	margin-bottom:1em; 
+}
+
+
+div.transbox {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ffffff;
+    border: 1px solid black;
+
+    
+}
+
+div.transbox form {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    z-index: 100;
+}
+

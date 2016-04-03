@@ -1,0 +1,11 @@
+buscador
+	-ciudad destino
+	-radio de centro
+	-fechas
+	-numero de adultos
+	-numero de niños
+	-categoria
+	-num habitaciones
+	-elegir/ordenar por precio, proximidad, estrellas (quality)
+
+	-guardar:coordenadas del centro de N ciudades

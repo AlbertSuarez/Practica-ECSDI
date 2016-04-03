@@ -1,0 +1,2106 @@
+@prefix : <http://www.owl-ontologies.com/ECSDIOntology.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsp: <http://www.owl-ontologies.com/2005/08/07/xsp.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix protege: <http://protege.stanford.edu/plugins/owl/protege#> .
+@base <http://www.owl-ontologies.com/ECSDIOntology.owl> .
+
+<http://www.owl-ontologies.com/ECSDIOntology.owl> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
+rdf:type rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+###  java:edu.stanford.smi.protege.model.DefaultCls
+
+<java:edu.stanford.smi.protege.model.DefaultCls> rdf:type rdfs:Datatype .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Transbordo1
+
+:Transbordo1 rdf:type owl:ObjectProperty ;
+             
+             rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas 1 y 2.
+    </p>"""^^xsd:string ;
+             
+             rdfs:domain :Metro .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Transbordo2
+
+:Transbordo2 rdf:type owl:ObjectProperty ;
+             
+             rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas 1 y 3.
+    </p>"""^^xsd:string ;
+             
+             rdfs:domain :Metro .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Transbordo3
+
+:Transbordo3 rdf:type owl:ObjectProperty ;
+             
+             rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas 2 y 3.
+    </p>"""^^xsd:string ;
+             
+             rdfs:domain :Metro .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#TransbordoBus1
+
+:TransbordoBus1 rdf:type owl:ObjectProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas B1 y B2.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Autobuses .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#TransbordoBus2
+
+:TransbordoBus2 rdf:type owl:ObjectProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas B1 y B3.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Autobuses .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#TransbordoBus3
+
+:TransbordoBus3 rdf:type owl:ObjectProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas B2 y B3.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Autobuses .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#TransbordoTren1
+
+:TransbordoTren1 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas R1 y R2.
+    </p>"""^^xsd:string ;
+                 
+                 rdfs:domain :Tren .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#TransbordoTren2
+
+:TransbordoTren2 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas R1 y R3.
+    </p>"""^^xsd:string ;
+                 
+                 rdfs:domain :Tren .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#TransbordoTren3
+
+:TransbordoTren3 rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:comment """<p style=\"margin-top: 0\">
+      Parada donde se interrelacionan las lineas R2 y R3.
+    </p>"""^^xsd:string ;
+                 
+                 rdfs:domain :Tren .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#HorarioFinDeSemana
+
+:HorarioFinDeSemana rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n de los horarios de los autobuses en los fines de semana.
+    </p>"""^^xsd:string ;
+                    
+                    rdfs:domain :Autobuses ;
+                    
+                    rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#HorarioSemanal
+
+:HorarioSemanal rdf:type owl:DatatypeProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n de los horarios de los autobuses de lunes a viernes no 
+      festivos.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Autobuses ;
+                
+                rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#HorarioTaxiFinDeSemana
+
+:HorarioTaxiFinDeSemana rdf:type owl:DatatypeProperty ;
+                        
+                        rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n de los horarios de los taxis en los fines de semana.
+    </p>"""^^xsd:string ;
+                        
+                        rdfs:domain :Taxis ;
+                        
+                        rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#HorarioTaxiSemanal
+
+:HorarioTaxiSemanal rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n de los horarios de los taxi de lunes a viernes no festivos.
+    </p>"""^^xsd:string ;
+                    
+                    rdfs:domain :Taxis ;
+                    
+                    rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1
+
+:Linea1 rdf:type owl:DatatypeProperty ;
+        
+        rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre los horarios de las linea1 de metro de lunes a viernes.
+    </p>"""^^xsd:string ;
+        
+        rdfs:domain :Metro ;
+        
+        rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1_Paradas
+
+:Linea1_Paradas rdf:type owl:DatatypeProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la linea1 de metro.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Metro ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2
+
+:Linea2 rdf:type owl:DatatypeProperty ;
+        
+        rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre los horarios de las linea2 de metro de lunes a 
+      viernes.
+    </p>"""^^xsd:string ;
+        
+        rdfs:domain :Metro ;
+        
+        rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2_Paradas
+
+:Linea2_Paradas rdf:type owl:DatatypeProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la linea2 de metro.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Metro ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3
+
+:Linea3 rdf:type owl:DatatypeProperty ;
+        
+        rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre los horarios de las linea3 de metro de lunes a viernes.
+    </p>"""^^xsd:string ;
+        
+        rdfs:domain :Metro ;
+        
+        rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3_Paradas
+
+:Linea3_Paradas rdf:type owl:DatatypeProperty ;
+                
+                rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la linea3 de metro.
+    </p>"""^^xsd:string ;
+                
+                rdfs:domain :Metro ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#ParadasB1
+
+:ParadasB1 rdf:type owl:DatatypeProperty ;
+           
+           rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la linea B1 de autobuses.
+    </p>"""^^xsd:string ;
+           
+           rdfs:domain :Autobuses ;
+           
+           rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#ParadasB2
+
+:ParadasB2 rdf:type owl:DatatypeProperty ;
+           
+           rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la linea B2 de autobuses.
+    </p>"""^^xsd:string ;
+           
+           rdfs:domain :Autobuses ;
+           
+           rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#ParadasB3
+
+:ParadasB3 rdf:type owl:DatatypeProperty ;
+           
+           rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la linea B3 de autobuses.
+    </p>"""^^xsd:string ;
+           
+           rdfs:domain :Autobuses ;
+           
+           rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#PrecioTaxi
+
+:PrecioTaxi rdf:type owl:DatatypeProperty ;
+            
+            rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n el precio del servicio de taxis por minuto.
+    </p>"""^^xsd:string ;
+            
+            rdfs:domain :Taxis ;
+            
+            rdfs:range xsd:float .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1
+
+:R1 rdf:type owl:DatatypeProperty ;
+    
+    rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre los horarios de la linea R1 de cercan&#237;as.
+    </p>"""^^xsd:string ;
+    
+    rdfs:domain :Tren ;
+    
+    rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1_Paradas
+
+:R1_Paradas rdf:type owl:DatatypeProperty ;
+            
+            rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la R1 de cercan&#237;as.
+    </p>"""^^xsd:string ;
+            
+            rdfs:domain :Tren ;
+            
+            rdfs:range xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2
+
+:R2 rdf:type owl:DatatypeProperty ;
+    
+    rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre los horarios de la linea R2 de cercan&#237;as.
+    </p>"""^^xsd:string ;
+    
+    rdfs:domain :Tren ;
+    
+    rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2_Paradas
+
+:R2_Paradas rdf:type owl:DatatypeProperty ;
+            
+            rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la R2 de cercan&#237;as.
+    </p>"""^^xsd:string ;
+            
+            rdfs:domain :Tren ;
+            
+            rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3
+
+:R3 rdf:type owl:DatatypeProperty ;
+    
+    rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre los horarios de la linea R3 de cercan&#237;as.
+    </p>"""^^xsd:string ;
+    
+    rdfs:domain :Tren ;
+    
+    rdfs:range xsd:dateTime .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3_Paradas
+
+:R3_Paradas rdf:type owl:DatatypeProperty ;
+            
+            rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre las paradas de la R3 de cercan&#237;as.
+    </p>"""^^xsd:string ;
+            
+            rdfs:domain :Tren .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Autobuses
+
+:Autobuses rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Transporte ;
+           
+           rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre el horario de las lineas de autobuses
+    </p>"""^^xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Metro
+
+:Metro rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Transporte .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Taxis
+
+:Taxis rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Transporte ;
+       
+       rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre la los horarios de los taxis.
+    </p>"""^^xsd:string .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Transporte
+
+:Transporte rdf:type owl:Class .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Tren
+
+:Tren rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Transporte ;
+      
+      rdfs:comment """<p style=\"margin-top: 0\">
+      Informaci&#243;n sobre la los horarios de las lineas de tren.
+    </p>"""^^xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Almagro
+
+:Bus11-Almagro rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Arnau_Oms
+
+:Bus11-Arnau_Oms rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Artesania
+
+:Bus11-Artesania rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Av.Rio_de_Janeiro
+
+:Bus11-Av.Rio_de_Janeiro rdf:type :Autobuses ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Gongora
+
+:Bus11-Gongora rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Lima1
+
+:Bus11-Lima1 rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Lima2
+
+:Bus11-Lima2 rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Meridiana
+
+:Bus11-Meridiana rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Mina_de_la_Ciutat1
+
+:Bus11-Mina_de_la_Ciutat1 rdf:type :Autobuses ,
+                                   owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Mina_de_la_Ciutat2
+
+:Bus11-Mina_de_la_Ciutat2 rdf:type :Autobuses ,
+                                   owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Onze_de_Setembre
+
+:Bus11-Onze_de_Setembre rdf:type :Autobuses ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-P.Santa_Coloma1
+
+:Bus11-P.Santa_Coloma1 rdf:type :Autobuses ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-P.Santa_Coloma2
+
+:Bus11-P.Santa_Coloma2 rdf:type :Autobuses ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Palomar
+
+:Bus11-Palomar rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Parc_Maquinista
+
+:Bus11-Parc_Maquinista rdf:type :Autobuses ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Passeig_Fabra_i_Puig1
+
+:Bus11-Passeig_Fabra_i_Puig1 rdf:type :Autobuses ,
+                                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Passeig_Fabra_i_Puig2
+
+:Bus11-Passeig_Fabra_i_Puig2 rdf:type :Autobuses ,
+                                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Passeig_Guayaquil
+
+:Bus11-Passeig_Guayaquil rdf:type :Autobuses ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Passeig_de_Valldaura1
+
+:Bus11-Passeig_de_Valldaura1 rdf:type :Autobuses ,
+                                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Passeig_de_Valldaura2
+
+:Bus11-Passeig_de_Valldaura2 rdf:type :Autobuses ,
+                                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Pessoa
+
+:Bus11-Pessoa rdf:type :Autobuses ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Piferrer1
+
+:Bus11-Piferrer1 rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Piferrer2
+
+:Bus11-Piferrer2 rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Pla_de_Fornells
+
+:Bus11-Pla_de_Fornells rdf:type :Autobuses ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Potosi
+
+:Bus11-Potosi rdf:type :Autobuses ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Sant_Adria1
+
+:Bus11-Sant_Adria1 rdf:type :Autobuses ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Sant_Adria2
+
+:Bus11-Sant_Adria2 rdf:type :Autobuses ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Sant_Adria3
+
+:Bus11-Sant_Adria3 rdf:type :Autobuses ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Segre
+
+:Bus11-Segre rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Tiana
+
+:Bus11-Tiana rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Tucuman
+
+:Bus11-Tucuman rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Via_Favencia
+
+:Bus11-Via_Favencia rdf:type :Autobuses ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus11-Virgili
+
+:Bus11-Virgili rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Av.Diag1
+
+:Bus6-Av.Diag1 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Av.Diag2
+
+:Bus6-Av.Diag2 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Av.Diag3
+
+:Bus6-Av.Diag3 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Av.Diag4
+
+:Bus6-Av.Diag4 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Balmes
+
+:Bus6-Balmes rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Ciutat_de_Granada
+
+:Bus6-Ciutat_de_Granada rdf:type :Autobuses ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Doctor_Ferran
+
+:Bus6-Doctor_Ferran rdf:type :Autobuses ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Francesc_Macia
+
+:Bus6-Francesc_Macia rdf:type :Autobuses ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Girona
+
+:Bus6-Girona rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Gran_Via1
+
+:Bus6-Gran_Via1 rdf:type :Autobuses ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Gran_Via2
+
+:Bus6-Gran_Via2 rdf:type :Autobuses ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Llull
+
+:Bus6-Llull rdf:type :Autobuses ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Manila
+
+:Bus6-Manila rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Marina1
+
+:Bus6-Marina1 rdf:type :Autobuses ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Marina2
+
+:Bus6-Marina2 rdf:type :Autobuses ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Muntaner
+
+:Bus6-Muntaner rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Pallars1
+
+:Bus6-Pallars1 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Pallars2
+
+:Bus6-Pallars2 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Passeig_de_Sant_Joan1
+
+:Bus6-Passeig_de_Sant_Joan1 rdf:type :Autobuses ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Passeig_de_Sant_Joan2
+
+:Bus6-Passeig_de_Sant_Joan2 rdf:type :Autobuses ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Passeig_de_Sant_Joan3
+
+:Bus6-Passeig_de_Sant_Joan3 rdf:type :Autobuses ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus6-Pau_Claris
+
+:Bus6-Pau_Claris rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag1
+
+:Bus7-Av.Diag1 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag2
+
+:Bus7-Av.Diag2 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag3
+
+:Bus7-Av.Diag3 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag4
+
+:Bus7-Av.Diag4 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag5
+
+:Bus7-Av.Diag5 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag6
+
+:Bus7-Av.Diag6 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag7
+
+:Bus7-Av.Diag7 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Av.Diag8
+
+:Bus7-Av.Diag8 rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Balmes
+
+:Bus7-Balmes rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Doctor_Fleming
+
+:Bus7-Doctor_Fleming rdf:type :Autobuses ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Francesc_Macia
+
+:Bus7-Francesc_Macia rdf:type :Autobuses ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Ganduxer
+
+:Bus7-Ganduxer rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Glories_Catalanes
+
+:Bus7-Glories_Catalanes rdf:type :Autobuses ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Gran_Via1
+
+:Bus7-Gran_Via1 rdf:type :Autobuses ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Gran_Via2
+
+:Bus7-Gran_Via2 rdf:type :Autobuses ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Gran_Via3
+
+:Bus7-Gran_Via3 rdf:type :Autobuses ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Lluria
+
+:Bus7-Lluria rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Maria_Cristina
+
+:Bus7-Maria_Cristina rdf:type :Autobuses ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Muntaner
+
+:Bus7-Muntaner rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Numancia
+
+:Bus7-Numancia rdf:type :Autobuses ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Palau_Reial
+
+:Bus7-Palau_Reial rdf:type :Autobuses ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Passeig_de_Gracia1
+
+:Bus7-Passeig_de_Gracia1 rdf:type :Autobuses ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Passeig_de_Gracia2
+
+:Bus7-Passeig_de_Gracia2 rdf:type :Autobuses ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Passeig_de_Gracia3
+
+:Bus7-Passeig_de_Gracia3 rdf:type :Autobuses ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Pau_Claris
+
+:Bus7-Pau_Claris rdf:type :Autobuses ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-PiusXII
+
+:Bus7-PiusXII rdf:type :Autobuses ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Tetuan
+
+:Bus7-Tetuan rdf:type :Autobuses ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Bus7-Zona_Universitaria
+
+:Bus7-Zona_Universitaria rdf:type :Autobuses ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Cualquier_lugar
+
+:Cualquier_lugar rdf:type :Taxis ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Arc_de_Triomf
+
+:Linea1-Arc_de_Triomf rdf:type :Metro ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Av.Carrilet
+
+:Linea1-Av.Carrilet rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Baro_de_Vivert
+
+:Linea1-Baro_de_Vivert rdf:type :Metro ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Bellvitge
+
+:Linea1-Bellvitge rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Can_Serra
+
+:Linea1-Can_Serra rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Catalunya
+
+:Linea1-Catalunya rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Clot
+
+:Linea1-Clot rdf:type :Metro ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Espanya
+
+:Linea1-Espanya rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Fabra_i_Puig
+
+:Linea1-Fabra_i_Puig rdf:type :Metro ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Florida
+
+:Linea1-Florida rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Fondo
+
+:Linea1-Fondo rdf:type :Metro ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Glories
+
+:Linea1-Glories rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Hospital_de_Bellvitge
+
+:Linea1-Hospital_de_Bellvitge rdf:type :Metro ,
+                                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Hostafrancs
+
+:Linea1-Hostafrancs rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-La_Sagrera
+
+:Linea1-La_Sagrera rdf:type :Metro ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Marina
+
+:Linea1-Marina rdf:type :Metro ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Mercat_Nou
+
+:Linea1-Mercat_Nou rdf:type :Metro ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Navas
+
+:Linea1-Navas rdf:type :Metro ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Plaza_Sants
+
+:Linea1-Plaza_Sants rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Rambla_Just_Oliveres
+
+:Linea1-Rambla_Just_Oliveres rdf:type :Metro ,
+                                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Rocafort
+
+:Linea1-Rocafort rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Sant_Andreu
+
+:Linea1-Sant_Andreu rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Santa_Coloma
+
+:Linea1-Santa_Coloma rdf:type :Metro ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Santa_Eulalia
+
+:Linea1-Santa_Eulalia rdf:type :Metro ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Torras_i_Bages
+
+:Linea1-Torras_i_Bages rdf:type :Metro ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Torrassa
+
+:Linea1-Torrassa rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Trinitat_Vella
+
+:Linea1-Trinitat_Vella rdf:type :Metro ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Universitat
+
+:Linea1-Universitat rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Urgell
+
+:Linea1-Urgell rdf:type :Metro ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea1-Urquinaona
+
+:Linea1-Urquinaona rdf:type :Metro ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Artigues_Sant_Adria
+
+:Linea2-Artigues_Sant_Adria rdf:type :Metro ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Bac_de_Roda
+
+:Linea2-Bac_de_Roda rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Badalona_Centre
+
+:Linea2-Badalona_Centre rdf:type :Metro ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Clot
+
+:Linea2-Clot rdf:type :Metro ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Encants
+
+:Linea2-Encants rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Gorg
+
+:Linea2-Gorg rdf:type :Metro ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-La_Pau
+
+:Linea2-La_Pau rdf:type :Metro ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Monumental
+
+:Linea2-Monumental rdf:type :Metro ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Parallel
+
+:Linea2-Parallel rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Passeig_de_Gracia
+
+:Linea2-Passeig_de_Gracia rdf:type :Metro ,
+                                   owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Pep_Ventura
+
+:Linea2-Pep_Ventura rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Sagrada_Familia
+
+:Linea2-Sagrada_Familia rdf:type :Metro ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Sant_Antoni
+
+:Linea2-Sant_Antoni rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Sant_Marti
+
+:Linea2-Sant_Marti rdf:type :Metro ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Sant_Roc
+
+:Linea2-Sant_Roc rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Tetuan
+
+:Linea2-Tetuan rdf:type :Metro ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Universitat
+
+:Linea2-Universitat rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea2-Verneda
+
+:Linea2-Verneda rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Canyelles
+
+:Linea3-Canyelles rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Catalunya
+
+:Linea3-Catalunya rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Diagonal
+
+:Linea3-Diagonal rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Drassanes
+
+:Linea3-Drassanes rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Espanya
+
+:Linea3-Espanya rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Fontana
+
+:Linea3-Fontana rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Les_Corts
+
+:Linea3-Les_Corts rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Lesseps
+
+:Linea3-Lesseps rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Liceu
+
+:Linea3-Liceu rdf:type :Metro ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Maria_Cristina
+
+:Linea3-Maria_Cristina rdf:type :Metro ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-MontBau
+
+:Linea3-MontBau rdf:type :Metro ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Mundet
+
+:Linea3-Mundet rdf:type :Metro ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Palau_Reial
+
+:Linea3-Palau_Reial rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Parallel
+
+:Linea3-Parallel rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Passeig_de_Gracia
+
+:Linea3-Passeig_de_Gracia rdf:type :Metro ,
+                                   owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Penitents
+
+:Linea3-Penitents rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Plaza_de_Centre
+
+:Linea3-Plaza_de_Centre rdf:type :Metro ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Poble_Sec
+
+:Linea3-Poble_Sec rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Roquetes
+
+:Linea3-Roquetes rdf:type :Metro ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Sants_Estacio
+
+:Linea3-Sants_Estacio rdf:type :Metro ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Tarragona
+
+:Linea3-Tarragona rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Trinitat_Nova
+
+:Linea3-Trinitat_Nova rdf:type :Metro ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Vall_Hebron
+
+:Linea3-Vall_Hebron rdf:type :Metro ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Vallcarca
+
+:Linea3-Vallcarca rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Valldaura
+
+:Linea3-Valldaura rdf:type :Metro ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#Linea3-Zona_Universitaria
+
+:Linea3-Zona_Universitaria rdf:type :Metro ,
+                                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Arc_de_Triomf
+
+:R1-Arc_de_Triomf rdf:type :Tren ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Arenys_de_Mar
+
+:R1-Arenys_de_Mar rdf:type :Tren ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Badalona
+
+:R1-Badalona rdf:type :Tren ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Blanes
+
+:R1-Blanes rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Cabrera_de_Mar
+
+:R1-Cabrera_de_Mar rdf:type :Tren ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Caldes_Estrac
+
+:R1-Caldes_Estrac rdf:type :Tren ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Calella
+
+:R1-Calella rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Canet_de_Mar
+
+:R1-Canet_de_Mar rdf:type :Tren ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Clot_Arago
+
+:R1-Clot_Arago rdf:type :Tren ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Cornella
+
+:R1-Cornella rdf:type :Tren ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Llavaneres
+
+:R1-Llavaneres rdf:type :Tren ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Malgrat
+
+:R1-Malgrat rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Masnou
+
+:R1-Masnou rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Mataro
+
+:R1-Mataro rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Montgat
+
+:R1-Montgat rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Montgat_Nord
+
+:R1-Montgat_Nord rdf:type :Tren ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Ocata
+
+:R1-Ocata rdf:type :Tren ,
+                   owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Pineda
+
+:R1-Pineda rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Plaza_Catalunya
+
+:R1-Plaza_Catalunya rdf:type :Tren ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Premia_de_Mar
+
+:R1-Premia_de_Mar rdf:type :Tren ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Sant_Adria_de_Besos
+
+:R1-Sant_Adria_de_Besos rdf:type :Tren ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Sant_Feliu_de_Llobregat
+
+:R1-Sant_Feliu_de_Llobregat rdf:type :Tren ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Sant_Joan_Despi
+
+:R1-Sant_Joan_Despi rdf:type :Tren ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Sant_Pol_de_Mar
+
+:R1-Sant_Pol_de_Mar rdf:type :Tren ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Santa_Susana
+
+:R1-Santa_Susana rdf:type :Tren ,
+                          owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Tordera
+
+:R1-Tordera rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R1-Vilassar_de_Mar
+
+:R1-Vilassar_de_Mar rdf:type :Tren ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Aeroport
+
+:R2-Aeroport rdf:type :Tren ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Bellvitge
+
+:R2-Bellvitge rdf:type :Tren ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Cardedeu
+
+:R2-Cardedeu rdf:type :Tren ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-El_Clot
+
+:R2-El_Clot rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-El_Prat
+
+:R2-El_Prat rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Gualba
+
+:R2-Gualba rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Hostalric
+
+:R2-Hostalric rdf:type :Tren ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Les_Franqueses
+
+:R2-Les_Franqueses rdf:type :Tren ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Linars_del_Valles
+
+:R2-Linars_del_Valles rdf:type :Tren ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Mollet
+
+:R2-Mollet rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Montcada_i_Reixac
+
+:R2-Montcada_i_Reixac rdf:type :Tren ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Montmelo
+
+:R2-Montmelo rdf:type :Tren ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Palau_Tordera
+
+:R2-Palau_Tordera rdf:type :Tren ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Passeig_de_Gracia
+
+:R2-Passeig_de_Gracia rdf:type :Tren ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Riells_i_Viabrea
+
+:R2-Riells_i_Viabrea rdf:type :Tren ,
+                              owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Sant_Andreu_i_Comtal
+
+:R2-Sant_Andreu_i_Comtal rdf:type :Tren ,
+                                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Sant_Celoni
+
+:R2-Sant_Celoni rdf:type :Tren ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R2-Sants
+
+:R2-Sants rdf:type :Tren ,
+                   owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Arc_de_Triomf
+
+:R3-Arc_de_Triomf rdf:type :Tren ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Balenya
+
+:R3-Balenya rdf:type :Tren ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Centelles
+
+:R3-Centelles rdf:type :Tren ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Figaro
+
+:R3-Figaro rdf:type :Tren ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Granollers
+
+:R3-Granollers rdf:type :Tren ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Hospitalet_de_Llobregat
+
+:R3-Hospitalet_de_Llobregat rdf:type :Tren ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-La_Garriga
+
+:R3-La_Garriga rdf:type :Tren ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-La_Sagrera
+
+:R3-La_Sagrera rdf:type :Tren ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Les_Franqueses
+
+:R3-Les_Franqueses rdf:type :Tren ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Mollet_Santa_Rosa
+
+:R3-Mollet_Santa_Rosa rdf:type :Tren ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Montcada_Bifurcacio
+
+:R3-Montcada_Bifurcacio rdf:type :Tren ,
+                                 owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Montcada_Ripollet
+
+:R3-Montcada_Ripollet rdf:type :Tren ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Parets_del_Valles
+
+:R3-Parets_del_Valles rdf:type :Tren ,
+                               owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Plaza_Catalunya
+
+:R3-Plaza_Catalunya rdf:type :Tren ,
+                             owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Sant_Andreu_Arenal
+
+:R3-Sant_Andreu_Arenal rdf:type :Tren ,
+                                owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Sant_Marti_de_Centelles
+
+:R3-Sant_Marti_de_Centelles rdf:type :Tren ,
+                                     owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Santa_Perpetua
+
+:R3-Santa_Perpetua rdf:type :Tren ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Tona
+
+:R3-Tona rdf:type :Tren ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Torre_del_Baro
+
+:R3-Torre_del_Baro rdf:type :Tren ,
+                            owl:NamedIndividual .
+
+
+
+###  http://www.owl-ontologies.com/ECSDIOntology.owl#R3-Vic
+
+:R3-Vic rdf:type :Tren ,
+                 owl:NamedIndividual .
+
+
+
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+:entrega2_Class2 rdf:type "Cls(:INSTANCE-ANNOTATION)"^^<java:edu.stanford.smi.protege.model.DefaultCls> .
+
+
+
+:entrega2_Class3 rdf:type "Cls(:INSTANCE-ANNOTATION)"^^<java:edu.stanford.smi.protege.model.DefaultCls> .
+
+
+
+:entrega2_Class0 rdf:type "Cls(:INSTANCE-ANNOTATION)"^^<java:edu.stanford.smi.protege.model.DefaultCls> .
+
+
+
+:entrega2_Class1 rdf:type "Cls(:INSTANCE-ANNOTATION)"^^<java:edu.stanford.smi.protege.model.DefaultCls> .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+

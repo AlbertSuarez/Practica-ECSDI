@@ -1,0 +1,62 @@
+---------------------
+BUSC VUELOS
+---------------------
+IN
+
+	adultCount = 1
+	childCount = 0
+	origin = "BCN"
+	destination = "PRG"
+	departureDate = "2015-06-02"
+	returnDate = "2015-06-08"
+	solutions = 2
+	maxPrice = "EUR200"
+	earliestDepartureTime = "06:00"
+	latestDepartureTime = "23:00"
+	earliestReturnTime = "06:00"
+	latestReturnTime = "23:00"
+
+OUT
+
+	varios roundtrip
+	cada rountrip tiene un precio
+	cada roundtrip tiene un ida y una vuelta
+	cada ida y cada vuelta tienen: duracion, hora y dia (redundante) salida y llegada, terminal salida y llegada, ciudad salida y llegada (redundante pq lo sabemos en la request)
+---------------------
+BUSC HOTELES
+---------------------
+IN
+
+	destinationCity = "Barcelona"
+	destinationCountry = "Spain"
+	searchRadius = 2
+	arrivalDate = "06/02/2015"
+	departureDate = "06/08/2015"
+	numberOfAdults = 2
+	numberOfChildren = 0
+	propertyCategory = 1
+	#Values: 1: hotel 2: suite 3: resort 4: vacation rental/condo 5: bed & breakfast 6: all-inclusive
+
+OUT
+
+	gresp.add((hot_obj, myns_atr.distancia, Literal(hot['proximityDistance'])))
+	gresp.add((hot_obj, myns_atr.distancia_unidad, Literal(hot['proximityUnit'])))
+	gresp.add((hot_obj, myns_atr.cuesta, Literal(hot['RoomRateDetailsList']['RoomRateDetails']['RateInfos']['RateInfo']['ChargeableRateInfo']['@total'])))
+	gresp.add((hot_obj, myns_atr.rating, Literal(hot['hotelRating'])))
+	gresp.add((hot_obj, myns_atr.tripAdvisorRating, Literal(hot['tripAdvisorRating'])))
+	gresp.add((hot_obj, myns_atr.tripAdvisorReviewCount, Literal(hot['tripAdvisorReviewCount'])))
+---------------------
+BUSC ACTIVIDADES
+---------------------
+IN
+	location="Barcelona, Spain", 
+	keyword="movie", 
+	radius=20000, 
+	types=[]  IMPORTANTE: ES UNA LIST DE STRINGS PERO DE MOMENTO SOLO CON UN ELEMENTO
+
+OUT
+    gr.add((plc_obj, myns_atr.nombre, Literal(place.name)))
+    gr.add((plc_obj, myns_atr.localizacion, Literal(place.geo_location)))
+    gr.add((plc_obj, myns_atr.rating, Literal(place.rating)))
+    gr.add((plc_obj, myns_atr.direccion, Literal(place.formatted_address)))
+    gr.add((plc_obj, myns_atr.tel_int, Literal(place.international_phone_number)))

@@ -1,0 +1,16 @@
+buscador
+	-max-min stars / max-min rate
+	-num habitaciones
+	-hotelRating
+	-amenityMask
+	-elegir/ordenar por precio, proximidad, estrellas (quality), tripAdvisorRating
+
+NOTAS
+
+Planif. 221: # NOTA 1: cómo recorro esto fijando el primer elemento?
+
+    #sacar todos los nombre de actividad (porque se la constante que representa el tipo de catividad)
+    # despues recorrer cada actividad fijando su nombre (que acabo de obtener)
+
+    
+Planif. 199: # NOTA 2: como le paso la lista como parametro? (Peta)

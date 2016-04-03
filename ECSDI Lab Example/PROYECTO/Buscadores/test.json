@@ -1,0 +1,13 @@
+{
+    "error": {
+        "code": 403, 
+        "message": "Daily Limit Exceeded", 
+        "errors": [
+            {
+                "domain": "usageLimits", 
+                "message": "Daily Limit Exceeded", 
+                "reason": "dailyLimitExceeded"
+            }
+        ]
+    }
+}
