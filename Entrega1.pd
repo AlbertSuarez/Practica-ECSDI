@@ -7,8 +7,8 @@
 	<object type="ProjectData" id="1">
 	    <field name="name">default</field>
 	    <field name="fileNameLastSavedAs">Entrega1.pd</field>
-	    <field name="filePathLastSavedIn">/media/albert/Elements/DOCUMENTS/UNI/6e Quadri/ECSDI/Practica-ECSDI</field>
-	    <field name="openedAs">/media/albert/Elements/DOCUMENTS/UNI/6e Quadri/ECSDI/Practica-ECSDI/Entrega1.pd</field>
+	    <field name="filePathLastSavedIn">/home/pere/Desktop/ecsdi/Practica-ECSDI</field>
+	    <field name="openedAs">/home/pere/Desktop/ecsdi/Practica-ECSDI/Entrega1.pd</field>
 	    <field name="applicationVersion">3.3b_internal</field>
 	</object>
     </field>
@@ -253,6 +253,430 @@
 															<field name="knowledgeUpdated">El transport s'ha pagat, la data de recepció ha estat informada i l'entrega ha estat realitzada correctament.</field>
 															<field name="processing"></field>
 															<field name="frequency"></field>
+															<field name="agentsResponding"><list>
+															    <object type="Agent" id="26">
+																<base type="Entity">
+																    <field name="name">sistema</field>
+																    <field name="uniqueId">98</field>
+																</base>
+
+																<field name="goals"><list>
+																    <object type="Goal" id="27">
+																	<base type="Entity">
+																	    <field name="name">Valorar producte</field>
+																	    <field name="description">S'ha de valorar el producte per part de l'usuari.</field>
+																	    <field name="uniqueId">28</field>
+																	</base>
+
+																	<field name="subGoals"><list>
+																	    <object type="Goal" id="28">
+																		<base type="Entity">
+																		    <field name="name">Demanar opinió usuari</field>
+																		    <field name="description">S'ha de demanar la opinió al usuari sobre que pensa sobre el producte comprat.</field>
+																		    <field name="uniqueId">45</field>
+																		</base>
+
+																	    </object>
+																	    </list>
+																	</field>
+																    </object>
+
+																    <object ref="14"/>
+
+																    <object type="Goal" id="29">
+																	<base type="Entity">
+																	    <field name="name">Enviar paquet a botiga</field>
+																	    <field name="description">S'ha d'enviar el paquet a la botiga per part de l'usuari.</field>
+																	    <field name="uniqueId">34</field>
+																	</base>
+
+																    </object>
+
+																    <object type="Goal" id="30">
+																	<base type="Entity">
+																	    <field name="name">Retornar producte</field>
+																	    <field name="description">S'ha de retornar un producte de l'usuari al sistema.</field>
+																	    <field name="uniqueId">57</field>
+																	</base>
+
+																	<field name="subGoals"><list>
+																	    <object type="Goal" id="31">
+																		<base type="Entity">
+																		    <field name="name">Retornar diners</field>
+																		    <field name="description">S'ha de retornar els diners que va pagar l'usuari</field>
+																		    <field name="uniqueId">33</field>
+																		</base>
+
+																	    </object>
+
+																	    <object type="Goal" id="32">
+																		<base type="Entity">
+																		    <field name="name">Registrar devolucio</field>
+																		    <field name="description">S'ha de registrar la devolució a la BD de devolucions.</field>
+																		    <field name="uniqueId">35</field>
+																		</base>
+
+																	    </object>
+
+																	    <object ref="29"/>
+																	    </list>
+																	</field>
+																    </object>
+																    </list>
+																</field>
+																<field name="percepts"><list>
+																    <object type="Percept" id="33">
+																	<base type="Interaction">
+																	    <base type="Entity">
+																		<field name="name">Compra producte finalitzada</field>
+																		<field name="description">Ho genera el sistema.</field>
+																		<field name="uniqueId">74</field>
+																		<field name="connectTo"><list>
+																		    <object ref="19"/>
+																		    </list>
+																		</field>
+																	    </base>
+
+																	</base>
+
+																	<field name="source"></field>
+																	<field name="informationCarried">Quan el transportista confirma l'entrega del producte.</field>
+																	<field name="knowledgeUpdated">El producte ha estat valorat.</field>
+																	<field name="processing"></field>
+																	<field name="frequency"></field>
+																	<field name="agentsResponding"><list>
+																	    <object ref="26"/>
+																	    </list>
+																	</field>
+																	<field name="externalPath"></field>
+																    </object>
+
+																    <object type="Percept" id="34">
+																	<base type="Interaction">
+																	    <base type="Entity">
+																		<field name="name">Petició d'enviament </field>
+																		<field name="description">Ho genera el sisema.</field>
+																		<field name="uniqueId">52</field>
+																	    </base>
+
+																	</base>
+
+																	<field name="source"></field>
+																	<field name="informationCarried">El sistema confirma la compra.</field>
+																	<field name="knowledgeUpdated">L'enviament s'ha realitzat i l'entrega ha estat satisfactoria.</field>
+																	<field name="processing"></field>
+																	<field name="frequency"></field>
+																	<field name="agentsResponding"><list>
+																	    <object ref="26"/>
+
+																	    <object ref="26"/>
+																	    </list>
+																	</field>
+																	<field name="externalPath"></field>
+																    </object>
+
+																    <object ref="25"/>
+
+																    <object type="Percept" id="35">
+																	<base type="Interaction">
+																	    <base type="Entity">
+																		<field name="name">Peticio de retorn</field>
+																		<field name="description">Ho genera l'usuari.</field>
+																		<field name="uniqueId">60</field>
+																		<field name="connectTo"><list>
+																		    <object ref="19"/>
+																		    </list>
+																		</field>
+																	    </base>
+
+																	</base>
+
+																	<field name="source"></field>
+																	<field name="informationCarried">Accedir al menu de retorn de productes.</field>
+																	<field name="knowledgeUpdated">El producte ha estat retornat.</field>
+																	<field name="processing"></field>
+																	<field name="frequency"></field>
+																	<field name="agentsResponding"><list>
+																	    <object ref="26"/>
+																	    </list>
+																	</field>
+																	<field name="externalPath"></field>
+																    </object>
+																    </list>
+																</field>
+																<field name="actions"><list>
+																    <object type="Action" id="36">
+																	<base type="Interaction">
+																	    <base type="Entity">
+																		<field name="name">Registrar valoracio</field>
+																		<field name="description">Es registra la valoració feta per l'usuari.</field>
+																		<field name="uniqueId">75</field>
+																	    </base>
+
+																	</base>
+
+																	<field name="parameters">Usuari, valoració, producte.</field>
+																	<field name="durationDescription">Puntual.</field>
+																	<field name="failureNotificationDescription"></field>
+																	<field name="partialChange"></field>
+																	<field name="sideEffects"></field>
+																    </object>
+
+																    <object type="Action" id="37">
+																	<base type="Interaction">
+																	    <base type="Entity">
+																		<field name="name">Registrar enviament</field>
+																		<field name="description">Es registra l'enviament realitzat.</field>
+																		<field name="uniqueId">51</field>
+																	    </base>
+
+																	</base>
+
+																	<field name="parameters">Producte enviat, usuari comprador, transportista.</field>
+																	<field name="durationDescription">Puntual.</field>
+																	<field name="failureNotificationDescription"></field>
+																	<field name="partialChange"></field>
+																	<field name="sideEffects"></field>
+																    </object>
+
+																    <object ref="23"/>
+
+																    <object ref="22"/>
+
+																    <object type="Action" id="38">
+																	<base type="Interaction">
+																	    <base type="Entity">
+																		<field name="name">Registrar retorn</field>
+																		<field name="description">Es registra el retorn demanat.</field>
+																		<field name="uniqueId">67</field>
+																	    </base>
+
+																	</base>
+
+																	<field name="parameters">Producte, motiu, usuari.</field>
+																	<field name="durationDescription">Puntual.</field>
+																	<field name="failureNotificationDescription"></field>
+																	<field name="partialChange"></field>
+																	<field name="sideEffects"></field>
+																    </object>
+																    </list>
+																</field>
+																<field name="roles"><list>
+																    <object type="Role" id="39">
+																	<base type="Entity">
+																	    <field name="name">Gestió valoració</field>
+																	    <field name="description">Informa/Registra tot el relacionat amb les valoracions.</field>
+																	    <field name="uniqueId">73</field>
+																	</base>
+
+																	<field name="goals"><list>
+																	    <object ref="27"/>
+																	    </list>
+																	</field>
+																	<field name="actions"><list>
+																	    <object ref="36"/>
+																	    </list>
+																	</field>
+																	<field name="percepts"><list>
+																	    <object ref="33"/>
+																	    </list>
+																	</field>
+																	<field name="dataRead"><list>
+																	    <object type="Data" id="40">
+																		<base type="Entity">
+																		    <field name="name">Usuaris</field>
+																		    <field name="description">BD amb la llista de tots els usuaris del sistema</field>
+																		    <field name="uniqueId">80</field>
+																		</base>
+
+																		<field name="dataType">Usuari</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+																	    </list>
+																	</field>
+																	<field name="dataWritten"><list>
+																	    <object type="Data" id="41">
+																		<base type="Entity">
+																		    <field name="name">Productes</field>
+																		    <field name="description">BD amb tots el productes</field>
+																		    <field name="uniqueId">79</field>
+																		</base>
+
+																		<field name="dataType">Producte</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+
+																	    <object type="Data" id="42">
+																		<base type="Entity">
+																		    <field name="name">Valoracions</field>
+																		    <field name="description">BD amb totes les valoracions fetes pels usuaris.</field>
+																		    <field name="uniqueId">87</field>
+																		</base>
+
+																		<field name="dataType">Valoració</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+																	    </list>
+																	</field>
+																    </object>
+
+																    <object type="Role" id="43">
+																	<base type="Entity">
+																	    <field name="name">Gestor d'Enviaments</field>
+																	    <field name="description">Informa/Registrar tot el relacionat amb enviaments del sistema.</field>
+																	    <field name="uniqueId">50</field>
+																	</base>
+
+																	<field name="goals"><list>
+																	    <object ref="14"/>
+
+																	    <object ref="29"/>
+																	    </list>
+																	</field>
+																	<field name="actions"><list>
+																	    <object ref="37"/>
+																	    </list>
+																	</field>
+																	<field name="percepts"><list>
+																	    <object ref="34"/>
+																	    </list>
+																	</field>
+																	<field name="dataWritten"><list>
+																	    <object type="Data" id="44">
+																		<base type="Entity">
+																		    <field name="name">Transportistes</field>
+																		    <field name="description">BD amb tots els transportistes</field>
+																		    <field name="uniqueId">82</field>
+																		</base>
+
+																		<field name="dataType">Transportista</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+
+																	    <object type="Data" id="45">
+																		<base type="Entity">
+																		    <field name="name">Enviaments</field>
+																		    <field name="description">BD amb tots els enviaments que s'han realitzat</field>
+																		    <field name="uniqueId">84</field>
+																		</base>
+
+																		<field name="dataType">Enviament</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+
+																	    <object type="Data" id="46">
+																		<base type="Entity">
+																		    <field name="name">Punts logistics</field>
+																		    <field name="description">BD amb tots els punts logisitics que disposa
+</field>
+																		    <field name="uniqueId">81</field>
+																		</base>
+
+																		<field name="dataType">Punt Logistic</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+																	    </list>
+																	</field>
+																    </object>
+
+																    <object type="Role" id="47">
+																	<base type="Entity">
+																	    <field name="name">Gestor logistic</field>
+																	    <field name="description">Informa del sector logístic del sistema.</field>
+																	    <field name="uniqueId">63</field>
+																	</base>
+
+																	<field name="goals"><list>
+																	    <object ref="14"/>
+
+																	    <object ref="29"/>
+																	    </list>
+																	</field>
+																	<field name="actions"><list>
+																	    <object ref="23"/>
+
+																	    <object ref="22"/>
+																	    </list>
+																	</field>
+																	<field name="percepts"><list>
+																	    <object ref="25"/>
+																	    </list>
+																	</field>
+																	<field name="dataWritten"><list>
+																	    <object ref="46"/>
+
+																	    <object ref="44"/>
+
+																	    <object ref="41"/>
+																	    </list>
+																	</field>
+																    </object>
+
+																    <object type="Role" id="48">
+																	<base type="Entity">
+																	    <field name="name">Registrador retorn</field>
+																	    <field name="description">Funcionalitat per fer un retorn d'un producte no desitjat.</field>
+																	    <field name="uniqueId">66</field>
+																	</base>
+
+																	<field name="goals"><list>
+																	    <object ref="30"/>
+																	    </list>
+																	</field>
+																	<field name="actions"><list>
+																	    <object ref="38"/>
+																	    </list>
+																	</field>
+																	<field name="percepts"><list>
+																	    <object ref="35"/>
+																	    </list>
+																	</field>
+																	<field name="dataRead"><list>
+																	    <object ref="40"/>
+																	    </list>
+																	</field>
+																	<field name="dataWritten"><list>
+																	    <object ref="41"/>
+
+																	    <object type="Data" id="49">
+																		<base type="Entity">
+																		    <field name="name">Retorns</field>
+																		    <field name="description">BD amb tota la historia de retorns del sistema</field>
+																		    <field name="uniqueId">85</field>
+																		</base>
+
+																		<field name="dataType">Retorn</field>
+																		<field name="includedFields"></field>
+																		<field name="initialisation"></field>
+																		<field name="writtenWhen"></field>
+																		<field name="externalPath"></field>
+																	    </object>
+																	    </list>
+																	</field>
+																    </object>
+																    </list>
+																</field>
+															    </object>
+															    </list>
+															</field>
 															<field name="externalPath"></field>
 														    </object>
 														    </list>
@@ -273,20 +697,20 @@
 											    <field name="sideEffects"></field>
 											</object>
 
-											<object type="Action" id="26">
+											<object type="Action" id="50">
 											    <base type="Interaction">
 												<base type="Entity">
 												    <field name="name">Transferir diners</field>
 												    <field name="description">Es transfereixen els diners al sistema o al usuari.</field>
 												    <field name="uniqueId">62</field>
 												    <field name="connectTo"><list>
-													<object type="Actor" id="27">
+													<object type="Actor" id="51">
 													    <base type="Entity">
 														<field name="name">Proveïdor de pagament</field>
 														<field name="description">Actor proveÏdor de pagament.</field>
 														<field name="uniqueId">91</field>
 														<field name="connectTo"><list>
-														    <object type="Percept" id="28">
+														    <object type="Percept" id="52">
 															<base type="Interaction">
 															    <base type="Entity">
 																<field name="name">Peticio de pagament</field>
@@ -343,7 +767,7 @@
 								<field name="externalPath"></field>
 							    </object>
 
-							    <object type="Percept" id="29">
+							    <object type="Percept" id="53">
 								<base type="Interaction">
 								    <base type="Entity">
 									<field name="name">Peticio de compra</field>
@@ -362,30 +786,117 @@
 								<field name="knowledgeUpdated">Els productes s'han comprat i la factura s'ha entregat.</field>
 								<field name="processing"></field>
 								<field name="frequency"></field>
-								<field name="externalPath"></field>
-							    </object>
+								<field name="agentsResponding"><list>
+								    <object type="Agent" id="54">
+									<base type="Entity">
+									    <field name="name">user</field>
+									    <field name="uniqueId">99</field>
+									</base>
 
-							    <object type="Percept" id="30">
-								<base type="Interaction">
-								    <base type="Entity">
-									<field name="name">Peticio de retorn</field>
-									<field name="description">Ho genera l'usuari.</field>
-									<field name="uniqueId">60</field>
-									<field name="connectTo"><list>
-									    <object ref="19"/>
+									<field name="goals"><list>
+									    <object ref="6"/>
+
+									    <object type="Goal" id="55">
+										<base type="Entity">
+										    <field name="name">Recomanar producte</field>
+										    <field name="description">S'ha de recomanar prodouctes al usuaris.</field>
+										    <field name="uniqueId">32</field>
+										</base>
+
+										<field name="subGoals"><list>
+										    <object type="Goal" id="56">
+											<base type="Entity">
+											    <field name="name">Comunicar suggerencia de compra</field>
+											    <field name="description">S'ha de comunicar suggerencies de compres segons els gustos de l'usuari en qüestió.</field>
+											    <field name="uniqueId">46</field>
+											</base>
+
+										    </object>
+										    </list>
+										</field>
+									    </object>
 									    </list>
 									</field>
-								    </base>
+									<field name="percepts"><list>
+									    <object ref="53"/>
 
-								</base>
+									    <object type="Percept" id="57">
+										<base type="Interaction">
+										    <base type="Entity">
+											<field name="name">Toca recomenar</field>
+											<field name="description">Ho genera el sistema.</field>
+											<field name="uniqueId">77</field>
+											<field name="connectTo"><list>
+											    <object ref="19"/>
+											    </list>
+											</field>
+										    </base>
 
-								<field name="source"></field>
-								<field name="informationCarried">Accedir al menu de retorn de productes.</field>
-								<field name="knowledgeUpdated">El producte ha estat retornat.</field>
-								<field name="processing"></field>
-								<field name="frequency"></field>
+										</base>
+
+										<field name="source"></field>
+										<field name="informationCarried">Automàticament quan l'usuari esta connectat.</field>
+										<field name="knowledgeUpdated">Els productes han estat recomanats.</field>
+										<field name="processing"></field>
+										<field name="frequency"></field>
+										<field name="agentsResponding"><list>
+										    <object ref="54"/>
+										    </list>
+										</field>
+										<field name="externalPath"></field>
+									    </object>
+									    </list>
+									</field>
+									<field name="actions"><list>
+									    <object ref="15"/>
+
+									    <object ref="16"/>
+
+									    <object ref="21"/>
+									    </list>
+									</field>
+									<field name="roles"><list>
+									    <object ref="5"/>
+
+									    <object type="Role" id="58">
+										<base type="Entity">
+										    <field name="name">Recomenador</field>
+										    <field name="description">Funcionalitat per a poder recomanar productes als usuaris del sistema.</field>
+										    <field name="uniqueId">76</field>
+										</base>
+
+										<field name="goals"><list>
+										    <object ref="55"/>
+										    </list>
+										</field>
+										<field name="actions"><list>
+										    <object ref="21"/>
+										    </list>
+										</field>
+										<field name="percepts"><list>
+										    <object ref="57"/>
+										    </list>
+										</field>
+										<field name="dataRead"><list>
+										    <object ref="40"/>
+										    </list>
+										</field>
+										<field name="dataWritten"><list>
+										    <object ref="40"/>
+
+										    <object ref="41"/>
+										    </list>
+										</field>
+									    </object>
+									    </list>
+									</field>
+								    </object>
+								    </list>
+								</field>
 								<field name="externalPath"></field>
 							    </object>
+
+							    <object ref="35"/>
 
 							    <object ref="19"/>
 							    </list>
@@ -408,39 +919,15 @@
 				</list>
 			    </field>
 			    <field name="percepts"><list>
-				<object ref="29"/>
+				<object ref="53"/>
 				</list>
 			    </field>
 			    <field name="dataWritten"><list>
-				<object type="Data" id="31">
-				    <base type="Entity">
-					<field name="name">Productes</field>
-					<field name="description">BD amb tots el productes</field>
-					<field name="uniqueId">79</field>
-				    </base>
+				<object ref="41"/>
 
-				    <field name="dataType">Producte</field>
-				    <field name="includedFields"></field>
-				    <field name="initialisation"></field>
-				    <field name="writtenWhen"></field>
-				    <field name="externalPath"></field>
-				</object>
+				<object ref="40"/>
 
-				<object type="Data" id="32">
-				    <base type="Entity">
-					<field name="name">Usuaris</field>
-					<field name="description">BD amb la llista de tots els usuaris del sistema</field>
-					<field name="uniqueId">80</field>
-				    </base>
-
-				    <field name="dataType">Usuari</field>
-				    <field name="includedFields"></field>
-				    <field name="initialisation"></field>
-				    <field name="writtenWhen"></field>
-				    <field name="externalPath"></field>
-				</object>
-
-				<object type="Data" id="33">
+				<object type="Data" id="59">
 				    <base type="Entity">
 					<field name="name">Compres</field>
 					<field name="description">BD amb tot l'historial de compres del sistema</field>
@@ -458,336 +945,155 @@
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="34">
+			<object type="Coordinate" id="60">
 			    <field name="x">410</field>
 			    <field name="y">84</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="35">
+		<object type="DiagramEntitySetting" id="61">
 		    <field name="entity">
-			<object type="Role" id="36">
-			    <base type="Entity">
-				<field name="name">Registrador retorn</field>
-				<field name="description">Funcionalitat per fer un retorn d'un producte no desitjat.</field>
-				<field name="uniqueId">66</field>
-			    </base>
-
-			    <field name="goals"><list>
-				<object type="Goal" id="37">
-				    <base type="Entity">
-					<field name="name">Retornar producte</field>
-					<field name="description">S'ha de retornar un producte de l'usuari al sistema.</field>
-					<field name="uniqueId">57</field>
-				    </base>
-
-				    <field name="subGoals"><list>
-					<object type="Goal" id="38">
-					    <base type="Entity">
-						<field name="name">Retornar diners</field>
-						<field name="description">S'ha de retornar els diners que va pagar l'usuari</field>
-						<field name="uniqueId">33</field>
-					    </base>
-
-					</object>
-
-					<object type="Goal" id="39">
-					    <base type="Entity">
-						<field name="name">Registrar devolucio</field>
-						<field name="description">S'ha de registrar la devolució a la BD de devolucions.</field>
-						<field name="uniqueId">35</field>
-					    </base>
-
-					</object>
-
-					<object type="Goal" id="40">
-					    <base type="Entity">
-						<field name="name">Enviar paquet a botiga</field>
-						<field name="description">S'ha d'enviar el paquet a la botiga per part de l'usuari.</field>
-						<field name="uniqueId">34</field>
-					    </base>
-
-					</object>
-					</list>
-				    </field>
-				</object>
-				</list>
-			    </field>
-			    <field name="actions"><list>
-				<object type="Action" id="41">
-				    <base type="Interaction">
-					<base type="Entity">
-					    <field name="name">Registrar retorn</field>
-					    <field name="description">Es registra el retorn demanat.</field>
-					    <field name="uniqueId">67</field>
-					</base>
-
-				    </base>
-
-				    <field name="parameters">Producte, motiu, usuari.</field>
-				    <field name="durationDescription">Puntual.</field>
-				    <field name="failureNotificationDescription"></field>
-				    <field name="partialChange"></field>
-				    <field name="sideEffects"></field>
-				</object>
-				</list>
-			    </field>
-			    <field name="percepts"><list>
-				<object ref="30"/>
-				</list>
-			    </field>
-			    <field name="dataRead"><list>
-				<object ref="32"/>
-				</list>
-			    </field>
-			    <field name="dataWritten"><list>
-				<object ref="31"/>
-
-				<object type="Data" id="42">
-				    <base type="Entity">
-					<field name="name">Retorns</field>
-					<field name="description">BD amb tota la historia de retorns del sistema</field>
-					<field name="uniqueId">85</field>
-				    </base>
-
-				    <field name="dataType">Retorn</field>
-				    <field name="includedFields"></field>
-				    <field name="initialisation"></field>
-				    <field name="writtenWhen"></field>
-				    <field name="externalPath"></field>
-				</object>
-				</list>
-			    </field>
-			</object>
+			<object ref="48"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="43">
+			<object type="Coordinate" id="62">
 			    <field name="x">30</field>
 			    <field name="y">225</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="44">
+		<object type="DiagramEntitySetting" id="63">
 		    <field name="entity">
-			<object type="Role" id="45">
-			    <base type="Entity">
-				<field name="name">Recomenador</field>
-				<field name="description">Funcionalitat per a poder recomanar productes als usuaris del sistema.</field>
-				<field name="uniqueId">76</field>
-			    </base>
-
-			    <field name="goals"><list>
-				<object type="Goal" id="46">
-				    <base type="Entity">
-					<field name="name">Recomanar producte</field>
-					<field name="description">S'ha de recomanar prodouctes al usuaris.</field>
-					<field name="uniqueId">32</field>
-				    </base>
-
-				    <field name="subGoals"><list>
-					<object type="Goal" id="47">
-					    <base type="Entity">
-						<field name="name">Comunicar suggerencia de compra</field>
-						<field name="description">S'ha de comunicar suggerencies de compres segons els gustos de l'usuari en qüestió.</field>
-						<field name="uniqueId">46</field>
-					    </base>
-
-					</object>
-					</list>
-				    </field>
-				</object>
-				</list>
-			    </field>
-			    <field name="actions"><list>
-				<object ref="21"/>
-				</list>
-			    </field>
-			    <field name="percepts"><list>
-				<object type="Percept" id="48">
-				    <base type="Interaction">
-					<base type="Entity">
-					    <field name="name">Toca recomenar</field>
-					    <field name="description">Ho genera el sistema.</field>
-					    <field name="uniqueId">77</field>
-					    <field name="connectTo"><list>
-						<object ref="19"/>
-						</list>
-					    </field>
-					</base>
-
-				    </base>
-
-				    <field name="source"></field>
-				    <field name="informationCarried">Automàticament quan l'usuari esta connectat.</field>
-				    <field name="knowledgeUpdated">Els productes han estat recomanats.</field>
-				    <field name="processing"></field>
-				    <field name="frequency"></field>
-				    <field name="externalPath"></field>
-				</object>
-				</list>
-			    </field>
-			    <field name="dataRead"><list>
-				<object ref="32"/>
-				</list>
-			    </field>
-			    <field name="dataWritten"><list>
-				<object ref="32"/>
-
-				<object ref="31"/>
-				</list>
-			    </field>
-			</object>
+			<object ref="58"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="49">
+			<object type="Coordinate" id="64">
 			    <field name="x">32</field>
 			    <field name="y">286</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="50">
+		<object type="DiagramEntitySetting" id="65">
 		    <field name="entity">
-			<object ref="31"/>
+			<object ref="41"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="51">
+			<object type="Coordinate" id="66">
 			    <field name="x">229</field>
 			    <field name="y">229</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="52">
+		<object type="DiagramEntitySetting" id="67">
 		    <field name="entity">
-			<object type="Role" id="53">
-			    <base type="Entity">
-				<field name="name">Gestió valoració</field>
-				<field name="description">Informa/Registra tot el relacionat amb les valoracions.</field>
-				<field name="uniqueId">73</field>
-			    </base>
-
-			    <field name="goals"><list>
-				<object type="Goal" id="54">
-				    <base type="Entity">
-					<field name="name">Valorar producte</field>
-					<field name="description">S'ha de valorar el producte per part de l'usuari.</field>
-					<field name="uniqueId">28</field>
-				    </base>
-
-				    <field name="subGoals"><list>
-					<object type="Goal" id="55">
-					    <base type="Entity">
-						<field name="name">Demanar opinió usuari</field>
-						<field name="description">S'ha de demanar la opinió al usuari sobre que pensa sobre el producte comprat.</field>
-						<field name="uniqueId">45</field>
-					    </base>
-
-					</object>
-					</list>
-				    </field>
-				</object>
-				</list>
-			    </field>
-			    <field name="actions"><list>
-				<object type="Action" id="56">
-				    <base type="Interaction">
-					<base type="Entity">
-					    <field name="name">Registrar valoracio</field>
-					    <field name="description">Es registra la valoració feta per l'usuari.</field>
-					    <field name="uniqueId">75</field>
-					</base>
-
-				    </base>
-
-				    <field name="parameters">Usuari, valoració, producte.</field>
-				    <field name="durationDescription">Puntual.</field>
-				    <field name="failureNotificationDescription"></field>
-				    <field name="partialChange"></field>
-				    <field name="sideEffects"></field>
-				</object>
-				</list>
-			    </field>
-			    <field name="percepts"><list>
-				<object type="Percept" id="57">
-				    <base type="Interaction">
-					<base type="Entity">
-					    <field name="name">Compra producte finalitzada</field>
-					    <field name="description">Ho genera el sistema.</field>
-					    <field name="uniqueId">74</field>
-					    <field name="connectTo"><list>
-						<object ref="19"/>
-						</list>
-					    </field>
-					</base>
-
-				    </base>
-
-				    <field name="source"></field>
-				    <field name="informationCarried">Quan el transportista confirma l'entrega del producte.</field>
-				    <field name="knowledgeUpdated">El producte ha estat valorat.</field>
-				    <field name="processing"></field>
-				    <field name="frequency"></field>
-				    <field name="externalPath"></field>
-				</object>
-				</list>
-			    </field>
-			    <field name="dataRead"><list>
-				<object ref="32"/>
-				</list>
-			    </field>
-			    <field name="dataWritten"><list>
-				<object ref="31"/>
-
-				<object type="Data" id="58">
-				    <base type="Entity">
-					<field name="name">Valoracions</field>
-					<field name="description">BD amb totes les valoracions fetes pels usuaris.</field>
-					<field name="uniqueId">87</field>
-				    </base>
-
-				    <field name="dataType">Valoració</field>
-				    <field name="includedFields"></field>
-				    <field name="initialisation"></field>
-				    <field name="writtenWhen"></field>
-				    <field name="externalPath"></field>
-				</object>
-				</list>
-			    </field>
-			</object>
+			<object ref="39"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="59">
+			<object type="Coordinate" id="68">
 			    <field name="x">399</field>
 			    <field name="y">333</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="60">
+		<object type="DiagramEntitySetting" id="69">
 		    <field name="entity">
-			<object ref="42"/>
+			<object ref="49"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="61">
+			<object type="Coordinate" id="70">
 			    <field name="x">64</field>
 			    <field name="y">156</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="62">
+		<object type="DiagramEntitySetting" id="71">
 		    <field name="entity">
-			<object type="Data" id="63">
+			<object ref="45"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="72">
+			    <field name="x">55</field>
+			    <field name="y">18</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="73">
+		    <field name="entity">
+			<object ref="43"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="74">
+			    <field name="x">28</field>
+			    <field name="y">87</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="75">
+		    <field name="entity">
+			<object ref="42"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="76">
+			    <field name="x">413</field>
+			    <field name="y">392</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="77">
+		    <field name="entity">
+			<object ref="59"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="78">
+			    <field name="x">442</field>
+			    <field name="y">130</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="79">
+		    <field name="entity">
+			<object ref="46"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="80">
+			    <field name="x">195</field>
+			    <field name="y">57</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="81">
+		    <field name="entity">
+			<object ref="40"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="82">
+			    <field name="x">250</field>
+			    <field name="y">328</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="83">
+		    <field name="entity">
+			<object type="Data" id="84">
 			    <base type="Entity">
-				<field name="name">Enviaments</field>
-				<field name="description">BD amb tots els enviaments que s'han realitzat</field>
-				<field name="uniqueId">84</field>
+				<field name="name">Diners</field>
+				<field name="description">BD amb tota la informació respecte transaccions de diners</field>
+				<field name="uniqueId">83</field>
 			    </base>
 
-			    <field name="dataType">Enviament</field>
+			    <field name="dataType">Diner</field>
 			    <field name="includedFields"></field>
 			    <field name="initialisation"></field>
 			    <field name="writtenWhen"></field>
@@ -795,161 +1101,16 @@
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="64">
-			    <field name="x">55</field>
-			    <field name="y">18</field>
+			<object type="Coordinate" id="85">
+			    <field name="x">570</field>
+			    <field name="y">327</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="65">
+		<object type="DiagramEntitySetting" id="86">
 		    <field name="entity">
-			<object type="Role" id="66">
-			    <base type="Entity">
-				<field name="name">Gestor d'Enviaments</field>
-				<field name="description">Informa/Registrar tot el relacionat amb enviaments del sistema.</field>
-				<field name="uniqueId">50</field>
-			    </base>
-
-			    <field name="goals"><list>
-				<object ref="14"/>
-
-				<object ref="40"/>
-				</list>
-			    </field>
-			    <field name="actions"><list>
-				<object type="Action" id="67">
-				    <base type="Interaction">
-					<base type="Entity">
-					    <field name="name">Registrar enviament</field>
-					    <field name="description">Es registra l'enviament realitzat.</field>
-					    <field name="uniqueId">51</field>
-					</base>
-
-				    </base>
-
-				    <field name="parameters">Producte enviat, usuari comprador, transportista.</field>
-				    <field name="durationDescription">Puntual.</field>
-				    <field name="failureNotificationDescription"></field>
-				    <field name="partialChange"></field>
-				    <field name="sideEffects"></field>
-				</object>
-				</list>
-			    </field>
-			    <field name="percepts"><list>
-				<object type="Percept" id="68">
-				    <base type="Interaction">
-					<base type="Entity">
-					    <field name="name">Petició d'enviament </field>
-					    <field name="description">Ho genera el sisema.</field>
-					    <field name="uniqueId">52</field>
-					</base>
-
-				    </base>
-
-				    <field name="source"></field>
-				    <field name="informationCarried">El sistema confirma la compra.</field>
-				    <field name="knowledgeUpdated">L'enviament s'ha realitzat i l'entrega ha estat satisfactoria.</field>
-				    <field name="processing"></field>
-				    <field name="frequency"></field>
-				    <field name="externalPath"></field>
-				</object>
-				</list>
-			    </field>
-			    <field name="dataWritten"><list>
-				<object type="Data" id="69">
-				    <base type="Entity">
-					<field name="name">Transportistes</field>
-					<field name="description">BD amb tots els transportistes</field>
-					<field name="uniqueId">82</field>
-				    </base>
-
-				    <field name="dataType">Transportista</field>
-				    <field name="includedFields"></field>
-				    <field name="initialisation"></field>
-				    <field name="writtenWhen"></field>
-				    <field name="externalPath"></field>
-				</object>
-
-				<object ref="63"/>
-
-				<object type="Data" id="70">
-				    <base type="Entity">
-					<field name="name">Punts logistics</field>
-					<field name="description">BD amb tots els punts logisitics que disposa
-</field>
-					<field name="uniqueId">81</field>
-				    </base>
-
-				    <field name="dataType">Punt Logistic</field>
-				    <field name="includedFields"></field>
-				    <field name="initialisation"></field>
-				    <field name="writtenWhen"></field>
-				    <field name="externalPath"></field>
-				</object>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="71">
-			    <field name="x">28</field>
-			    <field name="y">87</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="72">
-		    <field name="entity">
-			<object ref="58"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="73">
-			    <field name="x">413</field>
-			    <field name="y">392</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="74">
-		    <field name="entity">
-			<object ref="33"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="75">
-			    <field name="x">442</field>
-			    <field name="y">130</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="76">
-		    <field name="entity">
-			<object ref="70"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="77">
-			    <field name="x">195</field>
-			    <field name="y">57</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="78">
-		    <field name="entity">
-			<object ref="32"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="79">
-			    <field name="x">250</field>
-			    <field name="y">328</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="80">
-		    <field name="entity">
-			<object type="Role" id="81">
+			<object type="Role" id="87">
 			    <base type="Entity">
 				<field name="name">Processador Cerca</field>
 				<field name="description">Funcionalitat per fer una cerca de productes a petició de l'usuari</field>
@@ -957,7 +1118,7 @@
 			    </base>
 
 			    <field name="goals"><list>
-				<object type="Goal" id="82">
+				<object type="Goal" id="88">
 				    <base type="Entity">
 					<field name="name">Mostrar resultats</field>
 					<field name="description">S'han de mostrar els resultats per tal que l'usuari pogui visualitzar-los correctament.</field>
@@ -968,7 +1129,7 @@
 				</list>
 			    </field>
 			    <field name="actions"><list>
-				<object type="Action" id="83">
+				<object type="Action" id="89">
 				    <base type="Interaction">
 					<base type="Entity">
 					    <field name="name">Mostrar productes</field>
@@ -991,58 +1152,34 @@
 				</list>
 			    </field>
 			    <field name="dataWritten"><list>
-				<object ref="31"/>
+				<object ref="41"/>
 				</list>
 			    </field>
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="84">
+			<object type="Coordinate" id="90">
 			    <field name="x">451</field>
 			    <field name="y">186</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="85">
+		<object type="DiagramEntitySetting" id="91">
 		    <field name="entity">
-			<object type="Data" id="86">
-			    <base type="Entity">
-				<field name="name">Diners</field>
-				<field name="description">BD amb tota la informació respecte transaccions de diners</field>
-				<field name="uniqueId">83</field>
-			    </base>
-
-			    <field name="dataType">Diner</field>
-			    <field name="includedFields"></field>
-			    <field name="initialisation"></field>
-			    <field name="writtenWhen"></field>
-			    <field name="externalPath"></field>
-			</object>
+			<object ref="44"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="87">
-			    <field name="x">570</field>
-			    <field name="y">327</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="88">
-		    <field name="entity">
-			<object ref="69"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="89">
+			<object type="Coordinate" id="92">
 			    <field name="x">203</field>
 			    <field name="y">145</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="90">
+		<object type="DiagramEntitySetting" id="93">
 		    <field name="entity">
-			<object type="Role" id="91">
+			<object type="Role" id="94">
 			    <base type="Entity">
 				<field name="name">Processador Transferència</field>
 				<field name="description">Funcionalitat de transferència de diners cap a l'usuari o cap al sistema.</field>
@@ -1052,76 +1189,45 @@
 			    <field name="goals"><list>
 				<object ref="9"/>
 
-				<object ref="38"/>
+				<object ref="31"/>
 				</list>
 			    </field>
 			    <field name="actions"><list>
-				<object ref="26"/>
+				<object ref="50"/>
 				</list>
 			    </field>
 			    <field name="percepts"><list>
-				<object ref="28"/>
+				<object ref="52"/>
 				</list>
 			    </field>
 			    <field name="dataRead"><list>
-				<object ref="32"/>
-				</list>
-			    </field>
-			    <field name="dataWritten"><list>
-				<object ref="31"/>
-
-				<object ref="86"/>
-
-				<object ref="32"/>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="92">
-			    <field name="x">507</field>
-			    <field name="y">254</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="93">
-		    <field name="entity">
-			<object type="Role" id="94">
-			    <base type="Entity">
-				<field name="name">Gestor logistic</field>
-				<field name="description">Informa del sector logístic del sistema.</field>
-				<field name="uniqueId">63</field>
-			    </base>
-
-			    <field name="goals"><list>
-				<object ref="14"/>
-
 				<object ref="40"/>
 				</list>
 			    </field>
-			    <field name="actions"><list>
-				<object ref="23"/>
-
-				<object ref="22"/>
-				</list>
-			    </field>
-			    <field name="percepts"><list>
-				<object ref="25"/>
-				</list>
-			    </field>
 			    <field name="dataWritten"><list>
-				<object ref="70"/>
+				<object ref="41"/>
 
-				<object ref="69"/>
+				<object ref="84"/>
 
-				<object ref="31"/>
+				<object ref="40"/>
 				</list>
 			    </field>
 			</object>
 		    </field>
 		    <field name="location">
 			<object type="Coordinate" id="95">
+			    <field name="x">507</field>
+			    <field name="y">254</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="96">
+		    <field name="entity">
+			<object ref="47"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="97">
 			    <field name="x">364</field>
 			    <field name="y">15</field>
 			</object>
@@ -1131,92 +1237,80 @@
 	    </field>
 	</object>
 
-	<object type="DiagramSettings" id="96">
+	<object type="DiagramSettings" id="98">
 	    <field name="diagramId">
-		<object type="DiagramId" id="97">
+		<object type="DiagramId" id="99">
 		    <field name="stringId">Goal Overview</field>
 		</object>
 	    </field>
 	    <field name="entitySettings"><list>
-		<object type="DiagramEntitySetting" id="98">
+		<object type="DiagramEntitySetting" id="100">
 		    <field name="entity">
-			<object ref="40"/>
+			<object ref="29"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="99">
+			<object type="Coordinate" id="101">
 			    <field name="x">333</field>
 			    <field name="y">107</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="100">
+		<object type="DiagramEntitySetting" id="102">
 		    <field name="entity">
-			<object ref="39"/>
+			<object ref="32"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="101">
+			<object type="Coordinate" id="103">
 			    <field name="x">216</field>
 			    <field name="y">149</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="102">
+		<object type="DiagramEntitySetting" id="104">
 		    <field name="entity">
-			<object ref="46"/>
+			<object ref="55"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="103">
+			<object type="Coordinate" id="105">
 			    <field name="x">721</field>
 			    <field name="y">172</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="104">
+		<object type="DiagramEntitySetting" id="106">
 		    <field name="entity">
-			<object ref="38"/>
+			<object ref="31"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="105">
+			<object type="Coordinate" id="107">
 			    <field name="x">119</field>
 			    <field name="y">105</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="106">
+		<object type="DiagramEntitySetting" id="108">
 		    <field name="entity">
 			<object ref="11"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="107">
+			<object type="Coordinate" id="109">
 			    <field name="x">507</field>
 			    <field name="y">244</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="108">
+		<object type="DiagramEntitySetting" id="110">
 		    <field name="entity">
 			<object ref="10"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="109">
-			    <field name="x">369</field>
-			    <field name="y">271</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="110">
-		    <field name="entity">
-			<object ref="82"/>
-		    </field>
-		    <field name="location">
 			<object type="Coordinate" id="111">
-			    <field name="x">81</field>
+			    <field name="x">369</field>
 			    <field name="y">271</field>
 			</object>
 		    </field>
@@ -1224,7 +1318,19 @@
 
 		<object type="DiagramEntitySetting" id="112">
 		    <field name="entity">
-			<object type="Goal" id="113">
+			<object ref="88"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="113">
+			    <field name="x">81</field>
+			    <field name="y">271</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="114">
+		    <field name="entity">
+			<object type="Goal" id="115">
 			    <base type="Entity">
 				<field name="uniqueId">37</field>
 			    </base>
@@ -1232,76 +1338,76 @@
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="114">
+			<object type="Coordinate" id="116">
 			    <field name="x">258</field>
 			    <field name="y">224</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="115">
+		<object type="DiagramEntitySetting" id="117">
 		    <field name="entity">
 			<object ref="12"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="116">
+			<object type="Coordinate" id="118">
 			    <field name="x">350</field>
 			    <field name="y">366</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="117">
+		<object type="DiagramEntitySetting" id="119">
 		    <field name="entity">
 			<object ref="14"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="118">
+			<object type="Coordinate" id="120">
 			    <field name="x">510</field>
 			    <field name="y">333</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="119">
+		<object type="DiagramEntitySetting" id="121">
 		    <field name="entity">
 			<object ref="8"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="120">
+			<object type="Coordinate" id="122">
 			    <field name="x">64</field>
 			    <field name="y">369</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="121">
+		<object type="DiagramEntitySetting" id="123">
 		    <field name="entity">
 			<object ref="9"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="122">
+			<object type="Coordinate" id="124">
 			    <field name="x">233</field>
 			    <field name="y">326</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="123">
+		<object type="DiagramEntitySetting" id="125">
 		    <field name="entity">
-			<object ref="47"/>
+			<object ref="56"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="124">
+			<object type="Coordinate" id="126">
 			    <field name="x">677</field>
 			    <field name="y">241</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="125">
+		<object type="DiagramEntitySetting" id="127">
 		    <field name="entity">
-			<object type="Goal" id="126">
+			<object type="Goal" id="128">
 			    <base type="Entity">
 				<field name="name">Cercar producte</field>
 				<field name="description">S'ha de cercar el producte o productes que ha marcat l'usuari amb els especificis paràmetres.</field>
@@ -1309,73 +1415,73 @@
 			    </base>
 
 			    <field name="subGoals"><list>
-				<object ref="82"/>
+				<object ref="88"/>
 				</list>
 			    </field>
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="127">
+			<object type="Coordinate" id="129">
 			    <field name="x">83</field>
 			    <field name="y">194</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="128">
+		<object type="DiagramEntitySetting" id="130">
 		    <field name="entity">
 			<object ref="13"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="129">
+			<object type="Coordinate" id="131">
 			    <field name="x">609</field>
 			    <field name="y">375</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="130">
+		<object type="DiagramEntitySetting" id="132">
 		    <field name="entity">
-			<object ref="55"/>
+			<object ref="28"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="131">
+			<object type="Coordinate" id="133">
 			    <field name="x">538</field>
 			    <field name="y">121</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="132">
+		<object type="DiagramEntitySetting" id="134">
 		    <field name="entity">
 			<object ref="6"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="133">
+			<object type="Coordinate" id="135">
 			    <field name="x">453</field>
 			    <field name="y">164</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="134">
+		<object type="DiagramEntitySetting" id="136">
 		    <field name="entity">
-			<object ref="37"/>
+			<object ref="30"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="135">
+			<object type="Coordinate" id="137">
 			    <field name="x">217</field>
 			    <field name="y">52</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="136">
+		<object type="DiagramEntitySetting" id="138">
 		    <field name="entity">
-			<object ref="54"/>
+			<object ref="27"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="137">
+			<object type="Coordinate" id="139">
 			    <field name="x">555</field>
 			    <field name="y">36</field>
 			</object>
@@ -1385,103 +1491,149 @@
 	    </field>
 	</object>
 
-	<object type="DiagramSettings" id="138">
+	<object type="DiagramSettings" id="140">
 	    <field name="diagramId">
-		<object type="DiagramId" id="139">
+		<object type="DiagramId" id="141">
 		    <field name="stringId">Agent-Role Coupling</field>
 		</object>
 	    </field>
 	    <field name="entitySettings"><list>
-		<object type="DiagramEntitySetting" id="140">
+		<object type="DiagramEntitySetting" id="142">
 		    <field name="entity">
 			<object ref="5"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="141">
-			    <field name="x">596</field>
-			    <field name="y">226</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="142">
-		    <field name="entity">
-			<object ref="66"/>
-		    </field>
-		    <field name="location">
 			<object type="Coordinate" id="143">
-			    <field name="x">287</field>
-			    <field name="y">222</field>
+			    <field name="x">597</field>
+			    <field name="y">220</field>
 			</object>
 		    </field>
 		</object>
 
 		<object type="DiagramEntitySetting" id="144">
 		    <field name="entity">
-			<object ref="81"/>
+			<object ref="43"/>
 		    </field>
 		    <field name="location">
 			<object type="Coordinate" id="145">
-			    <field name="x">168</field>
-			    <field name="y">287</field>
+			    <field name="x">370</field>
+			    <field name="y">252</field>
 			</object>
 		    </field>
 		</object>
 
 		<object type="DiagramEntitySetting" id="146">
 		    <field name="entity">
-			<object ref="36"/>
+			<object ref="26"/>
 		    </field>
 		    <field name="location">
 			<object type="Coordinate" id="147">
-			    <field name="x">382</field>
-			    <field name="y">289</field>
+			    <field name="x">307</field>
+			    <field name="y">97</field>
 			</object>
 		    </field>
 		</object>
 
 		<object type="DiagramEntitySetting" id="148">
 		    <field name="entity">
-			<object ref="91"/>
+			<object ref="54"/>
 		    </field>
 		    <field name="location">
 			<object type="Coordinate" id="149">
-			    <field name="x">74</field>
-			    <field name="y">225</field>
+			    <field name="x">605</field>
+			    <field name="y">99</field>
 			</object>
 		    </field>
 		</object>
 
 		<object type="DiagramEntitySetting" id="150">
 		    <field name="entity">
-			<object ref="45"/>
+			<object ref="48"/>
 		    </field>
 		    <field name="location">
 			<object type="Coordinate" id="151">
-			    <field name="x">729</field>
-			    <field name="y">229</field>
+			    <field name="x">271</field>
+			    <field name="y">325</field>
 			</object>
 		    </field>
 		</object>
 
 		<object type="DiagramEntitySetting" id="152">
 		    <field name="entity">
-			<object ref="94"/>
+			<object ref="87"/>
 		    </field>
 		    <field name="location">
 			<object type="Coordinate" id="153">
-			    <field name="x">461</field>
-			    <field name="y">220</field>
+			    <field name="x">72</field>
+			    <field name="y">310</field>
 			</object>
 		    </field>
 		</object>
 
 		<object type="DiagramEntitySetting" id="154">
 		    <field name="entity">
-			<object ref="53"/>
+			<object type="Agent" id="155">
+			    <base type="Entity">
+				<field name="name">v. extern</field>
+				<field name="description"></field>
+				<field name="uniqueId">97</field>
+			    </base>
+
+			    <field name="lifetime"></field>
+			    <field name="initialisation"></field>
+			    <field name="demise"></field>
+			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="155">
+			<object type="Coordinate" id="156">
+			    <field name="x">110</field>
+			    <field name="y">94</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="157">
+		    <field name="entity">
+			<object ref="58"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="158">
+			    <field name="x">720</field>
+			    <field name="y">221</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="159">
+		    <field name="entity">
+			<object ref="94"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="160">
+			    <field name="x">74</field>
+			    <field name="y">225</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="161">
+		    <field name="entity">
+			<object ref="47"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="162">
+			    <field name="x">464</field>
+			    <field name="y">147</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="163">
+		    <field name="entity">
+			<object ref="39"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="164">
 			    <field name="x">557</field>
 			    <field name="y">295</field>
 			</object>
@@ -1491,459 +1643,465 @@
 	    </field>
 	</object>
 
-	<object type="DiagramSettings" id="156">
+	<object type="DiagramSettings" id="165">
 	    <field name="diagramId">
-		<object type="DiagramId" id="157">
+		<object type="DiagramId" id="166">
 		    <field name="stringId">System Roles</field>
 		</object>
 	    </field>
 	    <field name="entitySettings"><list>
-		<object type="DiagramEntitySetting" id="158">
+		<object type="DiagramEntitySetting" id="167">
 		    <field name="entity">
 			<object ref="5"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="159">
+			<object type="Coordinate" id="168">
 			    <field name="x">857</field>
 			    <field name="y">336</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="160">
+		<object type="DiagramEntitySetting" id="169">
 		    <field name="entity">
-			<object ref="29"/>
+			<object ref="53"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="161">
+			<object type="Coordinate" id="170">
 			    <field name="x">629</field>
 			    <field name="y">327</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="162">
+		<object type="DiagramEntitySetting" id="171">
 		    <field name="entity">
 			<object ref="15"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="163">
+			<object type="Coordinate" id="172">
 			    <field name="x">711</field>
 			    <field name="y">395</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="164">
+		<object type="DiagramEntitySetting" id="173">
 		    <field name="entity">
 			<object ref="16"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="165">
+			<object type="Coordinate" id="174">
 			    <field name="x">873</field>
 			    <field name="y">392</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="166">
+		<object type="DiagramEntitySetting" id="175">
 		    <field name="entity">
 			<object ref="25"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="167">
-			    <field name="x">91</field>
-			    <field name="y">112</field>
+			<object type="Coordinate" id="176">
+			    <field name="x">132</field>
+			    <field name="y">111</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="168">
+		<object type="DiagramEntitySetting" id="177">
 		    <field name="entity">
 			<object ref="23"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="169">
+			<object type="Coordinate" id="178">
 			    <field name="y">1</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="170">
+		<object type="DiagramEntitySetting" id="179">
 		    <field name="entity">
-			<object ref="36"/>
+			<object ref="48"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="171">
+			<object type="Coordinate" id="180">
 			    <field name="x">474</field>
 			    <field name="y">241</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="172">
+		<object type="DiagramEntitySetting" id="181">
 		    <field name="entity">
-			<object ref="41"/>
+			<object ref="38"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="173">
+			<object type="Coordinate" id="182">
 			    <field name="x">463</field>
 			    <field name="y">195</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="174">
+		<object type="DiagramEntitySetting" id="183">
 		    <field name="entity">
-			<object ref="45"/>
+			<object ref="58"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="175">
+			<object type="Coordinate" id="184">
 			    <field name="x">1030</field>
 			    <field name="y">95</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="176">
+		<object type="DiagramEntitySetting" id="185">
 		    <field name="entity">
-			<object ref="48"/>
+			<object ref="57"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="177">
+			<object type="Coordinate" id="186">
 			    <field name="x">870</field>
 			    <field name="y">53</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="178">
+		<object type="DiagramEntitySetting" id="187">
 		    <field name="entity">
 			<object ref="21"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="179">
+			<object type="Coordinate" id="188">
 			    <field name="x">1116</field>
 			    <field name="y">141</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="180">
+		<object type="DiagramEntitySetting" id="189">
 		    <field name="entity">
 			<object ref="22"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="181">
+			<object type="Coordinate" id="190">
 			    <field name="x">6</field>
 			    <field name="y">68</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="182">
+		<object type="DiagramEntitySetting" id="191">
 		    <field name="entity">
-			<object ref="53"/>
+			<object ref="39"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="183">
+			<object type="Coordinate" id="192">
 			    <field name="x">817</field>
 			    <field name="y">121</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="184">
+		<object type="DiagramEntitySetting" id="193">
 		    <field name="entity">
-			<object ref="57"/>
+			<object ref="33"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="185">
+			<object type="Coordinate" id="194">
 			    <field name="x">587</field>
 			    <field name="y">156</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="186">
+		<object type="DiagramEntitySetting" id="195">
 		    <field name="entity">
-			<object ref="56"/>
+			<object ref="36"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="187">
+			<object type="Coordinate" id="196">
 			    <field name="x">920</field>
 			    <field name="y">170</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="188">
+		<object type="DiagramEntitySetting" id="197">
 		    <field name="entity">
 			<object ref="6"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="189">
+			<object type="Coordinate" id="198">
 			    <field name="x">812</field>
 			    <field name="y">266</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="190">
+		<object type="DiagramEntitySetting" id="199">
 		    <field name="entity">
-			<object ref="54"/>
+			<object ref="27"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="191">
+			<object type="Coordinate" id="200">
 			    <field name="x">692</field>
 			    <field name="y">78</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="192">
+		<object type="DiagramEntitySetting" id="201">
 		    <field name="entity">
-			<object ref="40"/>
+			<object ref="29"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="193">
+			<object type="Coordinate" id="202">
 			    <field name="x">257</field>
 			    <field name="y">72</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="194">
+		<object type="DiagramEntitySetting" id="203">
 		    <field name="entity">
-			<object ref="39"/>
+			<object ref="32"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="195">
+			<object type="Coordinate" id="204">
 			    <field name="x">477</field>
 			    <field name="y">251</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="196">
+		<object type="DiagramEntitySetting" id="205">
 		    <field name="entity">
-			<object ref="46"/>
+			<object ref="55"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="197">
+			<object type="Coordinate" id="206">
 			    <field name="x">1085</field>
 			    <field name="y">38</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="198">
+		<object type="DiagramEntitySetting" id="207">
 		    <field name="entity">
-			<object ref="38"/>
+			<object ref="31"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="199">
+			<object type="Coordinate" id="208">
 			    <field name="x">132</field>
 			    <field name="y">424</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="200">
+		<object type="DiagramEntitySetting" id="209">
 		    <field name="entity">
-			<object ref="82"/>
+			<object ref="88"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="201">
+			<object type="Coordinate" id="210">
 			    <field name="x">24</field>
 			    <field name="y">249</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="202">
+		<object type="DiagramEntitySetting" id="211">
 		    <field name="entity">
 			<object ref="14"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="203">
+			<object type="Coordinate" id="212">
 			    <field name="x">265</field>
 			    <field name="y">16</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="204">
+		<object type="DiagramEntitySetting" id="213">
 		    <field name="entity">
 			<object ref="9"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="205">
+			<object type="Coordinate" id="214">
 			    <field name="x">7</field>
 			    <field name="y">395</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="206">
+		<object type="DiagramEntitySetting" id="215">
 		    <field name="entity">
-			<object ref="67"/>
+			<object ref="37"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="207">
+			<object type="Coordinate" id="216">
 			    <field name="x">648</field>
 			    <field name="y">20</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="208">
+		<object type="DiagramEntitySetting" id="217">
 		    <field name="entity">
-			<object ref="66"/>
+			<object ref="43"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="209">
+			<object type="Coordinate" id="218">
 			    <field name="x">458</field>
 			    <field name="y">20</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="210">
+		<object type="DiagramEntitySetting" id="219">
 		    <field name="entity">
-			<object type="Action" id="211">
+			<object type="Action" id="220">
 			    <base type="Interaction">
 				<base type="Entity">
 				    <field name="name">Cercar</field>
+				    <field name="description"></field>
 				    <field name="uniqueId">55</field>
 				</base>
 
 			    </base>
 
+			    <field name="parameters"></field>
+			    <field name="durationDescription"></field>
+			    <field name="failureNotificationDescription"></field>
+			    <field name="partialChange"></field>
+			    <field name="sideEffects"></field>
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="212">
+			<object type="Coordinate" id="221">
 			    <field name="x">258</field>
 			    <field name="y">188</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="213">
+		<object type="DiagramEntitySetting" id="222">
 		    <field name="entity">
 			<object ref="18"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="214">
+			<object type="Coordinate" id="223">
 			    <field name="x">195</field>
 			    <field name="y">239</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="215">
+		<object type="DiagramEntitySetting" id="224">
 		    <field name="entity">
-			<object ref="81"/>
+			<object ref="87"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="216">
+			<object type="Coordinate" id="225">
 			    <field name="x">29</field>
 			    <field name="y">188</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="217">
+		<object type="DiagramEntitySetting" id="226">
 		    <field name="entity">
-			<object ref="68"/>
+			<object ref="34"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="218">
+			<object type="Coordinate" id="227">
 			    <field name="x">382</field>
 			    <field name="y">109</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="219">
+		<object type="DiagramEntitySetting" id="228">
 		    <field name="entity">
-			<object ref="91"/>
+			<object ref="94"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="220">
+			<object type="Coordinate" id="229">
 			    <field name="x">29</field>
 			    <field name="y">322</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="221">
+		<object type="DiagramEntitySetting" id="230">
 		    <field name="entity">
-			<object ref="37"/>
+			<object ref="30"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="222">
+			<object type="Coordinate" id="231">
 			    <field name="x">630</field>
 			    <field name="y">251</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="223">
+		<object type="DiagramEntitySetting" id="232">
 		    <field name="entity">
-			<object ref="83"/>
+			<object ref="89"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="224">
+			<object type="Coordinate" id="233">
 			    <field name="x">245</field>
 			    <field name="y">188</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="225">
+		<object type="DiagramEntitySetting" id="234">
 		    <field name="entity">
-			<object ref="94"/>
+			<object ref="47"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="226">
+			<object type="Coordinate" id="235">
 			    <field name="x">143</field>
 			    <field name="y">25</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="227">
+		<object type="DiagramEntitySetting" id="236">
 		    <field name="entity">
-			<object ref="26"/>
+			<object ref="50"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="228">
+			<object type="Coordinate" id="237">
 			    <field name="x">248</field>
 			    <field name="y">321</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="229">
+		<object type="DiagramEntitySetting" id="238">
 		    <field name="entity">
-			<object ref="28"/>
+			<object ref="52"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="230">
+			<object type="Coordinate" id="239">
 			    <field name="x">202</field>
 			    <field name="y">357</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="231">
+		<object type="DiagramEntitySetting" id="240">
 		    <field name="entity">
-			<object ref="30"/>
+			<object ref="35"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="232">
+			<object type="Coordinate" id="241">
 			    <field name="x">451</field>
 			    <field name="y">311</field>
 			</object>
@@ -1953,356 +2111,149 @@
 	    </field>
 	</object>
 
-	<object type="DiagramSettings" id="233">
+	<object type="DiagramSettings" id="242">
 	    <field name="diagramId">
-		<object type="DiagramId" id="234">
-		    <field name="stringId">Scenarios</field>
-		</object>
-	    </field>
-	    <field name="entitySettings"><list>
-		<object type="DiagramEntitySetting" id="235">
-		    <field name="entity">
-			<object type="Scenario" id="236">
-			    <base type="Entity">
-				<field name="name">Recomanar producte scenario</field>
-				<field name="description">Proces de mostra de productes especifics per cada usuari per tal de recomanar la respectiva compra.</field>
-				<field name="uniqueId">49</field>
-			    </base>
-
-			    <field name="context"></field>
-			    <field name="variation"></field>
-			    <field name="linkedGoals"><list>
-				<object type="Goal" id="237">
-				    <base type="Entity">
-					<field name="name">Recomanar producte</field>
-				    </base>
-
-				</object>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="238">
-			    <field name="x">101</field>
-			    <field name="y">139</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="239">
-		    <field name="entity">
-			<object type="Scenario" id="240">
-			    <base type="Entity">
-				<field name="name">Cercar producte scenario</field>
-				<field name="description">Procés de cerca de productes a petició de l'usuari per tal de mostrar els productes que desitja.</field>
-				<field name="uniqueId">48</field>
-			    </base>
-
-			    <field name="context"></field>
-			    <field name="variation"></field>
-			    <field name="linkedGoals"><list>
-				<object type="Goal" id="241">
-				    <base type="Entity">
-					<field name="name">Cercar producte</field>
-				    </base>
-
-				</object>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="242">
-			    <field name="x">101</field>
-			    <field name="y">211</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="243">
-		    <field name="entity">
-			<object type="Scenario" id="244">
-			    <base type="Entity">
-				<field name="uniqueId">21</field>
-				<field name="hideNotes">:not_visible</field>
-			    </base>
-
-			    <field name="scope">:optional</field>
-			    <field name="linkedGoals"><list>
-				<object type="Goal" id="245">
-				    <base type="Entity">
-					<field name="uniqueId">20</field>
-				    </base>
-
-				</object>
-
-				<object type="Goal" id="246">
-				    <base type="Entity">
-					<field name="uniqueId">14</field>
-				    </base>
-
-				    <field name="scope">:optional</field>
-				</object>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="247">
-			    <field name="x">475</field>
-			    <field name="y">115</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="248">
-		    <field name="entity">
-			<object type="Scenario" id="249">
-			    <base type="Entity">
-				<field name="name">Comprar producte scenario</field>
-				<field name="description">Proces de compra de un o alguns productes per l'usuari.</field>
-				<field name="uniqueId">22</field>
-			    </base>
-
-			    <field name="context"></field>
-			    <field name="steps"><list>
-				<object type="Step" id="250">
-				    <base type="Entity">
-					<field name="name">&lt;Prometheus unique entity name au.edu.rmit.cs.prometheus.datamodel.jacob.Step ID=24&gt;</field>
-					<field name="description"></field>
-					<field name="uniqueId">24</field>
-				    </base>
-
-				</object>
-
-				<object type="Step" id="251">
-				    <base type="Entity">
-					<field name="name">&lt;Prometheus unique entity name au.edu.rmit.cs.prometheus.datamodel.jacob.Step ID=27&gt;</field>
-					<field name="description"></field>
-					<field name="uniqueId">27</field>
-				    </base>
-
-				</object>
-				</list>
-			    </field>
-			    <field name="variation"></field>
-			    <field name="linkedGoals"><list>
-				<object ref="6"/>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="252">
-			    <field name="x">103</field>
-			    <field name="y">77</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="253">
-		    <field name="entity">
-			<object type="Scenario" id="254">
-			    <base type="Entity">
-				<field name="name">Retornar producte scenario</field>
-				<field name="description">Procés de retorn de producte(s) per part de l'usuari i de diners per part del Sistema.</field>
-				<field name="uniqueId">58</field>
-			    </base>
-
-			    <field name="context"></field>
-			    <field name="variation"></field>
-			    <field name="linkedGoals"><list>
-				<object type="Goal" id="255">
-				    <base type="Entity">
-					<field name="name">Retornar producte</field>
-				    </base>
-
-				</object>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="256">
-			    <field name="x">102</field>
-			    <field name="y">335</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="257">
-		    <field name="entity">
-			<object type="Scenario" id="258">
-			    <base type="Entity">
-				<field name="name">Valorar producte scenario</field>
-				<field name="description">Procés de valoració de l'usuari d'un producte a petició del Sistema.</field>
-				<field name="uniqueId">29</field>
-			    </base>
-
-			    <field name="context"></field>
-			    <field name="variation"></field>
-			    <field name="linkedGoals"><list>
-				<object ref="54"/>
-				</list>
-			    </field>
-			</object>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="259">
-			    <field name="x">98</field>
-			    <field name="y">275</field>
-			</object>
-		    </field>
-		</object>
-		</list>
-	    </field>
-	</object>
-
-	<object type="DiagramSettings" id="260">
-	    <field name="diagramId">
-		<object type="DiagramId" id="261">
+		<object type="DiagramId" id="243">
 		    <field name="stringId">Analysis Overview</field>
 		</object>
 	    </field>
 	    <field name="entitySettings"><list>
-		<object type="DiagramEntitySetting" id="262">
+		<object type="DiagramEntitySetting" id="244">
 		    <field name="entity">
-			<object ref="29"/>
+			<object ref="53"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="263">
+			<object type="Coordinate" id="245">
 			    <field name="x">517</field>
 			    <field name="y">181</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="264">
+		<object type="DiagramEntitySetting" id="246">
 		    <field name="entity">
 			<object ref="16"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="265">
+			<object type="Coordinate" id="247">
 			    <field name="x">340</field>
 			    <field name="y">375</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="266">
+		<object type="DiagramEntitySetting" id="248">
 		    <field name="entity">
 			<object ref="25"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="267">
+			<object type="Coordinate" id="249">
 			    <field name="x">130</field>
 			    <field name="y">60</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="268">
+		<object type="DiagramEntitySetting" id="250">
 		    <field name="entity">
 			<object ref="23"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="269">
+			<object type="Coordinate" id="251">
 			    <field name="x">357</field>
 			    <field name="y">74</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="270">
+		<object type="DiagramEntitySetting" id="252">
 		    <field name="entity">
-			<object type="Notes" id="271">
+			<object type="Notes" id="253">
 			    <base type="Entity">
 				<field name="name">Proveïdor de pagament, entitat externa</field>
 				<field name="uniqueId">96</field>
 				<field name="connectTo"><list>
-				    <object ref="27"/>
+				    <object ref="51"/>
 				    </list>
 				</field>
 			    </base>
 
 			    <field name="notes">Proveïdor de pagament, entitat externa</field>
 			    <field name="belongs"><list>
-				<object ref="27"/>
+				<object ref="51"/>
 				</list>
 			    </field>
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="272">
+			<object type="Coordinate" id="254">
 			    <field name="x">755</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="273">
+		<object type="DiagramEntitySetting" id="255">
 		    <field name="entity">
-			<object ref="48"/>
+			<object ref="57"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="274">
+			<object type="Coordinate" id="256">
 			    <field name="x">179</field>
 			    <field name="y">299</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="275">
+		<object type="DiagramEntitySetting" id="257">
 		    <field name="entity">
 			<object ref="21"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="276">
+			<object type="Coordinate" id="258">
 			    <field name="x">403</field>
 			    <field name="y">318</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="277">
+		<object type="DiagramEntitySetting" id="259">
 		    <field name="entity">
 			<object ref="22"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="278">
-			    <field name="x">590</field>
-			    <field name="y">366</field>
+			<object type="Coordinate" id="260">
+			    <field name="x">582</field>
+			    <field name="y">367</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="279">
+		<object type="DiagramEntitySetting" id="261">
 		    <field name="entity">
-			<object ref="57"/>
+			<object ref="33"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="280">
-			    <field name="x">6</field>
-			    <field name="y">231</field>
+			<object type="Coordinate" id="262">
+			    <field name="y">224</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="281">
+		<object type="DiagramEntitySetting" id="263">
 		    <field name="entity">
 			<object ref="18"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="282">
-			    <field name="x">452</field>
-			    <field name="y">239</field>
+			<object type="Coordinate" id="264">
+			    <field name="x">483</field>
+			    <field name="y">242</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="283">
+		<object type="DiagramEntitySetting" id="265">
 		    <field name="entity">
-			<object type="Notes" id="284">
+			<object type="Notes" id="266">
 			    <base type="Entity">
 				<field name="name">Actor Venedor Extern, interactua amb el seu agent representant dintre del gestor sistema.</field>
 				<field name="uniqueId">93</field>
@@ -2320,28 +2271,28 @@
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="285">
+			<object type="Coordinate" id="267">
 			    <field name="x">10</field>
 			    <field name="y">42</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="286">
+		<object type="DiagramEntitySetting" id="268">
 		    <field name="entity">
 			<object ref="19"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="287">
+			<object type="Coordinate" id="269">
 			    <field name="x">255</field>
 			    <field name="y">163</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="288">
+		<object type="DiagramEntitySetting" id="270">
 		    <field name="entity">
-			<object type="Notes" id="289">
+			<object type="Notes" id="271">
 			    <base type="Entity">
 				<field name="name">Actor Usuari, interactua amb seu agent representant dintre del gestor sistema.</field>
 				<field name="uniqueId">95</field>
@@ -2359,16 +2310,16 @@
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="290">
+			<object type="Coordinate" id="272">
 			    <field name="x">807</field>
 			    <field name="y">349</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="291">
+		<object type="DiagramEntitySetting" id="273">
 		    <field name="entity">
-			<object type="Notes" id="292">
+			<object type="Notes" id="274">
 			    <base type="Entity">
 				<field name="name">Actor Transportista, entitat externa.</field>
 				<field name="uniqueId">94</field>
@@ -2386,92 +2337,92 @@
 			</object>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="293">
+			<object type="Coordinate" id="275">
 			    <field name="x">353</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="294">
+		<object type="DiagramEntitySetting" id="276">
 		    <field name="entity">
 			<object ref="24"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="295">
+			<object type="Coordinate" id="277">
 			    <field name="x">181</field>
 			    <field name="y">13</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="296">
-		    <field name="entity">
-			<object ref="26"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="297">
-			    <field name="x">745</field>
-			    <field name="y">88</field>
-			</object>
-		    </field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="298">
+		<object type="DiagramEntitySetting" id="278">
 		    <field name="entity">
 			<object ref="17"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="299">
+			<object type="Coordinate" id="279">
 			    <field name="x">834</field>
 			    <field name="y">272</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="300">
+		<object type="DiagramEntitySetting" id="280">
 		    <field name="entity">
-			<object ref="27"/>
+			<object ref="50"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="301">
-			    <field name="x">516</field>
-			    <field name="y">13</field>
+			<object type="Coordinate" id="281">
+			    <field name="x">745</field>
+			    <field name="y">88</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="302">
+		<object type="DiagramEntitySetting" id="282">
 		    <field name="entity">
-			<object ref="28"/>
+			<object ref="52"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="303">
+			<object type="Coordinate" id="283">
 			    <field name="x">492</field>
 			    <field name="y">60</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="304">
+		<object type="DiagramEntitySetting" id="284">
 		    <field name="entity">
-			<object ref="20"/>
+			<object ref="51"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="305">
-			    <field name="x">4</field>
-			    <field name="y">167</field>
+			<object type="Coordinate" id="285">
+			    <field name="x">516</field>
+			    <field name="y">13</field>
 			</object>
 		    </field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="306">
+		<object type="DiagramEntitySetting" id="286">
 		    <field name="entity">
-			<object ref="30"/>
+			<object ref="35"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="307">
+			<object type="Coordinate" id="287">
 			    <field name="x">585</field>
 			    <field name="y">133</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="288">
+		    <field name="entity">
+			<object ref="20"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="289">
+			    <field name="x">4</field>
+			    <field name="y">167</field>
 			</object>
 		    </field>
 		</object>
@@ -2479,19 +2430,225 @@
 	    </field>
 	</object>
 
-	<object type="DiagramSettings" id="308">
+	<object type="DiagramSettings" id="290">
 	    <field name="diagramId">
-		<object type="DiagramId" id="309">
+		<object type="DiagramId" id="291">
+		    <field name="stringId">Scenarios</field>
+		</object>
+	    </field>
+	    <field name="entitySettings"><list>
+		<object type="DiagramEntitySetting" id="292">
+		    <field name="entity">
+			<object type="Scenario" id="293">
+			    <base type="Entity">
+				<field name="name">Recomanar producte scenario</field>
+				<field name="description">Proces de mostra de productes especifics per cada usuari per tal de recomanar la respectiva compra.</field>
+				<field name="uniqueId">49</field>
+			    </base>
+
+			    <field name="context"></field>
+			    <field name="variation"></field>
+			    <field name="linkedGoals"><list>
+				<object type="Goal" id="294">
+				    <base type="Entity">
+					<field name="name">Recomanar producte</field>
+				    </base>
+
+				</object>
+				</list>
+			    </field>
+			</object>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="295">
+			    <field name="x">101</field>
+			    <field name="y">139</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="296">
+		    <field name="entity">
+			<object type="Scenario" id="297">
+			    <base type="Entity">
+				<field name="name">Cercar producte scenario</field>
+				<field name="description">Procés de cerca de productes a petició de l'usuari per tal de mostrar els productes que desitja.</field>
+				<field name="uniqueId">48</field>
+			    </base>
+
+			    <field name="context"></field>
+			    <field name="variation"></field>
+			    <field name="linkedGoals"><list>
+				<object type="Goal" id="298">
+				    <base type="Entity">
+					<field name="name">Cercar producte</field>
+				    </base>
+
+				</object>
+				</list>
+			    </field>
+			</object>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="299">
+			    <field name="x">101</field>
+			    <field name="y">211</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="300">
+		    <field name="entity">
+			<object type="Scenario" id="301">
+			    <base type="Entity">
+				<field name="uniqueId">21</field>
+				<field name="hideNotes">:not_visible</field>
+			    </base>
+
+			    <field name="scope">:optional</field>
+			    <field name="linkedGoals"><list>
+				<object type="Goal" id="302">
+				    <base type="Entity">
+					<field name="uniqueId">20</field>
+				    </base>
+
+				</object>
+
+				<object type="Goal" id="303">
+				    <base type="Entity">
+					<field name="uniqueId">14</field>
+				    </base>
+
+				    <field name="scope">:optional</field>
+				</object>
+				</list>
+			    </field>
+			</object>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="304">
+			    <field name="x">475</field>
+			    <field name="y">115</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="305">
+		    <field name="entity">
+			<object type="Scenario" id="306">
+			    <base type="Entity">
+				<field name="name">Comprar producte scenario</field>
+				<field name="description">Proces de compra de un o alguns productes per l'usuari.</field>
+				<field name="uniqueId">22</field>
+			    </base>
+
+			    <field name="context"></field>
+			    <field name="steps"><list>
+				<object type="Step" id="307">
+				    <base type="Entity">
+					<field name="name">&lt;Prometheus unique entity name au.edu.rmit.cs.prometheus.datamodel.jacob.Step ID=24&gt;</field>
+					<field name="description"></field>
+					<field name="uniqueId">24</field>
+				    </base>
+
+				</object>
+
+				<object type="Step" id="308">
+				    <base type="Entity">
+					<field name="name">&lt;Prometheus unique entity name au.edu.rmit.cs.prometheus.datamodel.jacob.Step ID=27&gt;</field>
+					<field name="description"></field>
+					<field name="uniqueId">27</field>
+				    </base>
+
+				</object>
+				</list>
+			    </field>
+			    <field name="variation"></field>
+			    <field name="linkedGoals"><list>
+				<object ref="6"/>
+				</list>
+			    </field>
+			</object>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="309">
+			    <field name="x">103</field>
+			    <field name="y">77</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="310">
+		    <field name="entity">
+			<object type="Scenario" id="311">
+			    <base type="Entity">
+				<field name="name">Retornar producte scenario</field>
+				<field name="description">Procés de retorn de producte(s) per part de l'usuari i de diners per part del Sistema.</field>
+				<field name="uniqueId">58</field>
+			    </base>
+
+			    <field name="context"></field>
+			    <field name="variation"></field>
+			    <field name="linkedGoals"><list>
+				<object type="Goal" id="312">
+				    <base type="Entity">
+					<field name="name">Retornar producte</field>
+				    </base>
+
+				</object>
+				</list>
+			    </field>
+			</object>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="313">
+			    <field name="x">102</field>
+			    <field name="y">335</field>
+			</object>
+		    </field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="314">
+		    <field name="entity">
+			<object type="Scenario" id="315">
+			    <base type="Entity">
+				<field name="name">Valorar producte scenario</field>
+				<field name="description">Procés de valoració de l'usuari d'un producte a petició del Sistema.</field>
+				<field name="uniqueId">29</field>
+			    </base>
+
+			    <field name="context"></field>
+			    <field name="variation"></field>
+			    <field name="linkedGoals"><list>
+				<object ref="27"/>
+				</list>
+			    </field>
+			</object>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="316">
+			    <field name="x">98</field>
+			    <field name="y">275</field>
+			</object>
+		    </field>
+		</object>
+		</list>
+	    </field>
+	</object>
+
+	<object type="DiagramSettings" id="317">
+	    <field name="diagramId">
+		<object type="DiagramId" id="318">
 		    <field name="stringId">System Overview</field>
 		</object>
 	    </field>
 	    <field name="entitySettings"><list>
-		<object type="DiagramEntitySetting" id="310">
+		<object type="DiagramEntitySetting" id="319">
 		    <field name="entity">
-			<object ref="29"/>
+			<object ref="53"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="311">
+			<object type="Coordinate" id="320">
 			    <field name="x">197</field>
 			    <field name="y">135</field>
 			</object>
@@ -2499,12 +2656,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="312">
+		<object type="DiagramEntitySetting" id="321">
 		    <field name="entity">
 			<object ref="15"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="313">
+			<object type="Coordinate" id="322">
 			    <field name="x">517</field>
 			    <field name="y">25</field>
 			</object>
@@ -2512,12 +2669,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="314">
+		<object type="DiagramEntitySetting" id="323">
 		    <field name="entity">
 			<object ref="16"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="315">
+			<object type="Coordinate" id="324">
 			    <field name="x">37</field>
 			    <field name="y">80</field>
 			</object>
@@ -2525,12 +2682,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="316">
+		<object type="DiagramEntitySetting" id="325">
 		    <field name="entity">
 			<object ref="25"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="317">
+			<object type="Coordinate" id="326">
 			    <field name="x">117</field>
 			    <field name="y">135</field>
 			</object>
@@ -2538,12 +2695,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="318">
+		<object type="DiagramEntitySetting" id="327">
 		    <field name="entity">
 			<object ref="23"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="319">
+			<object type="Coordinate" id="328">
 			    <field name="x">357</field>
 			    <field name="y">25</field>
 			</object>
@@ -2551,12 +2708,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="320">
+		<object type="DiagramEntitySetting" id="329">
 		    <field name="entity">
-			<object ref="41"/>
+			<object ref="38"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="321">
+			<object type="Coordinate" id="330">
 			    <field name="x">437</field>
 			    <field name="y">25</field>
 			</object>
@@ -2564,51 +2721,51 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="322">
-		    <field name="entity">
-			<object ref="48"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="323">
-			    <field name="x">357</field>
-			    <field name="y">135</field>
-			</object>
-		    </field>
-		    <field name="userApproved">:false</field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="324">
-		    <field name="entity">
-			<object ref="21"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="325">
-			    <field name="x">277</field>
-			    <field name="y">80</field>
-			</object>
-		    </field>
-		    <field name="userApproved">:false</field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="326">
-		    <field name="entity">
-			<object ref="22"/>
-		    </field>
-		    <field name="location">
-			<object type="Coordinate" id="327">
-			    <field name="x">117</field>
-			    <field name="y">80</field>
-			</object>
-		    </field>
-		    <field name="userApproved">:false</field>
-		</object>
-
-		<object type="DiagramEntitySetting" id="328">
+		<object type="DiagramEntitySetting" id="331">
 		    <field name="entity">
 			<object ref="57"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="329">
+			<object type="Coordinate" id="332">
+			    <field name="x">357</field>
+			    <field name="y">135</field>
+			</object>
+		    </field>
+		    <field name="userApproved">:false</field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="333">
+		    <field name="entity">
+			<object ref="21"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="334">
+			    <field name="x">277</field>
+			    <field name="y">80</field>
+			</object>
+		    </field>
+		    <field name="userApproved">:false</field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="335">
+		    <field name="entity">
+			<object ref="22"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="336">
+			    <field name="x">117</field>
+			    <field name="y">80</field>
+			</object>
+		    </field>
+		    <field name="userApproved">:false</field>
+		</object>
+
+		<object type="DiagramEntitySetting" id="337">
+		    <field name="entity">
+			<object ref="33"/>
+		    </field>
+		    <field name="location">
+			<object type="Coordinate" id="338">
 			    <field name="x">277</field>
 			    <field name="y">135</field>
 			</object>
@@ -2616,12 +2773,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="330">
+		<object type="DiagramEntitySetting" id="339">
 		    <field name="entity">
-			<object ref="56"/>
+			<object ref="36"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="331">
+			<object type="Coordinate" id="340">
 			    <field name="x">197</field>
 			    <field name="y">80</field>
 			</object>
@@ -2629,12 +2786,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="332">
+		<object type="DiagramEntitySetting" id="341">
 		    <field name="entity">
-			<object ref="67"/>
+			<object ref="37"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="333">
+			<object type="Coordinate" id="342">
 			    <field name="x">37</field>
 			    <field name="y">25</field>
 			</object>
@@ -2642,12 +2799,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="334">
+		<object type="DiagramEntitySetting" id="343">
 		    <field name="entity">
-			<object ref="211"/>
+			<object ref="220"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="335">
+			<object type="Coordinate" id="344">
 			    <field name="x">117</field>
 			    <field name="y">25</field>
 			</object>
@@ -2655,12 +2812,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="336">
+		<object type="DiagramEntitySetting" id="345">
 		    <field name="entity">
 			<object ref="18"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="337">
+			<object type="Coordinate" id="346">
 			    <field name="x">437</field>
 			    <field name="y">80</field>
 			</object>
@@ -2668,12 +2825,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="338">
+		<object type="DiagramEntitySetting" id="347">
 		    <field name="entity">
-			<object ref="68"/>
+			<object ref="34"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="339">
+			<object type="Coordinate" id="348">
 			    <field name="x">357</field>
 			    <field name="y">80</field>
 			</object>
@@ -2681,12 +2838,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="340">
+		<object type="DiagramEntitySetting" id="349">
 		    <field name="entity">
-			<object ref="83"/>
+			<object ref="89"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="341">
+			<object type="Coordinate" id="350">
 			    <field name="x">197</field>
 			    <field name="y">25</field>
 			</object>
@@ -2694,12 +2851,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="342">
+		<object type="DiagramEntitySetting" id="351">
 		    <field name="entity">
-			<object ref="26"/>
+			<object ref="50"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="343">
+			<object type="Coordinate" id="352">
 			    <field name="x">277</field>
 			    <field name="y">25</field>
 			</object>
@@ -2707,12 +2864,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="344">
+		<object type="DiagramEntitySetting" id="353">
 		    <field name="entity">
-			<object ref="28"/>
+			<object ref="52"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="345">
+			<object type="Coordinate" id="354">
 			    <field name="x">37</field>
 			    <field name="y">135</field>
 			</object>
@@ -2720,12 +2877,12 @@
 		    <field name="userApproved">:false</field>
 		</object>
 
-		<object type="DiagramEntitySetting" id="346">
+		<object type="DiagramEntitySetting" id="355">
 		    <field name="entity">
-			<object ref="30"/>
+			<object ref="35"/>
 		    </field>
 		    <field name="location">
-			<object type="Coordinate" id="347">
+			<object type="Coordinate" id="356">
 			    <field name="x">517</field>
 			    <field name="y">80</field>
 			</object>
@@ -2738,22 +2895,22 @@
 	</list>
     </field>
     <field name="model">
-	<object type="PrometheusModelData" id="348">
+	<object type="PrometheusModelData" id="357">
 	    <field name="projectData">
 		<object ref="1"/>
 	    </field>
 	    <field name="actions"><list>
-		<object ref="67"/>
+		<object ref="37"/>
 
-		<object ref="211"/>
+		<object ref="220"/>
 
-		<object ref="83"/>
+		<object ref="89"/>
 
-		<object ref="26"/>
+		<object ref="50"/>
 
 		<object ref="23"/>
 
-		<object ref="41"/>
+		<object ref="38"/>
 
 		<object ref="15"/>
 
@@ -2761,63 +2918,71 @@
 
 		<object ref="22"/>
 
-		<object ref="56"/>
+		<object ref="36"/>
 
 		<object ref="21"/>
 		</list>
 	    </field>
+	    <field name="agents"><list>
+		<object ref="155"/>
+
+		<object ref="26"/>
+
+		<object ref="54"/>
+		</list>
+	    </field>
 	    <field name="data"><list>
-		<object ref="31"/>
+		<object ref="41"/>
 
-		<object ref="32"/>
+		<object ref="40"/>
 
-		<object ref="70"/>
+		<object ref="46"/>
 
-		<object ref="69"/>
+		<object ref="44"/>
 
-		<object ref="86"/>
+		<object ref="84"/>
 
-		<object ref="63"/>
+		<object ref="45"/>
+
+		<object ref="49"/>
+
+		<object ref="59"/>
 
 		<object ref="42"/>
-
-		<object ref="33"/>
-
-		<object ref="58"/>
 		</list>
 	    </field>
 	    <field name="roles"><list>
-		<object ref="66"/>
+		<object ref="43"/>
 
-		<object ref="81"/>
-
-		<object ref="91"/>
+		<object ref="87"/>
 
 		<object ref="94"/>
 
-		<object ref="36"/>
+		<object ref="47"/>
+
+		<object ref="48"/>
 
 		<object ref="5"/>
 
-		<object ref="53"/>
+		<object ref="39"/>
 
-		<object ref="45"/>
+		<object ref="58"/>
 		</list>
 	    </field>
 	    <field name="goals"><list>
 		<object ref="6"/>
 
-		<object ref="54"/>
+		<object ref="27"/>
 
-		<object ref="46"/>
+		<object ref="55"/>
 
-		<object ref="38"/>
+		<object ref="31"/>
 
-		<object ref="40"/>
+		<object ref="29"/>
 
-		<object ref="39"/>
+		<object ref="32"/>
 
-		<object ref="82"/>
+		<object ref="88"/>
 
 		<object ref="7"/>
 
@@ -2835,43 +3000,43 @@
 
 		<object ref="13"/>
 
-		<object ref="55"/>
+		<object ref="28"/>
 
-		<object ref="47"/>
+		<object ref="56"/>
 
-		<object ref="126"/>
+		<object ref="128"/>
 
-		<object ref="37"/>
+		<object ref="30"/>
 		</list>
 	    </field>
 	    <field name="percepts"><list>
-		<object ref="68"/>
+		<object ref="34"/>
 
 		<object ref="18"/>
 
-		<object ref="30"/>
+		<object ref="35"/>
 
-		<object ref="28"/>
+		<object ref="52"/>
 
 		<object ref="25"/>
 
-		<object ref="29"/>
+		<object ref="53"/>
+
+		<object ref="33"/>
 
 		<object ref="57"/>
-
-		<object ref="48"/>
 		</list>
 	    </field>
 	    <field name="scenarios"><list>
-		<object ref="249"/>
+		<object ref="306"/>
 
-		<object ref="258"/>
+		<object ref="315"/>
 
-		<object ref="240"/>
+		<object ref="297"/>
 
-		<object ref="236"/>
+		<object ref="293"/>
 
-		<object ref="254"/>
+		<object ref="311"/>
 		</list>
 	    </field>
 	    <field name="actors"><list>
@@ -2881,49 +3046,57 @@
 
 		<object ref="20"/>
 
-		<object ref="27"/>
+		<object ref="51"/>
 
 		<object ref="19"/>
 		</list>
 	    </field>
 	    <field name="steps"><list>
-		<object ref="250"/>
+		<object ref="307"/>
 
-		<object ref="251"/>
+		<object ref="308"/>
 		</list>
 	    </field>
 	    <field name="systemOverviewDiagramData">
-		<object type="SystemOverviewDiagramData" id="349">
-		    <field name="percepts"><list>
-			<object ref="68"/>
-
-			<object ref="18"/>
-
-			<object ref="30"/>
-
-			<object ref="28"/>
-
-			<object ref="25"/>
-
-			<object ref="29"/>
-
-			<object ref="57"/>
-
-			<object ref="48"/>
-			</list>
-		    </field>
-		    <field name="actions"><list>
-			<object ref="67"/>
-
-			<object ref="211"/>
-
-			<object ref="83"/>
+		<object type="SystemOverviewDiagramData" id="358">
+		    <field name="agents"><list>
+			<object ref="155"/>
 
 			<object ref="26"/>
 
+			<object ref="54"/>
+			</list>
+		    </field>
+		    <field name="percepts"><list>
+			<object ref="34"/>
+
+			<object ref="18"/>
+
+			<object ref="35"/>
+
+			<object ref="52"/>
+
+			<object ref="25"/>
+
+			<object ref="53"/>
+
+			<object ref="33"/>
+
+			<object ref="57"/>
+			</list>
+		    </field>
+		    <field name="actions"><list>
+			<object ref="37"/>
+
+			<object ref="220"/>
+
+			<object ref="89"/>
+
+			<object ref="50"/>
+
 			<object ref="23"/>
 
-			<object ref="41"/>
+			<object ref="38"/>
 
 			<object ref="15"/>
 
@@ -2931,7 +3104,7 @@
 
 			<object ref="22"/>
 
-			<object ref="56"/>
+			<object ref="36"/>
 
 			<object ref="21"/>
 			</list>
@@ -2939,37 +3112,37 @@
 		</object>
 	    </field>
 	    <field name="rolesDiagramData">
-		<object type="RolesDiagramData" id="350">
+		<object type="RolesDiagramData" id="359">
 		    <field name="goals"><list>
-			<object ref="40"/>
+			<object ref="29"/>
 
 			<object ref="14"/>
 
-			<object ref="82"/>
+			<object ref="88"/>
 
 			<object ref="9"/>
 
-			<object ref="38"/>
+			<object ref="31"/>
 
-			<object ref="37"/>
+			<object ref="30"/>
 
 			<object ref="6"/>
 
-			<object ref="54"/>
+			<object ref="27"/>
 
-			<object ref="46"/>
+			<object ref="55"/>
 			</list>
 		    </field>
 		    <field name="actions"><list>
-			<object ref="67"/>
+			<object ref="37"/>
 
-			<object ref="83"/>
+			<object ref="89"/>
 
-			<object ref="26"/>
+			<object ref="50"/>
 
 			<object ref="23"/>
 
-			<object ref="41"/>
+			<object ref="38"/>
 
 			<object ref="15"/>
 
@@ -2977,33 +3150,33 @@
 
 			<object ref="22"/>
 
-			<object ref="56"/>
+			<object ref="36"/>
 
 			<object ref="21"/>
 			</list>
 		    </field>
 		    <field name="percepts"><list>
-			<object ref="68"/>
+			<object ref="34"/>
 
 			<object ref="18"/>
 
-			<object ref="30"/>
+			<object ref="35"/>
 
-			<object ref="28"/>
+			<object ref="52"/>
 
 			<object ref="25"/>
 
-			<object ref="29"/>
+			<object ref="53"/>
+
+			<object ref="33"/>
 
 			<object ref="57"/>
-
-			<object ref="48"/>
 			</list>
 		    </field>
 		</object>
 	    </field>
 	    <field name="analysisOverviewDiagramData">
-		<object type="AnalysisOverviewDiagramData" id="351">
+		<object type="AnalysisOverviewDiagramData" id="360">
 		    <field name="entities"><list>
 			<object ref="17"/>
 
@@ -3011,33 +3184,33 @@
 
 			<object ref="20"/>
 
-			<object ref="27"/>
+			<object ref="51"/>
 
 			<object ref="19"/>
 
 			<object ref="18"/>
 
-			<object ref="29"/>
+			<object ref="53"/>
 
-			<object ref="30"/>
+			<object ref="35"/>
 
-			<object ref="28"/>
+			<object ref="52"/>
 
 			<object ref="25"/>
 
-			<object ref="57"/>
+			<object ref="33"/>
 
-			<object ref="48"/>
+			<object ref="57"/>
 
 			<object ref="21"/>
 
-			<object ref="284"/>
+			<object ref="266"/>
 
-			<object ref="292"/>
-
-			<object ref="289"/>
+			<object ref="274"/>
 
 			<object ref="271"/>
+
+			<object ref="253"/>
 
 			<object ref="16"/>
 
@@ -3045,180 +3218,180 @@
 
 			<object ref="23"/>
 
-			<object ref="26"/>
+			<object ref="50"/>
 			</list>
 		    </field>
 		</object>
 	    </field>
 	    <field name="goalOverviewDiagramNotes">Notes for GoalOverviewDiagram:  </field>
 	    <field name="notes"><list>
-		<object ref="284"/>
+		<object ref="266"/>
 
-		<object ref="292"/>
-
-		<object ref="289"/>
+		<object ref="274"/>
 
 		<object ref="271"/>
+
+		<object ref="253"/>
 		</list>
 	    </field>
 	    <field name="scenariosDiagramData">
-		<object type="ScenariosDiagramData" id="352">
+		<object type="ScenariosDiagramData" id="361">
 		</object>
 	    </field>
 	    <field name="goalOverviewDiagramData">
-		<object type="GoalOverviewDiagramData" id="353">
+		<object type="GoalOverviewDiagramData" id="362">
 		</object>
 	    </field>
 	    <field name="dataCouplingDiagramData">
-		<object type="DataCouplingDiagramData" id="354">
+		<object type="DataCouplingDiagramData" id="363">
 		</object>
 	    </field>
 	    <field name="agentRoleCouplingDiagramData">
-		<object type="AgentRoleCouplingDiagramData" id="355">
+		<object type="AgentRoleCouplingDiagramData" id="364">
 		</object>
 	    </field>
 	    <field name="agentOverviewDiagramData">
-		<object type="AgentOverviewDiagramData" id="356">
+		<object type="AgentOverviewDiagramData" id="365">
 		</object>
 	    </field>
 	    <field name="capabilityOverviewDiagramData">
-		<object type="CapabilityOverviewDiagramData" id="357">
+		<object type="CapabilityOverviewDiagramData" id="366">
 		</object>
 	    </field>
 	    <field name="deletedEntitiesForCodeGen"><list>
-		<object type="Entity" id="358">
+		<object type="Entity" id="367">
 		    <field name="name">Cac</field>
 		</object>
 
-		<object type="Entity" id="359">
+		<object type="Entity" id="368">
 		    <field name="name">Cac scenario</field>
 		</object>
 
-		<object type="Entity" id="360">
+		<object type="Entity" id="369">
 		    <field name="name">Compra</field>
 		</object>
 
-		<object type="Entity" id="361">
+		<object type="Entity" id="370">
 		    <field name="name">Compra scenario</field>
 		</object>
 
-		<object type="Entity" id="362">
+		<object type="Entity" id="371">
 		    <field name="name">Devolucio</field>
 		</object>
 
-		<object type="Entity" id="363">
+		<object type="Entity" id="372">
 		    <field name="name">Devolucio scenario</field>
 		</object>
 
-		<object type="Entity" id="364">
+		<object type="Entity" id="373">
 		    <field name="name">Valora</field>
 		</object>
 
-		<object type="Entity" id="365">
+		<object type="Entity" id="374">
 		    <field name="name">Valora scenario</field>
 		</object>
 
-		<object type="Entity" id="366">
+		<object type="Entity" id="375">
 		    <field name="name">Cerca scenario</field>
 		</object>
 
-		<object type="Entity" id="367">
+		<object type="Entity" id="376">
 		    <field name="name">notes</field>
 		</object>
 
-		<object type="Entity" id="368">
+		<object type="Entity" id="377">
 		    <field name="name">Paga scenario</field>
 		</object>
 
-		<object type="Entity" id="369">
+		<object type="Entity" id="378">
 		    <field name="name">Paga</field>
 		</object>
 
-		<object type="Entity" id="370">
+		<object type="Entity" id="379">
 		    <field name="name">Registrar direcció d'entrega</field>
 		</object>
 
-		<object type="Entity" id="371">
+		<object type="Entity" id="380">
 		    <field name="name">Cercar producte</field>
 		</object>
 
-		<object type="Entity" id="372">
+		<object type="Entity" id="381">
 		    <field name="name">Cercar producte scenario</field>
 		</object>
 
-		<object type="Entity" id="373">
+		<object type="Entity" id="382">
 		    <field name="name">Cercar p</field>
 		</object>
 
-		<object type="Entity" id="374">
+		<object type="Entity" id="383">
 		    <field name="name">Cercar p scenario</field>
 		</object>
 
-		<object type="Entity" id="375">
+		<object type="Entity" id="384">
 		    <field name="name">Retornar producte scenario</field>
 		</object>
 
-		<object type="Entity" id="376">
+		<object type="Entity" id="385">
 		    <field name="name">Retornar producte</field>
 		</object>
 
-		<object type="Entity" id="377">
+		<object type="Entity" id="386">
 		    <field name="name">Enviador</field>
 		</object>
 
-		<object type="Entity" id="378">
+		<object type="Entity" id="387">
 		    <field name="name">Cercador</field>
 		</object>
 
-		<object type="Entity" id="379">
+		<object type="Entity" id="388">
 		    <field name="name">Logistic</field>
 		</object>
 
-		<object type="Entity" id="380">
+		<object type="Entity" id="389">
 		    <field name="name">Venedor intern</field>
 		</object>
 
-		<object type="Entity" id="381">
+		<object type="Entity" id="390">
 		    <field name="name">Tresorer</field>
 		</object>
 
-		<object type="Entity" id="382">
+		<object type="Entity" id="391">
 		    <field name="name">Assistent d'usuari</field>
 		</object>
 
-		<object type="Entity" id="383">
+		<object type="Entity" id="392">
 		    <field name="name">Retornador</field>
 		</object>
 
-		<object type="Entity" id="384">
+		<object type="Entity" id="393">
 		    <field name="name">Peticio d'enviament</field>
 		</object>
 
-		<object type="Entity" id="385">
+		<object type="Entity" id="394">
 		    <field name="name">Peticio de pagament</field>
 		</object>
 
-		<object type="Entity" id="386">
+		<object type="Entity" id="395">
 		    <field name="name">Usuari</field>
 		</object>
 
-		<object type="Entity" id="387">
+		<object type="Entity" id="396">
 		    <field name="name">Proveïdor de pagament</field>
 		</object>
 
-		<object type="Entity" id="388">
+		<object type="Entity" id="397">
 		    <field name="name">Usuar</field>
 		</object>
 
-		<object type="Entity" id="389">
+		<object type="Entity" id="398">
 		    <field name="name">Transportista</field>
 		</object>
 
-		<object type="Entity" id="390">
+		<object type="Entity" id="399">
 		    <field name="name">Venedor extern</field>
 		</object>
 
-		<object type="Entity" id="391">
+		<object type="Entity" id="400">
 		    <field name="name">Proveidor de pagament</field>
 		</object>
 		</list>
