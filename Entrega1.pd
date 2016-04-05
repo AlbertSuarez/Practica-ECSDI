@@ -261,8 +261,8 @@
 
 													<object type="Goal" id="26">
 													    <base type="Entity">
-														<field name="name">Informar venta venedor extern</field>
-														<field name="description">S'ha d'informar de la venta del producte al venedor extern propietari d'aquest.</field>
+														<field name="name">Informar venda venedor extern</field>
+														<field name="description">S'ha d'informar de la venda del producte al venedor extern propietari d'aquest.</field>
 														<field name="uniqueId">137</field>
 													    </base>
 
@@ -347,7 +347,7 @@
 
 													<object type="Goal" id="34">
 													    <base type="Entity">
-														<field name="name">Informar devolucio venedor extern</field>
+														<field name="name">Informar devolució venedor extern</field>
 														<field name="description">S'ha d'informar de la devolució al venedor extern.</field>
 														<field name="uniqueId">138</field>
 													    </base>
